@@ -1,0 +1,134 @@
+%Wf4ever Main Document File
+\documentclass[a4paper, twoside, 11pt]{article}
+
+\usepackage[scaled=0.92]{helvet}
+\usepackage{fancyhdr}
+\usepackage{courier}
+\normalfont % in case the EC fonts aren't available
+\usepackage[T1]{fontenc}
+\parskip=2pt\parindent 0pt
+
+
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{wf4ever}
+\usepackage{xspace}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{verbatim}
+
+\usepackage{color}
+%figure with pdf latex
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+
+% Macros
+
+% Identifying documents
+
+\id{2.2v1}
+\idyear{2012} %To adjust year for "Document Identifier"
+\title{D\delid\ Design, implementation and deployment of workflow
+  lifecycle management components - Phase I}
+\coordinator{Sean Bechhofer} %Del Coordinator
+\institution{University of Manchester} %Del Coordinating Inst.
+\authors{} %Other authors
+\abstract{This deliverable describes the first phase of delivery of
+  workflow lifecycle management components. It includes a description
+  of the Research Object Model, which facilitates interoperation
+  between components; an initial Research Object Storage and Retrieval
+Service; RO Manager command line tool; and a definition of a model for
+workflow abstraction.}
+\version{v1.x} %Please fill out version
+\datesubmitted{July 31, 2010} %Submission date
+\datedue{July 31, 2010} %Date due
+\state{Final} %State
+\distribution{Public} %Distribution (Public, Restricted, Confidential)
+
+%For Copyrightfooter: Years that copyright should cover, e.g. 2006, 2007, 2006--2007 aso
+\copyrighty{2012}
+
+
+
+\begin{document}
+\maketitle
+
+\section*{Work package participants} The following partners have taken an active part in the work leading to the elaboration of this document, even if they might not have directly contributed to the writing of this document or its parts: %Enter Work Package Participants:
+\begin{itemize}
+\item iSOCO
+\item OXF
+\item PSNC
+\item UNIMAN
+\item UPM
+\end{itemize}
+
+\section*{Change Log}
+%Fill in table
+\begin{centering}
+
+\begin{tabular}{|c|c|p{4.92cm}|p{6.5cm}|}
+
+\hline \textbf{Version} & \textbf{Date} & \textbf{Amended by} & \textbf{Changes} \\ \hline
+0.1 & 02-07-2012 & Sean Bechhofer & Initial Version \\ \hline
+&&&\\ \hline
+&&&\\ \hline
+
+\end{tabular}
+
+\end{centering}
+\clearpage
+\section*{Executive Summary}
+%Please enter Executive Summary
+This deliverable describes the first phase of delivery of workflow
+lifecycle management components. These components include
+\begin{itemize}
+\item A description of the Research Object Model. This provides
+  vocabularies supporting aggregation and annotation of aggregations
+  with specific vocabulary describing workflows and workflow provenance;
+\item Services for creating and management of Research Objects (the
+  Research Object Storage and Retrieval Service);
+\item A command line tool for management of ROs stored locally;
+\item A model for workflow abstraction;
+\item An initial characterisation of workflow decay.
+\end{itemize}
+\clearpage
+
+\tableofcontents
+\clearpage
+\listoftables %Add comment to suppress list of tables
+\listoffigures %Add comment to suppress list of figures
+
+\clearpage
+\sloppy
+
+%Your work starts here
+
+\input{intro.tex}
+
+\input{ro-model.tex}
+
+\input{ro-primer.tex}
+
+\input{ro-examples.tex}
+
+\input{rosrs.tex}
+
+\input{ro-manager.tex}
+
+\input{abstraction.tex}
+
+\input{decay.tex}
+
+\appendix
+\clearpage
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{alpha}
+\bibliography{refs.bib}
+%------------------------------------------------------------------------------------------------------
+%Keep following label in order for Latex to get the total number of pages right
+%---
+\label{lastpage}
+%---
+\end{document}
