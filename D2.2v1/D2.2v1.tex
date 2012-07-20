@@ -42,9 +42,9 @@
   between components; an initial Research Object Storage and Retrieval
 Service; RO Manager command line tool; and a definition of a model for
 workflow abstraction.}
-\version{v1.x} %Please fill out version
-\datesubmitted{July 31, 2010} %Submission date
-\datedue{July 31, 2010} %Date due
+\version{0.6} %Please fill out version
+\datesubmitted{July 31, 2012} %Submission date
+\datedue{July 31, 2012} %Date due
 \state{Final} %State
 \distribution{Public} %Distribution (Public, Restricted, Confidential)
 
@@ -76,6 +76,9 @@ workflow abstraction.}
 0.2 & 17-07-2012 & Sean Bechhofer & Updates and Examples \\ \hline
 0.3 & 18-07-2012 & Sean Bechhofer & Adding PURLs\\ \hline
 0.4 & 19-07-2012 & Khalid Belhajjame & Adding decay section \\ \hline
+0.5 & 19-07-2012 & Esteban Garcia & Adding abstraction section \\ \hline
+0.6 & 20-07-2012 & Sean Bechhofer & Editing Executive
+summary. Addition of figure. \\ \hline
 %&&&\\ \hline
 %&&&\\ \hline
 
@@ -86,17 +89,32 @@ workflow abstraction.}
 \section*{Executive Summary}
 %Please enter Executive Summary
 This deliverable describes the first phase of delivery of workflow
-lifecycle management components. These components include
-\begin{itemize}
-\item A description of the Research Object Model. This provides
-  vocabularies supporting aggregation and annotation of aggregations
-  with specific vocabulary describing workflows and workflow provenance;
-\item Services for creating and management of Research Objects (the
-  Research Object Storage and Retrieval Service);
-\item A command line tool for management of ROs stored locally;
-\item A model for workflow abstraction;
-\item An initial characterisation of workflow decay.
-\end{itemize}
+lifecycle management components. These components are focused around
+the Wf4Ever Research Object Model (RO model), which provides
+descriptions of workflow-centric ROs -- aggregations of content. This
+model is used to structure and describe ROs which are then stored and
+manipulated by the components of the Wf4Ever Toolkit.
+
+The RO Model provides a framework for describing aggregations of
+content along with annotations of the aggregated resources, a
+vocabulary for describing workflows, and a vocabulary for describing
+provenance. We provide here a summary of the RO Model and its
+accompanying documentation (the RO Primer), and highlight the services
+developed for creating and management of Research Objects: the
+Research Object Storage and Retrieval Service and a command line
+tool. These components and services are described in greater detail in
+D1.2v2 and D1.4v1.
+
+We also discuss preliminary work in defining a model for workflow
+abstraction, with the aim of supporting reuse of workflows (or their
+constituent parts), and present an initial characterisation of
+workflow decay, identifying causes of workflow decay based on an
+analysis of existing workflows in the myExperiment repository.
+
+This deliverable should be read in tandem with D1.4v1, D1.2v2, D3.2v1
+and D4.2v1 in order to provide a complete picture of the state of the
+Wf4Ever Phase I components. 
+
 \clearpage
 
 \tableofcontents

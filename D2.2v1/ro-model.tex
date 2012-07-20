@@ -1,16 +1,23 @@
 \section{The Research Object Model}
 \label{sec:model}
 
-The wf4ever Research Object model defines vocabularies that describe Workflow-centric Research Objects within Wf4ever. A complete, functional RO based ecosystem also requires a number of different services for creation, storage, manipulation, recommendation, visualisation etc. of Research Objects. These services are not considered as part of the model (although implemented services are described in this deliverable in Sections~\ref{sec:rosrs} and \ref{sec:manager}). Nor does the core model describe the evolution of Research Objects (ROs) -- this is discussed in D3.2v1~\cite{D3.2v1}.
+The Wf4Ever Research Object model defines vocabularies that describe Workflow-centric Research Objects within Wf4Ever. A complete, functional RO based ecosystem also requires a number of different services for creation, storage, manipulation, recommendation, visualisation etc. of Research Objects. These services are not considered as part of the model (although implemented services are described in this deliverable in Sections~\ref{sec:rosrs} and \ref{sec:manager}). Nor does the core model describe the evolution of Research Objects (ROs) -- this is discussed in D3.2v1~\cite{D3.2v1}.
 
 Narrative text describing the model is published online\footnote{\url{http://wf4ever.github.com/ro/}} and the ontologies themselves also available\footnote{\url{https://github.com/wf4ever/ro/}}. We will not reproduce all this narrative text here, but provide an overview of the model and rationale.
 
-Research Objects play multiple roles. In the first case, they are \emph{technical} objects. They provide access to the resources that are needed to support execution of investigations and record the provenance traces of those executions. They encapsulate dependencies between resources and maintain versioning information about the lineage and evolution of those resources.
+A simple schematic of an RO is shown in Figure~\ref{fig:ro}. The RO contains a workflow, input data and results along with a paper that presents the results and links to the investigators responsible. Annotations on each of the resources (and on the RO itself) provide additional information and characterise, e.g. the provenance of the results (the results were obtained by executing the workflow on the input data). 
 
-At the same time, they are \emph{social} objects. They encapsulate reusable protocols and know-how. They record best practices and support reproducability. They are citable artifacts that can be referred to and quoted. They record and represent information about the people involved in investigations -- those who create, use, extend and curate the objects.
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.4\textwidth]{Figures/RO-cartoon}
+  \caption{RO Schematic}
+  \label{fig:ro}
+\end{figure}
+ Research Objects play multiple roles. In the first case, they are \emph{technical} objects. They provide access to the resources that are needed to support execution of investigations and record the provenance traces of those executions. They encapsulate dependencies between resources and maintain versioning information about the lineage and evolution of those resources.
+
+At the same time, they are \emph{social} objects. They encapsulate reusable protocols and know-how. They record best practices and support reproducibility. They are citable artifacts that can be referred to and quoted. They record and represent information about the people involved in investigations -- those who create, use, extend and curate the objects.
 
 These roles bring requirements on the representation structure and vocabularies used to describe Research Objects. The specification of the RO model focuses on the technical aspects. It describes the core Wf4Ever Research Object vocabularies that provide container structures and vocabulary for describing workflow objects. Additional vocabularies covering evolution, lifecycle, versioning and other social aspects will be covered elsewhere.
-
 
 ROs allow for the aggregation of resources along with annotations on
 those resources concerning their provenance, use, characteristics
@@ -21,6 +28,7 @@ vocabulary\footnote{OAI-ORE is not a ratified standard
 supported through the use of the Annotation Ontology\footnote{Again,
   AO is not as yet a standardised vocabulary, but a W3C community
   group has been set up to oversee the drafting of a specification: \url{http://www.w3.org/community/openannotation/}}. Re-use of these existing vocabulary will facilitate third party tools in understanding and processing Research Objects described using the model. 
+
 
 Finally, the RO Model provides a number of basic ontologies that are used within this aggregation/annotation framework to describe specifics of the Workflow-centric Research Objects. These are:
 
