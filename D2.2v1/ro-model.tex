@@ -1,7 +1,7 @@
 \section{The Research Object Model}
 \label{sec:model}
 
-The Wf4Ever Research Object model defines vocabularies that describe Workflow-centric Research Objects within Wf4Ever. The concept of Research Object is described in~\cite{bechhofer11:not-enough} and further refined in~\cite{belhajjame12:citizens}. A complete, functional RO based ecosystem also requires a number of different services for creation, storage, manipulation, recommendation, visualisation etc. of Research Objects. These services are not considered as part of the model (although implemented services are described in this deliverable in Sections~\ref{sec:rosrs} and \ref{sec:manager}). Nor does the core model describe the evolution of Research Objects (ROs) -- this is discussed in D3.2v1~\cite{D3.2v1}.
+The Wf4Ever Research Object model defines vocabularies that describe Workflow-centric Research Objects within Wf4Ever. The concept of Research Object is described in~\cite{bechhofer11:not-enough} and further refined in~\cite{belhajjame12:citizens}. A complete, functional RO based ecosystem also requires a number of different services for creation, storage, manipulation, recommendation, visualisation etc. of Research Objects. These services are not considered as part of the model (although implemented services are described in this deliverable in Sections~\ref{sec:rosrs} and \ref{sec:manager}). Nor does the core model describe the evolution of Research Objects (ROs) -- this is discussed in D3.2v1 (Design, implementation and deployment of Workflow Evolution, Sharing and Collaboration components -- Phase I)~\cite{D3.2v1}.
 
 Narrative text describing the model is published online\footnote{\url{http://wf4ever.github.com/ro/}} and the ontologies themselves also available\footnote{\url{https://github.com/wf4ever/ro/}}. We will not reproduce all this narrative text here, but provide an overview of the model and rationale.
 
@@ -9,15 +9,17 @@ A simple schematic of an RO is shown in Figure~\ref{fig:ro}. The RO contains a w
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.4\textwidth]{Figures/RO-cartoon}
+  \includegraphics[width=0.6\textwidth]{Figures/RO-cartoon}
   \caption{RO Schematic}
   \label{fig:ro}
 \end{figure}
  Research Objects play multiple roles. In the first case, they are \emph{technical} objects. They provide access to the resources that are needed to support execution of investigations and record the provenance traces of those executions. They encapsulate dependencies between resources and maintain versioning information about the lineage and evolution of those resources.
 
-At the same time, they are \emph{social} objects. They encapsulate reusable protocols and know-how. They record best practices and support reproducibility. They are citable artifacts that can be referred to and quoted. They record and represent information about the people involved in investigations -- those who create, use, extend and curate the objects.
+At the same time, ROs they are \emph{social} objects. They encapsulate reusable protocols and know-how, record best practices and support reproducibility. They are citable artifacts that can be referred to and quoted, and record and represent information about the people involved in investigations -- those who create, use, extend and curate the objects.
 
-These roles bring requirements on the representation structure and vocabularies used to describe Research Objects. The specification of the RO model focuses on the technical aspects. It describes the core Wf4Ever Research Object vocabularies that provide container structures and vocabulary for describing workflow objects. Additional vocabularies covering evolution, lifecycle, versioning and other social aspects will be covered elsewhere.
+These roles bring requirements on the representation structure and vocabularies used to describe Research Objects. The specification of the RO model focuses on the technical aspects and describes the core Wf4Ever Research Object vocabularies that provide container structures and vocabulary for describing workflow objects. Additional vocabularies covering evolution, lifecycle, versioning and other social aspects will be covered elsewhere (See D3.2v1 (Design, implementation and deployment of Workflow Evolution, Sharing and Collaboration components -- Phase I)~\cite{D3.2v1} and 
+D4.2v1 (Design, implementation and deployment of Workflow Integrity and Authenticity Maintenance components -- Phase I)~\cite{D4.2v1}). 
+
 
 ROs allow for the aggregation of resources along with annotations on
 those resources concerning their provenance, use, characteristics
@@ -37,9 +39,12 @@ Finally, the RO Model provides a number of basic ontologies that are used within
   resources and the annotations that are made on those resources.
 \item[wfdesc] A vocabulary for the description of workflows. This
   provides an abstraction that can be mapped to different particular
-  workflow systems. The ontology is intended as an upport ontology for more specific workflow definitions, and as a way to express abstract workflows, which could either be hand-crafted by users, or extracted from workflow definitions, for example Taverna's \texttt{t2flow} or Scufl2 formats. A prototype service that transforms workflows into Research Objects, using the wfdesc ontologies has been developed (See~\cite{D1.4v1}). 
+  workflow systems. The ontology is intended as an upport ontology for more specific workflow definitions, and as a way to express abstract workflows, which could either be hand-crafted by users, or extracted from workflow definitions, for example Taverna's \texttt{t2flow} or Scufl2 formats. A prototype service that transforms workflows into Research Objects, using the wfdesc ontologies has been developed (See D1.4v1 (Reference Wf4Ever Implementation -- Phase I)~\cite{D1.4v1}). 
 \item[wfprov] A vocabulary for the description of provenance
   information. This provides an abstraction that can be mapped to
   different provenance vocabularies, for example PROV-O\footnote{\url{http://www.w3.org/TR/prov-o/}} as developed by the W3C Provenance Working Group.
 \end{description}
+
+
+
 
