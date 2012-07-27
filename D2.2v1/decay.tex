@@ -1,14 +1,14 @@
 \section{Characterising Workflow Decay}
 \label{sec:decay}
 
-One of the main impediment to workflow preservation is workflow decay. Indeed, our experience with scientific workflows suggests that a large proportion of workflows suffer from decay, which decreases their value over time. Broadly speaking, we can distinguish two forms of decay. i)- {\bf Inability to re-execute the workflow}: due to many factors, including the unavailability of third party resources that are responsible for executing the tasks that compose the workflows, we may not be able to re-execute a given workflow. ii)- {\bf Inability to reproduce workflow results}: a less-sever, yet relevant, form of decay, is the inability to obtain the same (or similar) results when re-executing the workflow. Reproducing previous results can be primordial in reinforcing trust in scientific results and can be used in peer-reviewing as a mechanism to validate the results claimed by given scientists \cite{DBLP:journals/pvldb/FreireBS11,carole2011}. 
+The main impediment to workflow preservation is workflow decay. Indeed, our experience with scientific workflows suggests that a large proportion of workflows suffer from decay \cite{DBLP:conf/eScience/Belhajjame07}, which decreases their value over time. Broadly speaking, we can distinguish two forms of decay. i)- {\bf Inability to re-execute the workflow}: due to many factors, including the unavailability of third party resources that are responsible for executing the tasks that compose the workflows, we may not be able to re-execute a given workflow. ii)- {\bf Inability to reproduce workflow results}: a less severe, yet relevant, form of decay, is the inability to obtain the same (or similar) results when re-executing the workflow. Reproducing previous results can be primordial in reinforcing trust in scientific results and can be used in peer-reviewing as a mechanism to validate the results claimed by given scientists \cite{DBLP:journals/pvldb/FreireBS11,carole2011}. 
 
 The above discussion raises the following question. {\em What are the causes of workflow decay?} To identify and characterise the causes of workflow decay, we adopted a bottom-up approach, whereby we manually analyzed $92$ Taverna workflows from the myExperiment repository. We chose Taverna workflows because they form the largest available workflow collection (more than half of the workflows in myExperiment are Taverna workflows at the time of writing), and Taverna workflows have been published on myExperiment since its launch in 2007, therefore providing a good insight into decay over those years. 
 
 To base our analysis on a sample of workflows that is representative of the set of workflows in myExperiment, we selected workflows using the following three criteria: 
 \begin{itemize}
 \item
-The year of creation of the workflow: we believe that the decay of workflows could be directly impacted by the year of their creation, hence we tried to make an even coverage of T1/T2 workflows between the years 2007 and 2012.
+The year of creation of the workflow: we believe that the decay of workflows could be directly impacted by the year of their creation, hence we tried to make an even coverage of Taverna 1 workflows \cite{DBLP:journals/bioinformatics/OinnAFMSGCGPWL04} and Taverna 2 workflows \cite{DBLP:conf/ssdbm/MissierSOTNDWOG10} between the years 2007 and 2012.
 \item
 The creator of the workflow:  in order to reduce possible bias introduced by specific workflow creators, we avoided choosing workflows created by the same person in the same year.
 \item
@@ -26,12 +26,12 @@ The domain of the workflow: our workflow selection also had a good coverage of d
 
 Although we focus on a particular family of workflows, i.e., Taverna workflows, we expect our approach and analysis to be applicable to many others and our analysis to be repeatable on a different corpus of workflows. 
 
-To identify the causes of decay that the workflows, that we selected, may suffer from, we attempted to execute them using the Taverna 2.3 workbench. We then manually examined their results, diagnosed broken links, etc. Our analysis showed that nearly $80\%$ of the tested workflows failed to be either executed or produce the same results, and those from earlier years (2007-2009) had more than 80\% failure rate (as shown in Figure \ref{fig:taverna-wf-failed}). The causes of workflow decay can be classified into four categories, which we present in the rest of this section. 
+To identify the causes of decay that the workflows we selected may suffer from, we attempted to execute them using the Taverna 2.3 workbench. We then manually examined their results, diagnosed broken links, etc. Our analysis showed that nearly $80\%$ of the tested workflows failed to be either executed or produce the same results, and those from earlier years (2007-2009) had more than 80\% failure rate (as shown in Figure \ref{fig:taverna-wf-failed}). The causes of workflow decay can be classified into four categories, which we present in the rest of this section. 
 
 
 \begin{figure}[h]
 \centering
-\subfigure[Number of Taverna 1 workflows tested and failed between 2007-2009.]{
+\subfigure[Number of Taverna 1 workflows tested and failed \\ between 2007-2009.]{
 	\includegraphics[width=7cm]{./Figures/taverna1-workflows-rate.png}
 }
 \subfigure[Number of Taverna 2 workflows tested and failed between 2009-2012.]{
@@ -55,12 +55,12 @@ The provision of such resources may be interrupted or changed, causing failure o
 Causes &  Refined causes & Examples \\
 \hline                  
 
-Third party resources are not available & Underlying dataset, particularly those locally hosted in-house dataset, is no longer available & Researcher hosting the data changed institution, server is no longer available
-\\ \cline{2-3}
+Third party resources are not available & Underlying datasets, particularly those locally hosted in-house datasets, are no longer available & Researcher hosting the data changed institution, server is no longer available 
+\\ \cline{2-3} 
 			 									& Services are deprecated & (DNA Data Bank of Japan) DDBJ web services are not longer provided despite the fact that they are used in many myExperiment workflows
  \\ \hline
 
-Third party resources are available but not accessible & Data is available but identified using different IDs than the one known to the user & Due to scalability reasons the input data is superseded by new one making the workflow not executable or providing wrong results
+Third party resources are available but not accessible & Data is available but identified using different IDs than the one known to the user & Due to scalability reasons the input data is superseded by a new version making the workflow not executable or providing wrong results
 \\ \cline{2-3}
 
 								& Data is available but permission, certificate, or network to access it is needed & Cannot get the input, which is a security token that can only be obtained by a registered user of ChemiSpider
@@ -84,8 +84,8 @@ The execution of a workflow may rely on a particular local execution environment
 Sometimes a workflow workbench cannot provide sufficient information about what caused the failure of a workflow run. Additional descriptions in the workflow can play an important role in assisting re-users to understand the purpose of the workflow and its expected outcomes.
 
 
-\subsection{Summary}
-The results of our analysis are summarised in Figure \ref{fig:decay-analysis}-a, which illustrates the number of workflows that suffer from each of the causes of decay presented above. It shows that {50\%} workflows suffer from decay due to third party resources. 
+
+The results of the above analysis are summarised in Figure \ref{fig:decay-analysis}-a, which illustrates the number of workflows that suffer from each of the causes of decay presented above. It shows that {50\%} workflows suffer from decay due to third party resources. 
 
 \begin{figure}[ht]
 \centering
