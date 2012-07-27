@@ -26,20 +26,41 @@ The domain of the workflow: our workflow selection also had a good coverage of d
 
 Although we focus on a particular family of workflows, i.e., Taverna workflows, we expect our approach and analysis to be applicable to many others and our analysis to be repeatable on a different corpus of workflows. 
 
-To identify the causes of decay that the workflows we selected may suffer from, we attempted to execute them using the Taverna 2.3 workbench. We then manually examined their results, diagnosed broken links, etc. Our analysis showed that nearly $80\%$ of the tested workflows failed to be either executed or produce the same results, and those from earlier years (2007-2009) had more than 80\% failure rate (as shown in Figure \ref{fig:taverna-wf-failed}). The causes of workflow decay can be classified into four categories, which we present in the rest of this section. 
+To identify the causes of decay that the workflows we selected may suffer from, we attempted to execute them using the Taverna 2.3 workbench. We then manually examined their results, diagnosed broken links, etc. Our analysis showed that nearly $80\%$ of the tested workflows failed to be either executed or produce the same results, and those from earlier years (2007-2009) had more than 80\% failure rate (as shown in Figures~\ref{fig:taverna-wf-failed}). The causes of workflow decay can be classified into four categories, which we present in the rest of this section. 
 
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=7cm]{./Figures/taverna1-workflows-rate.png}
+%   \includegraphics[width=7cm]{./Figures/taverna2-workflows-rate.png}
+%  \caption{Number of Taverna workflows tested and failed (Taverna 1 on the left, Taverna 2 on the right)}
+%  \label{fig:taverna-wf-failed}
+% \end{figure}
 
 \begin{figure}[h]
-\centering
-\subfigure[Number of Taverna 1 workflows tested and failed \\ between 2007-2009.]{
-	\includegraphics[width=7cm]{./Figures/taverna1-workflows-rate.png}
-}
-\subfigure[Number of Taverna 2 workflows tested and failed between 2009-2012.]{
+  \centering
+  \begin{subfigure}[t]{9cm}
+    \centering
+    \includegraphics[width=7cm]{./Figures/taverna1-workflows-rate.png}
+    \caption{Number of Taverna 1 workflows tested and failed between 2007-2009.}
+  \end{subfigure}
+  \begin{subfigure}[t]{9cm}
+    \centering
     \includegraphics[width=7cm]{./Figures/taverna2-workflows-rate.png}
-}
-\caption{Number of Taverna workflows tested and failed}
-\label{fig:taverna-wf-failed}
+    \caption{Number of Taverna 2 workflows tested and failed between 2009-2012}
+  \end{subfigure}
+  \caption{Number of Taverna workflows tested and failed}
+  \label{fig:taverna-wf-failed}
 \end{figure}
+
+  % \begin{figure}[h]
+  % \centering
+  % \subfigure[Number of Taverna 1 workflows tested and failed between 2007-2009.]{
+  % 	\includegraphics[width=7cm]{./Figures/taverna1-workflows-rate.png}}
+  % \subfigure[Number of Taverna 2 workflows tested and failed between 2009-2012.]{
+  %     \includegraphics[width=7cm]{./Figures/taverna2-workflows-rate.png}}
+  % \caption{Number of Taverna workflows tested and failed}
+  % \label{fig:taverna-wf-failed}
+  % \end{figure}
 
 
 \subsection{Volatile third-party resources}
@@ -89,15 +110,30 @@ The results of the above analysis are summarised in Figure \ref{fig:decay-analys
 
 \begin{figure}[ht]
 \centering
-\subfigure[A summary of workflow decay causes.]{
-	\includegraphics[width=9cm]{./Figures/decay_analysis_chart1-v2.png}
-}
-\subfigure[Workflow decay due to third party resources.]{
-    \includegraphics[width=7cm]{./Figures/decay_analysis_chart2-v2.png}
-}
+\begin{subfigure}[t]{10cm}
+  \includegraphics[width=9cm]{./Figures/decay_analysis_chart1-v2.png}
+  \caption{A summary of workflow decay causes}
+\end{subfigure}
+\begin{subfigure}[t]{8cm}
+  \includegraphics[width=7cm]{./Figures/decay_analysis_chart2-v2.png}
+  \caption{Workflow decay due to third party resources}
+\end{subfigure}
 \caption{Results of workflow decay analysis.}
 \label{fig:decay-analysis}
 \end{figure}
+
+
+% \begin{figure}[ht]
+% \centering
+% \subfigure[A summary of workflow decay causes.]{
+% 	\includegraphics[width=9cm]{./Figures/decay_analysis_chart1-v2.png}
+% }
+% \subfigure[Workflow decay due to third party resources.]{
+%     \includegraphics[width=7cm]{./Figures/decay_analysis_chart2-v2.png}
+% }
+% \caption{Results of workflow decay analysis.}
+% \label{fig:decay-analysis}
+% \end{figure}
 
 
 To better understand the causes of decay due to third party resources. Figure \ref{fig:decay-analysis}-b illustrates the number of workflows that suffer from the causes presented in Table~\ref{table:decay}. It shows that the unavailability of third party resources is the leading cause of decay, followed by resources inaccessibility, and then resources changes. 
