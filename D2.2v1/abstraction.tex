@@ -1,16 +1,18 @@
 \section{Workflow Abstraction}
 
 \label{sec:abstraction}
-The main purpose of the work done so far for workflow abstraction is related to the creation of a trie structure which captures the sequences of execution of a workflow and keeps track of their statistics. A trie is an ordered tree that stores a dynamic set of keys which they usually are strings. For our purposes we have used it for storing the workflow execution in an ordered way by including at different levels of the tree the different inputs, processes and outputs (resources) which are run. Therefore all the descendants of a node have a common prefix of the resource associated with that node. This is very useful for detecting common parts of different workflows because we can easily keep track of the number of times that an specific sequence of resources has been executed. \\
+The main purpose of the work done so far for workflow abstraction is related to the creation of a trie structure~\cite{knuth11} which captures the sequences of execution of a workflow and keeps track of their statistics. A trie is an ordered tree that stores a dynamic set of keys which they usually are strings. 
 
+\subsection{Trie structure to store the provenance of workflow results}
+For our purposes we have used the trie for storing the workflow execution in an ordered way by including at different levels of depth the different inputs, processes and outputs (resources) which are run. Therefore all the descendants of a node have a common prefix of the resource associated with that node. This is very useful for detecting common parts of different workflows because we can easily keep track of the number of times that an specific sequence of resources has been executed. \\
+
+\subsection{Workflow abstraction approach}
 The goal of making an abstraction of a workflow is to make them more reusable as a whole or some parts of it. Then, we define abstraction as the pattern that appears when a sequence of resources are executed together by a minimum number of times. This definition leads also to the concept of pattern or macro identification which applied to workflows leads to finding common sub-workflows. \\ 
 
-The presented work is a bottom-up approach in order to study the actual provenance of workflow results (which represents the dataflow of an executed workflow described in D4.2v1) from a set of available workflows at WINGS~\footnote{\url{http://wings.isi.edu/}} and Taverna~\footnote{\url{http://www.taverna.org.uk/}} created for this purpose. The description of the provenance of workflow results and \textbf{wfprov} ontology can be found in D4.2v1~\cite{D4.2v1} and online\footnote{\url{http://purl.org/wf4ever/wfprov}} respectively, and an example of a RO containing the provenance of workflow results for the Protein Discovery Workflow is available \footnote{\url{http://sandbox.wf4ever-project.org/portal/ro?0&ro=http://sandbox.wf4ever-project.org/rosrs5/ROs/wf74/}} which is part of the RO testbed \footnote{\url{http://www.wf4ever-project.org/wiki/display/docs/RO+testbed}}. \\
-
+The presented work is a bottom-up approach in order to study the actual provenance of workflow results (which represents the dataflow of an executed workflow described in D4.2v1) from a set of available workflows at WINGS~\footnote{\url{http://wings.isi.edu/}} and Taverna~\footnote{\url{http://www.taverna.org.uk/}} created for this purpose. The description of the provenance of workflow results and \textbf{wfprov} ontology can be found at~\cite{D4.2v1} and \footnote{\url{http://purl.org/wf4ever/wfprov#}} respectively, and some  examples have been created as part of the RO testbed \footnote{\url{http://www.wf4ever-project.org/wiki/display/docs/RO+testbed}}. \\
 
 This study uses the provenance of the workflow results of different workflows as inputs for creating the trie structure introduced above. Every time a resource is executed its associated node in the trie structure is updated by increasing the number of times that it has been used and afterwards an analysis of the trie can be done to obtain the most common set of resources or macros. \\
  
-
 Though this is still a preliminary work, once a set of macros have been identified it would be possible to categorize them (manually or automatically e.g. by using workflow tags) and afterwards create the associated taxonomy by using the trie membership relations.
 
 The use of the provenance of the workflow results seems to be more appealing that using the workflow templates, which are the static description of a workflow, mainly due to it representing the workflows which are actually running and being used, and also allows to undo control structures as e.g. "if".
@@ -24,6 +26,7 @@ The code developed for the creation and maintenance of the trie structure and fo
 \item It provides an output XML structure with relative frequencies per level and per process (an output example is available at \footnote{\url{https://github.com/wf4ever/wf-abstraction/blob/master/outputExample.xml})}
 \end{itemize}
 
+\subsection{Workflow abstraction discovery process}
 The Figure~\ref{fig:workflowAbstraction} shows the overall discovery process introduced in this section. The inputs have been obtained by using workflows from WINGS and Taverna and transforming them into \textbf{wfdesc} and \textbf{wfprov} vocabularies to get the provenance of workflow results. That provenance has been stored in a trie structure which captures the order of the executed resources and stores the frequencies of appearance. Then, that information can be used to obtain the most frequent set of ordered executed resources which we have called macros and are identified in the figure of the bottom by black squares. Afterwards these detected macros, which represent some common workflow structures, could be hand-annotated in order to tag them or could be annotated automatically for example by assigning to them the same tags as the workflows that they belong to. Finally a taxonomy which includes all the identified macros by membership (bigger macros contain the smaller ones) will be created for indexing.
 
 \begin{figure}
