@@ -1,7 +1,9 @@
 \section{Characterising Workflow Decay}
 \label{sec:decay}
 
-The main impediment to workflow preservation is workflow decay. Indeed, our experience with scientific workflows suggests that a large proportion of workflows suffer from decay \cite{DBLP:conf/eScience/Belhajjame07}, which decreases their value over time. Broadly speaking, we can distinguish two forms of decay. i)- {\bf Inability to re-execute the workflow}: due to many factors, including the unavailability of third party resources that are responsible for executing the tasks that compose the workflows, we may not be able to re-execute a given workflow. ii)- {\bf Inability to reproduce workflow results}: a less severe, yet relevant, form of decay, is the inability to obtain the same (or similar) results when re-executing the workflow. Reproducing previous results can be primordial in reinforcing trust in scientific results and can be used in peer-reviewing as a mechanism to validate the results claimed by given scientists \cite{DBLP:journals/pvldb/FreireBS11,carole2011}. 
+The main impediment to workflow preservation is workflow decay. Indeed, our experience with scientific workflows suggests that a large proportion of workflows suffer from decay \cite{DBLP:conf/eScience/Belhajjame07}, which decreases their value over time. For example, the RO example presented in Section \ref{subsec:interproscan} contains a workflow that suffers from decay.
+
+Broadly speaking, we can distinguish two forms of decay. i)- {\bf Inability to re-execute the workflow}: due to many factors, including the unavailability of third party resources that are responsible for executing the tasks that compose the workflows, we may not be able to re-execute a given workflow. ii)- {\bf Inability to reproduce workflow results}: a less severe, yet relevant, form of decay, is the inability to obtain the same (or similar) results when re-executing the workflow. Reproducing previous results can be primordial in reinforcing trust in scientific results and can be used in peer-reviewing as a mechanism to validate the results claimed by given scientists \cite{DBLP:journals/pvldb/FreireBS11,carole2011}. 
 
 The above discussion raises the following question. {\em What are the causes of workflow decay?} To identify and characterise the causes of workflow decay, we adopted a bottom-up approach, whereby we manually analyzed $92$ Taverna workflows from the myExperiment repository. We chose Taverna workflows because they form the largest available workflow collection (more than half of the workflows in myExperiment are Taverna workflows at the time of writing), and Taverna workflows have been published on myExperiment since its launch in 2007, therefore providing a good insight into decay over those years. 
 
@@ -69,7 +71,7 @@ The provision of such resources may be interrupted or changed, causing failure o
 
 
 \begin{table}[ht]
-\caption{Categorisation of Decay Caused by Third-party Resources} % title of Table
+\caption{Categorisation of decay caused by third-party resources} % title of Table
 \centering  % used for centering table
 \begin{tabular}{p{1.6in} p{2.2in} p{2.2in}} % centered columns (4 columns)
 \hline\hline                        %inserts double horizontal lines
@@ -99,7 +101,7 @@ It is not always obvious which data can be used as inputs to the workflow execut
 
 
 \subsection{Missing execution environment}
-The execution of a workflow may rely on a particular local execution environment, for example, a local R server or a specific version of workflow execution software. Some of our test workflows exhibit this type of decay. Taverna often provides sufficient information about missing libraries, and sometimes workflow descriptions provide a warning about the requirement for a specific library. This type of decay appears to be fixable by installing the missing software, albeit requiring some effort.
+The execution of a workflow may rely on a particular local execution environment, for example, a local R server\footnote{\url{http://www.r-project.org/}} or a specific version of workflow execution software. Some of our test workflows exhibit this type of decay. Taverna often provides sufficient information about missing libraries, and sometimes workflow descriptions provide a warning about the requirement for a specific library. This type of decay appears to be fixable by installing the missing software, albeit requiring some effort.
 
 \subsection{Insufficient descriptions about workflows}
 Sometimes a workflow workbench cannot provide sufficient information about what caused the failure of a workflow run. Additional descriptions in the workflow can play an important role in assisting re-users to understand the purpose of the workflow and its expected outcomes.
