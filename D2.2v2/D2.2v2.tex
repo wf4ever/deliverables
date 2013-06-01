@@ -1,0 +1,162 @@
+%Wf4ever Main Document File
+\documentclass[a4paper, twoside, 11pt]{article}
+
+\usepackage[scaled=0.92]{helvet}
+\usepackage{fancyhdr}
+\usepackage{courier}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{subfigure}
+\normalfont % in case the EC fonts aren't available
+\usepackage[T1]{fontenc}
+\parskip=2pt\parindent 0pt
+
+
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{wf4ever}
+\usepackage{xspace}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{verbatim}
+
+\usepackage{color}
+%figure with pdf latex
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+
+% Macros
+
+% Identifying documents
+
+\id{2.2v1}
+\idyear{2012} %To adjust year for "Document Identifier"
+\title{D\delid\ Design, implementation and deployment of workflow
+  lifecycle management components - Phase II}
+\coordinator{XX} %Del Coordinator
+\institution{University of Manchester} %Del Coordinating Inst.
+\authors{XX} %Other authors
+\abstract{This deliverable describes the second phase of delivery of
+  workflow lifecycle management components. It includes a description
+  of the Research Object Model, which facilitates interoperation
+  between components; an initial Research Object Storage and Retrieval
+Service; RO Manager command line tool; and a definition of a model for
+workflow abstraction.}
+\version{0.1} %Please fill out version
+\datesubmitted{June 1, 2013} %Submission date
+\datedue{July 31, 2013} %Date due
+\state{Draft} %State
+\distribution{Public} %Distribution (Public, Restricted, Confidential)
+
+\copyrighty{2013}
+
+
+
+\begin{document}
+\maketitle
+
+
+\section*{Work package participants} The following partners have taken an active part in the work leading to the elaboration of this document, even if they might not have directly contributed to the writing of this document or its parts: %Enter Work Package Participants:
+\begin{itemize}
+\item iSOCO
+\item OXF
+\item PSNC
+\item UNIMAN
+\item UPM
+\end{itemize}
+
+\section*{Change Log}
+%Fill in table
+\begin{centering}
+
+\begin{tabular}{|c|c|p{4.92cm}|p{6.5cm}|}
+
+\hline \textbf{Version} & \textbf{Date} & \textbf{Amended by} & \textbf{Changes} \\ \hline
+0.1 & 01-07-2013 & Khalid Belhajjame & Initial outline \\ \hline
+%&&&\\ \hline
+%&&&\\ \hline
+
+\end{tabular}
+
+\end{centering}
+\clearpage
+\section*{Executive Summary}
+%Please enter Executive Summary
+This deliverable describes the second phase of delivery of workflow
+lifecycle management components. These components are focused around
+the Wf4Ever Research Object Model (RO Model), which provides
+descriptions of workflow-centric ROs -- aggregations of content. This
+model is used to structure and describe ROs which are then stored and
+manipulated by the components of the Wf4Ever Toolkit.
+
+The RO Model provides a framework for describing aggregations of
+content along with annotations of the aggregated resources, a
+vocabulary for describing workflows, and a vocabulary for describing
+provenance. The model underwent few changes in the last year in the light of user comments. 
+We provide here a summary of the new version of the RO model.
+We also present the components developed for creating and managing Research Objects: the
+Research Object Storage and Retrieval API (implemented as part of the
+Research Object Digital Library (RODL)) and a command line tool -- the
+RO Manager. These components and services are also discussed in D1.2v3
+(Wf4Ever Sandbox -- Phase II), D1.3v1 (Wf4Ever Architecture -- Phase
+II) and D1.4v1 (Reference Wf4Ever Implementation -- Phase II). 
+
+One of the main development in the last year consists in incorporating research objects within the myExperiment environment to allow scientists who already use myExperiment to create, share and reuse research objects. We discuss the efforts that went into this task, and report on an activity that we conducted to convert all existing Taverna T2 workflows into ROs.
+
+We  present advanced management functions that we developed for abstracting and indexing workflows, with the aim of supporting the discovery and reuse of workflows. We present an ontology that we developed for abstracting workflows in terms of motifs that characterize data manipulation and transformation patterns, which we term motifs. We also report on a solution that we developed for indexing workflows based on the services (processes) that they use.
+
+This deliverable should be read in tandem with D1.3v2 (Wf4Ever
+Architecture -- Phase II), D1.4v2 (Reference Wf4Ever Implementation --
+Phase II), D1.2v3 (Wf4Ever Sandbox -- Phase III), D3.2v2 (Design,
+implementation and deployment of Workflow Evolution, Sharing and
+Collaboration components -- Phase II) and D4.2v2 (Design,
+implementation and deployment of Workflow Integrity and Authenticity
+Maintenance components -- Phase II) in order to provide a complete
+picture of the state of the Wf4Ever Phase II components.
+
+\clearpage
+
+\tableofcontents
+\clearpage
+\listoftables %Add comment to suppress list of tables
+\listoffigures %Add comment to suppress list of figures
+
+\clearpage
+\sloppy
+
+%Your work starts here
+
+\section{Introduction}
+
+\section{The Research Object Model}
+This section present the RO ontologies,  \texttt{ro}, \texttt{wfdesc}, \texttt{wfprov}, \texttt{wf4ever}. In doing so, we will use UML class diagrams to illustrate the classes and properties of such ontologies.
+
+\section{Research Object Storage and Retrieval}
+This section presents the components that constitute the RODL, using a UML class diagram, and show how the user can utilize RODL using a UML sequence diagram.
+
+\section{Research Object Manager}
+This section presents the RO manager architecture, and presents the functionalities it provides using  a UML sequence diagram, if that is plausible. 
+
+\section{Research Object-Enabled myExperiment}
+This section describes the efforts that went into incorporating research objects within myExperiment. In particular, how the notion of myExperiment pack was used as a starting point to incorporate new features/functionalaities. We will also discuss the diferent iterations that involved Wf4ever and Biovel users in those developments.
+
+\section{Workflow Abstraction using Motifs}
+This section presents the motif ontology, again using a UML class diagram, and provides an example of a workflow that was annotated using the motifs.
+
+\section{Workflow Indexation}
+This section shows how workflows can be indexed using the trie structure. It presents the approach as well as an example workflow that is indexed.
+
+
+\appendix
+\clearpage
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{alpha}
+\bibliography{refs.bib}
+%------------------------------------------------------------------------------------------------------
+%Keep following label in order for Latex to get the total number of pages right
+%---
+\label{lastpage}
+%---
+\end{document}
