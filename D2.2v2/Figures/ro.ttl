@@ -1,0 +1,30 @@
+@base <http://example.com/ro/389/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix ao: <http://purl.org/ao/> .
+@prefix ro: <http://purl.org/wf4ever/ro#> .
+@prefix roterms: <http://purl.org/wf4ever/roterms#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a ro:ResearchObject ;
+  dct:title      "GWAS to kegg" ;
+  dct:creator    </foaf/maria> ;
+  ore:aggregates <workflow34.xml>, <data2.csv>, <provenance.rdf>, <hypothesis.txt>, <#annotation2>, <#annotation3> .
+
+<workflow34.xml> a ro:Resource .
+<data2.csv> a ro:Resource .
+<provenance.rdf> a ro:Resource .
+<hypothesis.txt> a roterms:Hypothesis .
+
+# The native workflow definition <workflow34.xml> has been transcribed to wfdesc 
+<#annotation2> a ro:SemanticAnnotation ;
+  ro:annotatesAggregatedResource <workflow34.xml> ;
+  ao:body <workflow34.wfdesc.ttl> ;
+  dct:created "2013-02-12T19:39:29.379Z"^^xsd:dateTime .
+
+# The native workflow provenance <provenance.rdf> has been transcribed to wfprov
+<#annotation3> a ro:SemanticAnnotation ;
+  ro:annotatesAggregatedResource <provenance.rdf> ;
+  ao:body <run-481.wfprov.ttl> ;
+  dct:created "2013-02-15T19:41:12.792Z"^^xsd:dateTime .
+ 
