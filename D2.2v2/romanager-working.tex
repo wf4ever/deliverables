@@ -1,6 +1,71 @@
-\section{Research Object Manager}
+\documentclass[11pt,oneside]{article}
+\usepackage{geometry}			% See geometry.pdf to learn the layout options.
+								% There are lots.
+								
+\geometry{letterpaper}			% ... or a4paper or a5paper or ... 
+%\geometry{landscape}			% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}	% Activate to begin paragraphs with an empty
+								% line rather than an indent
 
-%% This section presents the RO manager architecture, and presents the functionalities it provides using  a UML sequence diagram, if that is plausible. 
+\usepackage{ifpdf}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+
+% Definitions
+\def\myauthor{Author}
+\def\mytitle{Title}
+\def\mycopyright{\myauthor}
+\def\mykeywords{}
+\def\mybibliostyle{plain}
+\def\mybibliocommand{}
+\def\mysubtitle{}
+
+
+
+%
+%	PDF Stuff
+%
+
+\ifpdf
+  \pdfoutput=1
+  \usepackage[
+  	plainpages=false,
+  	pdfpagelabels,
+  	bookmarksnumbered,
+  	pdftitle={\mytitle},
+  	pagebackref,
+  	pdfauthor={\myauthor},
+  	pdfkeywords={\mykeywords}
+  	]{hyperref}
+  \usepackage{memhfixc}
+\fi
+
+
+% Title Information
+\title{\mytitle \\ \mysubtitle}
+\author{\myauthor}
+
+\begin{document}
+
+
+% Title Page
+
+\maketitle
+
+% Copyright Page
+\textcopyright{} \mycopyright
+
+%
+% Main Content
+%
+
+
+% Layout settings
+\setlength{\parindent}{1em}
+
+\section{Research Object Manager}
+\label{researchobjectmanager}
 
 The Research Object Manager (RO Manager) is a command line tool for creating, displaying and manipulating Research Objects. The RO Manager is complementary to RODL (@@x-ref/check), in that it is primarily designed to support a user working with ROs in the host computer's local file system, with the intention being that the RODL and RO Manager can exchange ROs between them, using of the shared RO model and vocabularies.  The RO Manager code base also includes the checklist evaluation functionality, described in D4.2 (@@ref), which can be invoked using a command line or REST web interface.
 
@@ -138,4 +203,8 @@ The RO Manager is very heavily dependent on \href{https://github.com/RDFLib}{RDF
 
 The RO Web service uses the \href{http://docs.pylonsproject.org/projects/pyramid/}{Pyramid}\footnote{\href{http://docs.pylonsproject.org/projects/pyramid/}{http://docs.pylonsproject.org/projects/pyramid/}} web framework, and \href{http://code.google.com/p/uri-templates/}{uritemplate}\footnote{\href{http://code.google.com/p/uri-templates/}{http://code.google.com/p/uri-templates/}} for \href{http://tools.ietf.org/html/rfc6570}{RFC 6570}\footnote{\href{http://tools.ietf.org/html/rfc6570}{http://tools.ietf.org/html/rfc6570}} template expansion.
 
+% Bibliography
+\bibliographystyle{\mybibliostyle}
+\mybibliocommand
 
+\end{document}
