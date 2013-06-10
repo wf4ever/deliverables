@@ -10,4 +10,5 @@
 \contentsline {section}{\numberline {5}Research Object-Enabled myExperiment}{10}{section.5}
 \contentsline {section}{\numberline {6}Workflow Abstraction using Motifs}{11}{section.6}
 \contentsline {section}{\numberline {7}Workflow Indexation}{11}{section.7}
-\contentsline {section}{Bibliography}{12}{section.7}
+\contentsline {section}{\numberline {8}Conclusions}{11}{section.8}
+\contentsline {section}{Bibliography}{12}{section.8}
