@@ -1,0 +1,14 @@
+This diagram shows interactions between the checklist client (e.g. 
+myExperiment), the checklist web service, RODL and possible other web resources 
+(as determined by the checklist Minim definition).
+
+The client interacts with the checklist service in two stages:
+1. retrieve a checklist service document, which in turn contains a URI template 
+for the checklist service.
+2. invoke the checklist service via an HTTP GET with a URI constructed using the 
+URI template from the service document.
+
+The checklist service then interacts with RODL to retrieve the RO manifest and 
+all annotations to a local copy.  These are then examined to determine whether 
+all checklist items are satsified.  This may involve further interactions with 
+other web resources referenced by the RO.
