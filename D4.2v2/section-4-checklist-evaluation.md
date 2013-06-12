@@ -82,7 +82,7 @@ A checklist evaluation is invoked by a simple HTTP GET operation, in which the R
 
 The checklist service in turn interacts with the RO in RODL (or in some other service offering the RO API elements used to access an RO), mainly to retrieve the RO annotations.  Some checklist items, such as those that check for liveness of workflow dependencies, may cause further requests to arbitrary web resources named in the RO metadata. 
 
-![Checklist evaluation service sequence diagram](Figures/checklist_eval_seq.png)
+![Checklist evaluation service sequence diagram](Figures/Checklist_eval_seq.png)
 
 
 ### Source code organization
@@ -155,7 +155,7 @@ We examined this work and evaluated how much of the quality assessment could be 
 
 As a result of this, we have been able to replicate all results from an arbitrary sample of the chembox evaluation results obtained using MIM.  In the process, we did uncover a particular performance-scaling bottleneck with out Minim-based implementation.  We are quite confident this is an implementation issue rather than a fundamental problem with the model (caused by repeated re-reading and re-parsing of a large RDF file, rather than reading the graph just once and issuing multiple queries against it).
 
-The qSKOS work was more challenging.  [Inspection of the qSKOS](https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/minim-evaluation/qskos-summary.md) tests showed that about half of them could be handled quite easily using the revised Minim model.  We coded some [representative tests in Minim](https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/in-use-submission/qskos/Minim-qskos.ttl) to support this view.  But the remaining tests would need more significant enhancements to the Minim model to be able to express them effectively.  We identified thee particular new features that we believe will enable all but three of the qSKOA tests to be handled by Minim:
+The qSKOS work was more challenging.  [Inspection of the qSKOS](https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/minim-evaluation/qskos-summary.md) tests showed that about half of them could be handled quite easily using the revised Minim model.  We coded some [representative tests in Minim](https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/in-use-submission/qskos/Minim-qskos.ttl) to support this view.  But the remaining tests would need more significant enhancements to the Minim model to be able to express them effectively.  We identified thee particular new features that we believe will enable all but three of the qSKOS tests to be handled by Minim:
 
 * Comparing result sets from two different queries (e.g. to detect consistent provision of alternative-language labels).
 * Querying external service for resource (e.g. to check validity of all language tags used).
@@ -182,7 +182,7 @@ We are investigating simple tooling to allow users to create checklists, possibl
 
 ### Performance improvement
 
-The chembox work exposed a performance bottleneck under certain usage circumstances.  Specifically, when performing repeated checklist evaluation based on the same large metadata file(s).  The bottleneck appears to be caused by repeated reading and parsing of a large RDF file.  We aim to explore alternative application architectures that will allow the parsed RDF graph to be read once, cached, and queried repeatedly,.  This does not invoplve any change to the Minim model itself, and we are quietly confident that this will overcome the performance issue observed.
+The Chembox work exposed a performance bottleneck under certain usage circumstances.  Specifically, when performing repeated checklist evaluation based on the same large metadata file(s).  The bottleneck appears to be caused by repeated reading and parsing of a large RDF file.  We aim to explore alternative application architectures that will allow the parsed RDF graph to be read once, cached, and queried repeatedly,.  This does not invoplve any change to the Minim model itself, and we are quietly confident that this will overcome the performance issue observed.
 
 
 ### Application of checklists to linked data
