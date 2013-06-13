@@ -1,17 +1,6 @@
 % This file was created with JabRef 2.6.
 % Encoding: Cp1252
 
-@INPROCEEDINGS{summaryBigData13,
-  author = {Pinar Alper and Khalid Belhajjame and Carole Goble and Pinar Karagoz},
-  title = {Small is Beautiful: Summarizing Scientific Workflows Using Semantic
-	Annotations},
-  booktitle = {Proceedings of the IEEE 2nd International Congress on Big Data (BigData
-	2013)},
-  year = {2013},
-  address = {Santa Clara, CA, USA},
-  month = {June}
-}
-
 @INPROCEEDINGS{ro_model,
   author = {Khalid Belhajjame and Oscar Corcho and Daniel Garijo and Jun Zhao
 	and Paolo Missier and David Newman and Raul Palma and Sean Bechhofer
