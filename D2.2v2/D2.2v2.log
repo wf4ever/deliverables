@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 JUN 2013 13:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 JUN 2013 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,7 +603,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.03998pt on input line 6.
- <Figures/ro_ontology_1.png, id=153, 546.843pt x 233.1912pt>
+ <Figures/ro_ontology_1.png, id=157, 546.843pt x 233.1912pt>
 File: Figures/ro_ontology_1.png Graphic file (type png)
 
 <use Figures/ro_ontology_1.png>
@@ -630,7 +630,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.27998pt on input line 36.
-<Figures/wfdesc.png, id=173, 563.706pt x 452.4102pt>
+<Figures/wfdesc.png, id=177, 563.706pt x 452.4102pt>
 File: Figures/wfdesc.png Graphic file (type png)
  <use Figures/wfdesc.png>
 Package pdftex.def Info: Figures/wfdesc.png used on input line 40.
@@ -650,13 +650,13 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 10.07397pt on input line 57.
-<Figures/wfprov.png, id=188, 615.7404pt x 421.575pt>
+<Figures/wfprov.png, id=192, 615.7404pt x 421.575pt>
 File: Figures/wfprov.png Graphic file (type png)
  <use Figures/wfprov.png>
 Package pdftex.def Info: Figures/wfprov.png used on input line 61.
 (pdftex.def)             Requested size: 287.4895pt x 196.83443pt.
 
-[9 <./Figures/wfdesc.png>] <Figures/roevo.png, id=200, 707.7642pt x 395.076pt>
+[9 <./Figures/wfdesc.png>] <Figures/roevo.png, id=204, 707.7642pt x 395.076pt>
 File: Figures/roevo.png Graphic file (type png)
 
 <use Figures/roevo.png>
@@ -670,7 +670,7 @@ Package pdftex.def Info: wf4everLogo.pdf used on input line 87.
 
 LaTeX Warning: Citation `?' on page 11 undefined on input line 6.
 
-<Figures/RO_Manager_seq.png, id=211, 596.9502pt x 845.0772pt>
+<Figures/RO_Manager_seq.png, id=215, 596.9502pt x 845.0772pt>
 File: Figures/RO_Manager_seq.png Graphic file (type png)
 
 <use Figures/RO_Manager_seq.png>
@@ -689,42 +689,64 @@ File: wf4everLogo.pdf Graphic file (type pdf)
 Package pdftex.def Info: wf4everLogo.pdf used on input line 45.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [12 <./Figures/RO_Manager_seq.png>]) (./rodl.tex)
-(./romyexperiment.tex) [13] (./workflowabstraction.tex
-<Figures/taverna-wf-motifs.png, id=267, 575.14874pt x 466.74374pt>
+(./romyexperiment.tex [13]
+<Figures/myexperimentArchitecture.png, id=265, 537.207pt x 349.305pt>
+File: Figures/myexperimentArchitecture.png Graphic file (type png)
+
+<use Figures/myexperimentArchitecture.png>
+Package pdftex.def Info: Figures/myexperimentArchitecture.png used on input lin
+e 15.
+(pdftex.def)             Requested size: 335.39954pt x 218.09122pt.
+
+<Figures/myexperimentInteractions.png, id=269, 587.796pt x 504.4446pt>
+File: Figures/myexperimentInteractions.png Graphic file (type png)
+
+<use Figures/myexperimentInteractions.png>
+Package pdftex.def Info: Figures/myexperimentInteractions.png used on input lin
+e 26.
+(pdftex.def)             Requested size: 335.39954pt x 287.84428pt.
+) (./workflowabstraction.tex
+File: wf4everLogo.pdf Graphic file (type pdf)
+
+<use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 8.
+(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
+ [14 <./Figures/myexperimentArchitecture.png>]
+<Figures/taverna-wf-motifs.png, id=285, 575.14874pt x 466.74374pt>
 File: Figures/taverna-wf-motifs.png Graphic file (type png)
 
 <use Figures/taverna-wf-motifs.png>
 Package pdftex.def Info: Figures/taverna-wf-motifs.png used on input line 13.
 (pdftex.def)             Requested size: 402.60138pt x 326.71838pt.
 
-<Figures/ontology.png, id=271, 648.4225pt x 685.56125pt>
+<Figures/ontology.png, id=289, 648.4225pt x 685.56125pt>
 File: Figures/ontology.png Graphic file (type png)
 
 <use Figures/ontology.png>
 Package pdftex.def Info: Figures/ontology.png used on input line 25.
 (pdftex.def)             Requested size: 389.0565pt x 411.33992pt.
-
-<Figures/tav-wf-annotated.png, id=278, 1288.0622pt x 688.07062pt>
+ [15 <./Figures/myexperimentInteractions.png>]
+<Figures/tav-wf-annotated.png, id=309, 1288.0622pt x 688.07062pt>
 File: Figures/tav-wf-annotated.png Graphic file (type png)
 
 <use Figures/tav-wf-annotated.png>
 Package pdftex.def Info: Figures/tav-wf-annotated.png used on input line 37.
 (pdftex.def)             Requested size: 386.42165pt x 206.42278pt.
+) (./workflowindexation.tex)
+(./conclusions.tex
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 40.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 1.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [14])
-(./workflowindexation.tex) (./conclusions.tex) [15 <./Figures/taverna-wf-motifs
-.png>]
+ [16 <./Figures/taverna-wf-motifs.png>]) [17 <./Figures/ontology.png (PNG copy)
+>]
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
 Package pdftex.def Info: wf4everLogo.pdf used on input line 155.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [16 <./Figures/ontology.png (PNG copy)> <./Figures/tav-wf-annotated.png>] (./D
-2.2v2.bbl)
+ [18 <./Figures/tav-wf-annotated.png>] (./D2.2v2.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
- [17
+ [19
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
@@ -744,13 +766,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
 ### semi simple group (level 1) entered at line 60 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9265 strings out of 493488
- 137000 string characters out of 3141326
- 219949 words of memory out of 3000000
- 12312 multiletter control sequences out of 15000+200000
+ 9282 strings out of 493488
+ 137502 string characters out of 3141326
+ 220130 words of memory out of 3000000
+ 12322 multiletter control sequences out of 15000+200000
  50371 words of font info for 72 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,14n,43p,972b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,14n,43p,995b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
 }{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ec.enc}</u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/inconsolata/Inconsolata.pfb
@@ -762,10 +784,10 @@ ocal/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/
 2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on D2.2v2.pdf (17 pages, 1035298 bytes).
+Output written on D2.2v2.pdf (19 pages, 1352318 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
