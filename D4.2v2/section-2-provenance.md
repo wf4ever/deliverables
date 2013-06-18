@@ -35,23 +35,27 @@ The [WFPROV ontology][ref-WFPROV] and [ROEVO ontology][ref-ROEVO] were introduce
 
 ### Representing provenance in ROs
 
-RO annotations are used to record provenance information in ROs.  That is, the RO includes RDF metadata resources, containing provenance information, and these are identified as annotations of corresponding target resources by statements in the RO manifest:
+RO annotations are used to record provenance information in ROs.  That is, the RO includes RDF metadata resources, containing provenance information, and these are identified as annotations of corresponding target resources by statements in the RO manifest.  Provenance of an RO artifact produced by a workflow might appear thus:
 
-![Provenance information within an RO](Figures/provenance-annotation.png)
+![Workflow provenance information within an RO](Figures/wfprov-annotation.png "Workflow provenance information within an RO")
 
-(@@clarify nature of RDF Graph References in diagram)
+(In this digram, the arrow labelled "RDF graph references" is indicating that the provenance data contains direct references to the resource whose provenance is described.  One such resource may describe provenance of multiple target resources, and an application that consults it does not need to know about the `ro:annotatesAggregatedResource` link in order to properly interpret the provenance information.)
 
 There is no distinction in the RO manifest between provenance and other metadata about the RO and its contents.  The expectation is that provenance metadata may be freely mixed with other metadata, and the distinction is not relevant until the point of isolating the provenance, or other information specifically required for some purpose.
 
 The provenance resource itself (the `rdfg:Graph` value) need not be part of the RO aggregation (i.e. it may be an external resource), but for practical purposes in our work an annotation body is generally treated as part of the RO aggregation.
 
-(@@check how ROEVO provenance is presented within an RO)
+Research Objects also have provenance, captured in a description of Research Object Evolution (ROEVO).  These are expressed using a simiular pattern to that shown above, but with provenance relationships described _between_ ROs, rather than between resources aggregated by an RO:
+
+![RO evolution provenance relations between ROs](Figures/roevo-annotation.png)
+
+Here, the ROEVO provenance resources capture the evolutionary relationships between a _Live_ RO and its _Snapshots_ or _Archives_.  Here, the forward looking relations are colour coded in blue, and the historical provenance relationships are colured in red.
 
 ### Accessing provenance in ROs
 
-Accessing provenance in an RO generally involves first reading the RO manifest, which contains information described in the diagram above.
+Accessing provenance in an RO generally involves first reading the RO manifest, which contains information described in the diagrams above.
 
-The RO manifest information is used to locate descriptions of the RO and its resources, which may include provenance and other information.  The relevant information is read as one or several RDF graphs, from which the desired provenance information can be extracted.
+The RO manifest information is used to locate descriptions of the RO and its resources, which may include provenance and other information.  The relevant information is read as one or several RDF graphs (annotations), from which the desired provenance information can be extracted.
 
 For example, the checklist service reads _all_ the annotations mentioned in the RO manifest, and creates a single RDF merged annotation graph of all the provenance and other information thus obtained.  Provenance information can then be tested by suitably constructed SPARQL queries that are evaluated against the merged annotation graph.
 
