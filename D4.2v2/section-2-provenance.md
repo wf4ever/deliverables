@@ -64,12 +64,17 @@ Other applications may choose to be selective about the annotations they read, s
 
 ## Taverna provenance export tool
 
-(plugin full explanation: sequence diagram from Stian??)
+Taverna can capture provenance of workflow runs, including individual processor iterations and their inputs and outputs. This provenance is kept in an internal database, which is used to populate Previous runs and Intermediate results in the Results perspective in the Taverna Workbench.  The Taverna provenance architecture is described in the following illustration:
 
-(@@ Ask Stian)
+![Taverna provenance architecture](Figures/taverna-prov-architecture.png)
 
-http://www.wf4ever-project.org/wiki/display/docs/Showcase+74+Taverna+PROVO+export%2C+Mapings+between+PROVO+and+wfprov%2C+and+Workflow+Provenance+Corpus
+The provenance trace can be used by the Taverna-PROV plugin to export the workflow run, including the output and intermediate values, and the provenance trace as a PROV-O RDF graph which can be queried using SPARQL and processed with other PROV tools, such as the PROV Toolbox.
 
+Installation and usage instructions for the Taverna PROV export plugin are at the [taverna-prov project at GitHub][taverna-prov]
+
+[taverna-prov]: https://github.com/wf4ever/taverna-prov (Taverna plug-in for PROV support)
+
+(Possibly awaiting further material - interactions with Wf4Ever components?)
 
 ## Provenance use-cases
 
@@ -96,7 +101,9 @@ The [RO Portal][RO_Portal] displays RO evolution traces under the `history` tab 
 
 ### Provenance visualization
 
-- How are we doing with provenance visualisation? (@@TODO: Esteban: to check with Stian and Raul about progress)
+(How are we doing with provenance visualisation?)
+
+> For the visualization I think that its better to contact with Raul which was working in ROEVO and had some visualization of that done.  (Esteban)    I'll grab a screenshot from the portal when the display is big-fixed.
 
 
 ### Assessment of Kegg workflows
@@ -109,22 +116,19 @@ For this purpose, provenance information was extracted from a Taverna-generated 
 
 [WF_Conversion]: https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/Kegg-workflow-evaluation/wf_conversion.sh#L142 (Workflow conversion script used as part of KEGG decay detection work)
 
-### RO evolution tracking for stability assessment
-
-(@@ask Esteban)
-
 
 ### Workflow abstraction
 
-- Motifs/Workflow abstraction (differencing using templates vs. provenance) (GK:puzzled)
+(Motifs/Workflow abstraction - differencing using templates vs. provenance)
 
-(@@ask Esteban)
+> This belongs to the apps of provenance section though not sure if that should be added. It has to do with using provenance for detecting executing motifs and patterns. Lets just hold it and decide later how to explain it as part of the Dani's work. (Esteban)
 
 
-### Khalid/Stian/something
+### (Pinar's provenance summarization)
 
-- Khalid and Stian are doing something (@@TODO Esteban: understand what exactly Khalid and Stian plan to do)
-  - ???
+(Placeholder, but maybe one with the abstration/motifs work)
+
+> It seems to me like there is not that much work done in provenance applications but definitely this information should be included in the deliverable. The applications that have been identified so far are provenance querying and summarization (Pinar's work), provenance inclusion in the RO (e.g. for completeness evaluation), provenance for the discovery of executed motifs, and provenance visualization.  (Esteban)
 
 
 ### Ongoing work
