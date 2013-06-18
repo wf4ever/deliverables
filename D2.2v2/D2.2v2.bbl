@@ -1,3 +1,77 @@
-\begin{thebibliography}{}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{MSRO{\etalchar{+}}10}
+
+\bibitem[ABGK13]{summaryBigData13}
+Pinar Alper, Khalid Belhajjame, Carole Goble, and Pinar Karagoz.
+\newblock Small is beautiful: Summarizing scientific workflows using semantic
+  annotations.
+\newblock In {\em Proceedings of the IEEE 2nd International Congress on Big
+  Data (BigData 2013)}, Santa Clara, CA, USA, June 2013.
+
+\bibitem[BCG{\etalchar{+}}12]{ro_model}
+Khalid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David
+  Newman, Raul Palma, Sean Bechhofer, Esteban Garcia-Cuesta, Jose-Manuel
+  Gomez-Perez, Graham Klyne, Kevin Page, Marco Roos, Jose~Enrique Ruiz, Stian
+  Soiland-Reyes, Lourdes Verdes-Montenegro, David~De Roure, and Carole Goble.
+\newblock Workflow-centric research objects: First class citizens in scholarly
+  discourse.
+\newblock In {\em Proceedings of Sepublica2012}, pages 1--12, 2012.
+
+\bibitem[CFS{\etalchar{+}}06]{Callahan06-vistrails}
+Steven~P. Callahan, Juliana Freire, Emanuele Santos, Carlos~E. Scheidegger,
+  Cl‡udio~T. Silva, and Huy~T. Vo.
+\newblock Vistrails: Visualization meets data management.
+\newblock In {\em In ACM SIGMOD}, pages 745--747. ACM Press, 2006.
+
+\bibitem[GAB{\etalchar{+}}12]{garijo_Alper_2012}
+Daniel Garijo, Pinar Alper, Khalid Belhajjame, Oscar Corcho, Yolanda Gil, and
+  Carole Goble.
+\newblock Common motifs in scientific workflows: An empirical analysis.
+\newblock In {\em 8th IEEE International Conference on eScience 2012}, 8th IEEE
+  International Conference on eScience 2012, Chicago, 2012. IEEE Computer
+  Society Press, USA.
+
+\bibitem[GG11]{garijo_gil_2011}
+Daniel Garijo and Yolanda Gil.
+\newblock A new approach for publishing workflows: Abstractions, standards, and
+  linked data.
+\newblock In {\em Proceedings of the 6th workshop on Workflows in support of
+  large-scale science}, Proceedings of the 6th workshop on Workflows in support
+  of large-scale science, pages 47--56, Seattle, 2011. ACM.
+
+\bibitem[GG12]{garijo-gil-lisc12}
+Daniel Garijo and Yolanda Gil.
+\newblock Augmenting prov with plans in p-plan: Scientific processes as linked
+  data.
+\newblock In {\em Second International Workshop on Linked Science: Tackling Big
+  Data (LISC), held in conjunction with the International Semantic Web
+  Conference (ISWC)}, Boston, MA, 2012.
+
+\bibitem[GNT10]{Goecks_Nekrutenko_Taylor_2010}
+Jeremy Goecks, Anton Nekrutenko, and James Taylor.
+\newblock Galaxy: a comprehensive approach for supporting accessible,
+  reproducible, and transparent computational research in the life sciences.
+\newblock {\em Genome Biology}, 11(8):R86, 2010.
+
+\bibitem[GRK{\etalchar{+}}11]{DBLP:journals/expert/GilRKGGMD11}
+Yolanda Gil, Varun Ratnakar, Jihie Kim, Pedro~A. Gonz{\'a}lez-Calero, Paul~T.
+  Groth, Joshua Moody, and Ewa Deelman.
+\newblock Wings: Intelligent workflow-based design of computational
+  experiments.
+\newblock {\em IEEE Intelligent Systems}, 26(1):62--72, 2011.
+
+\bibitem[MDB{\etalchar{+}}13]{Missier2013a}
+Paolo Missier, Saumen Dey, Khalid Belhajjame, Victor Cuevas, and Bertram
+  Ludaescher.
+\newblock {D-PROV}: extending the {PROV} provenance model with workflow
+  structure.
+\newblock In {\em Procs. TAPP'13}, Lombard, IL, 2013.
+
+\bibitem[MSRO{\etalchar{+}}10]{Missier2010b}
+Paolo Missier, Stian Soiland-Reyes, Stuart Owen, Wei Tan, Alex Nenadic, Ian
+  Dunlop, Alan Williams, Tom Oinn, and Carole Goble.
+\newblock Taverna, reloaded.
+\newblock In M~Gertz, T~Hey, and B~Ludaescher, editors, {\em Procs. SSDBM
+  2010}, Heidelberg, Germany, 2010.
 
 \end{thebibliography}

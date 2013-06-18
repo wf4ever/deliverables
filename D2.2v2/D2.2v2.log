@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 JUN 2013 11:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 JUN 2013 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -493,7 +493,7 @@ LaTeX Info: Redefining \nameref on input line 59.
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks25
-) <wf4everLogo2.pdf, id=63, 486.37709pt x 96.8418pt>
+) <wf4everLogo2.pdf, id=55, 486.37709pt x 96.8418pt>
 File: wf4everLogo2.pdf Graphic file (type pdf)
  <use wf4everLogo2.pdf>
 Package pdftex.def Info: wf4everLogo2.pdf used on input line 60.
@@ -543,7 +543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--64
 
  []
 
-<wf4everLogo.pdf, id=79, 1040.88875pt x 429.605pt>
+<wf4everLogo.pdf, id=71, 1040.88875pt x 429.605pt>
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
 Package pdftex.def Info: wf4everLogo.pdf used on input line 64.
@@ -555,7 +555,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
  [3]
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 122.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 125.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
 
 [4
@@ -581,20 +581,29 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 129.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 132.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
 
 [6
 
-] (./ro-model.tex
+] (./intro.tex
+
+LaTeX Warning: Citation `D3.2v2' on page 7 undefined on input line 8.
+
+
+LaTeX Warning: Citation `D4.2v2' on page 7 undefined on input line 10.
+
+
+LaTeX Warning: Citation `?' on page 7 undefined on input line 20.
+
+) (./ro-model.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.03998pt on input line 6.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.03998pt on input line 6.
-
-<Figures/ro_ontology_1.png, id=154, 546.843pt x 233.1912pt>
+ <Figures/ro_ontology_1.png, id=153, 546.843pt x 233.1912pt>
 File: Figures/ro_ontology_1.png Graphic file (type png)
 
 <use Figures/ro_ontology_1.png>
@@ -611,244 +620,152 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 22.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 22.
+ [7
 
+]
 
-LaTeX Warning: Citation `COG11' on page 7 undefined on input line 29.
+LaTeX Warning: Citation `COG11' on page 8 undefined on input line 29.
 
-[7
-
- <./Figures/ro_ontology_1.png>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.27998pt on input line 36.
-
-<Figures/wfdesc.png, id=176, 563.706pt x 452.4102pt>
+<Figures/wfdesc.png, id=173, 563.706pt x 452.4102pt>
 File: Figures/wfdesc.png Graphic file (type png)
  <use Figures/wfdesc.png>
 Package pdftex.def Info: Figures/wfdesc.png used on input line 40.
 (pdftex.def)             Requested size: 287.4895pt x 230.73305pt.
-
-
-LaTeX Warning: Citation `w3c-prov-o' on page 8 undefined on input line 48.
-
 File: wf4everLogo.pdf Graphic file (type pdf)
+
 <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 52.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 48.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [8 <./Figures/wfdesc.png>]
+ [8 <./Figures/ro_ontology_1.png>]
+
+LaTeX Warning: Citation `w3c-prov-o' on page 9 undefined on input line 48.
+
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/it' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 10.07397pt on input line 57.
-
-<Figures/wfprov.png, id=190, 615.7404pt x 421.575pt>
+<Figures/wfprov.png, id=188, 615.7404pt x 421.575pt>
 File: Figures/wfprov.png Graphic file (type png)
  <use Figures/wfprov.png>
 Package pdftex.def Info: Figures/wfprov.png used on input line 61.
 (pdftex.def)             Requested size: 287.4895pt x 196.83443pt.
 
-<Figures/roevo.png, id=192, 707.7642pt x 395.076pt>
+[9 <./Figures/wfdesc.png>] <Figures/roevo.png, id=200, 707.7642pt x 395.076pt>
 File: Figures/roevo.png Graphic file (type png)
- <use Figures/roevo.png>
+
+<use Figures/roevo.png>
 Package pdftex.def Info: Figures/roevo.png used on input line 78.
 (pdftex.def)             Requested size: 287.4895pt x 160.47511pt.
-
-[9 <./Figures/wfprov.png>]) (./rodl.tex) (./romanager.tex
 File: wf4everLogo.pdf Graphic file (type pdf)
-
-<use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 9.
+ <use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 87.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [10 <./Figures/roevo.png>]
+ [10 <./Figures/wfprov.png> <./Figures/roevo.png>]) (./romanager.tex
 
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 22.
+LaTeX Warning: Citation `?' on page 11 undefined on input line 6.
 
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 22.
-
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 22.
-
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 22.
-
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 27.
-
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 27.
-
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 29.
-
-
-Package hyperref Warning: Empty destination name,
-(hyperref)                using `UNDEFINED' on input line 29.
-
-<Figures/RO_Manager_seq.png, id=222, 596.9502pt x 845.0772pt>
+<Figures/RO_Manager_seq.png, id=211, 596.9502pt x 845.0772pt>
 File: Figures/RO_Manager_seq.png Graphic file (type png)
 
 <use Figures/RO_Manager_seq.png>
-Package pdftex.def Info: Figures/RO_Manager_seq.png used on input line 40.
-(pdftex.def)             Requested size: 596.94875pt x 845.07513pt.
+Package pdftex.def Info: Figures/RO_Manager_seq.png used on input line 27.
+(pdftex.def)             Requested size: 335.39954pt x 474.81317pt.
 
-Overfull \hbox (117.80444pt too wide) in paragraph at lines 40--41
- [] 
+Underfull \hbox (badness 1092) in paragraph at lines 42--43
+[]\T1/phv/m/n/10.95 The \T1/fi4/m/n/10.95 ro add \T1/phv/m/n/10.95 com-mand use
+s the RO URI to ini-tial-ize an \T1/fi4/m/n/10.95 ro$\OMS/cmsy/m/n/10.95 n$\T1/
+fi4/m/n/10.95 _metadata \T1/phv/m/n/10.95 ob-ject, and calls its
  []
-
-
-LaTeX Warning: Float too large for page by 198.00534pt on input line 42.
 
 [11]
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 67.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 45.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [12 <./Figures/RO_Manager_seq.png>] [13])
-(./romyexperiment.tex)
-File: wf4everLogo.pdf Graphic file (type pdf)
- <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 143.
-(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [14] (./workflowabstraction.tex
-
-LaTeX Warning: Citation `garijo_Alper_2012' on page 15 undefined on input line 
-8.
-
-
-LaTeX Warning: Citation `Missier2010b' on page 15 undefined on input line 8.
-
-
-LaTeX Warning: Citation `DBLP:journals/expert/GilRKGGMD11' on page 15 undefined
- on input line 8.
-
-
-LaTeX Warning: Citation `Goecks_Nekrutenko_Taylor_2010' on page 15 undefined on
- input line 8.
-
-
-LaTeX Warning: Citation `Callahan06-vistrails' on page 15 undefined on input li
-ne 8.
-
-
-LaTeX Warning: Reference `tav_wf_motifs' on page 15 undefined on input line 8.
-
-<Figures/taverna-wf-motifs.png, id=272, 575.14874pt x 466.74374pt>
+ [12 <./Figures/RO_Manager_seq.png>]) (./rodl.tex)
+(./romyexperiment.tex) [13] (./workflowabstraction.tex
+<Figures/taverna-wf-motifs.png, id=267, 575.14874pt x 466.74374pt>
 File: Figures/taverna-wf-motifs.png Graphic file (type png)
 
 <use Figures/taverna-wf-motifs.png>
-Package pdftex.def Info: Figures/taverna-wf-motifs.png used on input line 12.
+Package pdftex.def Info: Figures/taverna-wf-motifs.png used on input line 13.
 (pdftex.def)             Requested size: 402.60138pt x 326.71838pt.
 
-
-LaTeX Warning: Citation `garijo_Alper_2012' on page 15 undefined on input line 
-20.
-
-<Figures/ontology.png, id=275, 648.4225pt x 685.56125pt>
+<Figures/ontology.png, id=271, 648.4225pt x 685.56125pt>
 File: Figures/ontology.png Graphic file (type png)
 
 <use Figures/ontology.png>
-Package pdftex.def Info: Figures/ontology.png used on input line 24.
+Package pdftex.def Info: Figures/ontology.png used on input line 25.
 (pdftex.def)             Requested size: 389.0565pt x 411.33992pt.
 
-
-LaTeX Warning: Citation `ro_model' on page 15 undefined on input line 33.
-
-
-LaTeX Warning: Citation `garijo_gil_2011' on page 15 undefined on input line 33
-.
-
-
-LaTeX Warning: Citation `garijo-gil-lisc12' on page 15 undefined on input line 
-33.
-
-
-LaTeX Warning: Citation `Missier2013a' on page 15 undefined on input line 33.
-
-[15] <Figures/tav-wf-annotated.png, id=284, 1288.0622pt x 688.07062pt>
+<Figures/tav-wf-annotated.png, id=278, 1288.0622pt x 688.07062pt>
 File: Figures/tav-wf-annotated.png Graphic file (type png)
 
 <use Figures/tav-wf-annotated.png>
 Package pdftex.def Info: Figures/tav-wf-annotated.png used on input line 37.
 (pdftex.def)             Requested size: 386.42165pt x 206.42278pt.
-
-
-LaTeX Warning: Citation `summaryBigData13' on page 16 undefined on input line 4
-2.
-
-) (./workflowindexation.tex) (./conclusions.tex)
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 152.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 40.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [16 <./Figures/taverna-wf-motifs.png>] [17 <./Figures/ontology.png (PNG copy)>
- <./Figures/tav-wf-annotated.png>] (./D2.2v2.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+ [14])
+(./workflowindexation.tex) (./conclusions.tex) [15 <./Figures/taverna-wf-motifs
+.png>]
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 161.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 155.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [18
+ [16 <./Figures/ontology.png (PNG copy)> <./Figures/tav-wf-annotated.png>] (./D
+2.2v2.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+ [17
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (./D2.2v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `D2.2v2.out' has not changed.
-(rerunfilecheck)             Checksum: 92AF95835813231B0531959A2ECE0CFA;948.
+(rerunfilecheck)             Checksum: 205752A7A746E46AB08586C7227148F1;822.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 60 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9259 strings out of 493488
- 136878 string characters out of 3141326
- 218481 words of memory out of 3000000
- 12315 multiletter control sequences out of 15000+200000
+ 9265 strings out of 493488
+ 137000 string characters out of 3141326
+ 219949 words of memory out of 3000000
+ 12312 multiletter control sequences out of 15000+200000
  50371 words of font info for 72 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,14n,43p,968b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{UNDEFINED} has been referenced but 
-does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2012/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ec.enc}</usr/local/texlive
-/2012/texmf-dist/fonts/type1/public/inconsolata/Inconsolata.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/urw/helvetic/uhvro8a.pfb>
-Output written on D2.2v2.pdf (18 pages, 1021928 bytes).
+ 36i,14n,43p,972b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
+}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ec.enc}</u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/inconsolata/Inconsolata.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on D2.2v2.pdf (17 pages, 1035298 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
