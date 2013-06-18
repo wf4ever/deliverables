@@ -1,0 +1,22 @@
+\section{Introduction}
+
+This deliverable describes Phase II of the design, implementation and
+deployment of the Wf4Ever components that will support workflow
+lifecycle management. The document should be read in tandem with other
+Month 32 deliverables, in particular D3.2v2 (Design, implementation
+and deployment of Workflow Evolution, Sharing and Collaboration
+components -- Phase II)~\cite{D3.2v2} and D4.2v2 (Design,
+implementation and deployment of Workflow Integrity and Authenticity
+Maintenance components -- Phase II)~\cite{D4.2v2} which address
+complementary aspects of the overall wf4ver architecture and
+components.
+
+According to the Description of Work, \emph{This prototype will include the following functionalities: new versions of the Research Object model and ontology network, advanced management functions (filtering, clustering, etc.), playback functionalities for reproducibility, and workflow classification, indexing and explanation techniques.}. 
+
+These requirements are addressed in the following way:
+
+Sections~\ref{sec:romodel} presents the Research Object Model defined within Wf4Ever. Specifically, we present a family of ontologies that we developed for specifying Research Objects and their associated resources, i.e., workflow, workfllow runs, etc. 
+
+Sections~\ref{sec:romanager,sec:rodl,sec:myexperiment} presents the tools that we developed for assisting users in creating and managing Research Objects. Section~\ref{sec:romanager} presents the Research Object Manager (RO Manager), a command line tool for creating, displaying and manipulating Research Objects. Section~\ref{sec:rodl} presents RO Digital Library (RODL), which acts as a back-end, with two storage alternatives: a digital repository to keep the content, as a triple store to manage the metadata content. Finally, Section\ref{sec:myexperiment} shows how the myExperiment virtual environement to allow end-users, who are not necessarily information technology experts to create, share, publish and curate Research Objects.
+
+Section~\ref{sec:abstraction} presents the motif ontology that we developed for abstracting scientific workflows, and illustarte how it has been used to document workflows, while Section~\ref{sec:indexation} presents a solution that we developed for indexing workflows based on the processed (steps) they are composed of, with the purpose of assisting users in discovering workflows that are of interest to them. 
