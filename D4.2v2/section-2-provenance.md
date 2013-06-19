@@ -78,9 +78,11 @@ During execution of a Taverna workflow, the [dispatch stack][dispatch-stack] is 
 
 The provenance trace can be used by the [Taverna-PROV plugin][taverna-prov] to export the workflow run, including the output and intermediate values, and the provenance trace as a [PROV-O][PROV-O] RDF graph and a directory structure of the values as individual files. The graph can be queried using SPARQL and processed with other PROV tools, such as the [PROV Toolbox][prov-toolbox]. The [Taverna-PROV ontology][taverna-prov-owl] extends the Wf4Ever [wfprov][ref-WFPROV] ontology, which is based on [PROV-O][PROV-O]. Therefore no transformation (beyond OWL reasoning) is required within Wf4Ever to understand the Taverna-PROV traces.
 
-The Taverna provenance support was instrumental in making the [Wf4Ever provenance corpus][prov-corpus], a collection of 198 workflow run provenance traces from running 120 real world scientific workflows (published as [A workflow PROV-corpus based on Taverna and Wings][prov-corpus-paper]). This work was the motivation for forming the [ProvBench initiative][prov-bench], launched at the [BigProv workshop in 2013][bigprov2013].
+The Taverna provenance support was instrumental in making the [Wf4Ever provenance corpus][prov-corpus], a collection of 198 workflow run provenance traces from running 120 real world scientific workflows (published as [A workflow PROV-corpus based on Taverna and Wings][prov-corpus-paper]). This work was the motivation for forming the [ProvBench initiative][prov-bench], launched at the [BigProv workshop in 2013][bigprov2013]. Including the Wf4Ever provenance corpus, the [first ProvBench accepted 8 provenance trace collections](prov-bench-2013).
 
 [prov-bench]: https://sites.google.com/site/provbench/ (ProvBench: A Provenance Repository for Benchmarking)
+
+[prov-bench-2013]: https://sites.google.com/site/provbench/provbench-at-bigprov-13/acceptedsubmissions
 
 [bigprov2013]: https://sites.google.com/site/bigprov13/ (BIGProv'13: First International Workshop on Managing and Querying Provenance Data at Scale. Held in conjunction with EDBT/ICDT 2013.  2013-03-22, Genova, Italy)
 
