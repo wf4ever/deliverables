@@ -5,12 +5,12 @@
 
 The foundational service to preserve workflow-centric research objects is the Research Object Digital Library (RODL), which realizes the Storage and Lifecycle functionalities described in Section \ref{architecture}. It is a software system which collects, manages and preserves aggregations of scientific workflows and related objects and annotations, packed into research objects.
 
-%\begin{figure*}[!hb]
-%\centering
-%\includegraphics[width=\textwidth]{RODL-new.png}
-%\caption{Research Objects Digital Library internal component diagram}
-%\label{RODL}
-%\end{figure*}
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL-new.png}
+\caption{Research Objects Digital Library internal component diagram}
+\label{RODL}
+\end{figure}
 
 
 \subsection{The interfaces}
@@ -23,12 +23,6 @@ The RO Evolution API defines the formats and links used to change the lifecycle 
 
 Additionally, RODL provides a SPARQL endpoint that allows performing SPARQL queries over HTTP to the metadata of all stored research objects. It also implements the Notification API \cite{Notification-API}, which defines links used to retrieve Atom feeds with notifications of events about any research object. For searching the contents of research objects a Solr REST API and the OpenSearch APIs are provided. Finally, RODL implements a custom User Management API \cite{UM-API} for registering users and generating OAuth 2 access tokens, providing the option of extending it with an access control layer in the future.
 
-\begin{figure*}[!hb]
-\centering
-\includegraphics[width=0.98\textwidth]{RO-Portal-II.png}
-\caption{The Research Object Portal}
-\label{Portal}
-\end{figure*}
 
 
 \subsection{The implementation}
@@ -52,3 +46,10 @@ A running instance of the RODL is available for testing at \url{http://sandbox.w
 The use of a REST API as the primary interface of RODL shows the need for clients that can facilitate the interaction with RODL for the users. To this moment, the following clients support some or all of the RO APIs implemented by RODL.
 
 The reference client of RODL is \textbf{the RO Portal}, developed alongside RODL to test new features and expose all available functionalities. It is a web application running at \url{http://sandbox.wf4ever-project.org/portal}. Its main features are research object exploration and visualization; it also allows to create user accounts in RODL and generate access tokens for other clients. The RO Portal uses all APIs of RODL. Figure \ref{Portal} shows the main view of a research object in the RO Portal. The development version of \textbf{myExperiment} \cite{myExperiment} (\url{http://alpha.myExperiment.org}) uses RODL as a backend for storing packs. It uses the RO API. Finally, the \textbf{RO Manager} \cite{RO-Manager} is a command line tool that is primarily used to manage a research object stored on a local disk. It allows to push a research object to RODL via the RO API, as well as convert it into a snapshot in RODL.
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=0.98\textwidth]{Figures\RO-Portal-II.png}
+\caption{The Research Object Portal}
+\label{Portal}
+\end{figure}
