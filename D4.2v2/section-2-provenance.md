@@ -74,7 +74,32 @@ Installation and usage instructions for the Taverna PROV export plugin are at th
 
 [taverna-prov]: https://github.com/wf4ever/taverna-prov (Taverna plug-in for PROV support)
 
-(Possibly awaiting further material - interactions with Wf4Ever components?)
+(@@ awaiting further material - interactions with Wf4Ever components?)
+
+(@@ Notes from Stian:)
+
+> Roughly the provenance sequence diagram would be something like
+>
+> 1) User loads workflow from file/myExperiment  
+> 2) User initiates run  
+> 3) Taverna workbench shows Run dialogue  
+> 4) User fills in input parameters  
+> 5) User clicks Run  
+> 6) Taverna workbench shows Result view with progress diagrams  
+> 6a) Dispatch layer captures provenance for each invocation, storing it in "provenance" database  
+> 7) Taverna workbench indicates workflow run is finished  
+> 8) User explores results and intermediate values  
+> 8a) Intermediate values are fetched from "provenance" and "data" databases  
+> 9) User clicks to Save the provenance  
+> 9a) User selects a folder to save the workflow run to  
+> 10) Taverna creates the folder and populates it with:  
+> 10a) A folder structure of inputs, outputs and intermediate values as individual files - exported from   "data" database
+> 10b) A Taverna-Prov RDF graph (Turtle), which details all the processor and workflow runs. This is   exported from "provenance" database, and relative URI references go to the files above
+> 11) User ZIPs up the folder  
+> 12) User uploads the ZIP to myExperiment as type "Workflow run"  
+>
+> We are making the Run Bundle, which saves directly to a RO Bundle ZIP file, so step 11 can be skipped in the future. This would also then include a copy of the workflow definition and the RO Bundle manifest, effectively making a nested research object for that particular workflow run. 
+
 
 ## Provenance use-cases
 
@@ -117,18 +142,21 @@ For this purpose, provenance information was extracted from a Taverna-generated 
 [WF_Conversion]: https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/Kegg-workflow-evaluation/wf_conversion.sh#L142 (Workflow conversion script used as part of KEGG decay detection work)
 
 
-### Workflow abstraction
+### Workflow abstraction and proveance summarization
 
 (Motifs/Workflow abstraction - differencing using templates vs. provenance)
 
 > This belongs to the apps of provenance section though not sure if that should be added. It has to do with using provenance for detecting executing motifs and patterns. Lets just hold it and decide later how to explain it as part of the Dani's work. (Esteban)
 
+(Jun mentions paper in DropBox - FGCS-motif-extended-paper - )
 
-### (Pinar's provenance summarization)
-
-(Placeholder, but maybe one with the abstration/motifs work)
+(Also KCAP 2013)
 
 > It seems to me like there is not that much work done in provenance applications but definitely this information should be included in the deliverable. The applications that have been identified so far are provenance querying and summarization (Pinar's work), provenance inclusion in the RO (e.g. for completeness evaluation), provenance for the discovery of executed motifs, and provenance visualization.  (Esteban)
+
+(Dropbox paper: bigdata 2013)
+
+(check no overlap with WP2)
 
 
 ### Ongoing work
