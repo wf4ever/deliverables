@@ -64,15 +64,37 @@ Other applications may choose to be selective about the annotations they read, s
 
 ## Taverna provenance export tool
 
-Taverna can capture provenance of workflow runs, including individual processor iterations and their inputs and outputs. This provenance is kept in an internal database, which is used to populate Previous runs and Intermediate results in the Results perspective in the Taverna Workbench.  The Taverna provenance architecture is described in the following illustration:
+Taverna can capture provenance of workflow runs, including individual processor iterations and their inputs and outputs. This provenance is kept in an internal database, which is used within the workbench to populate Previous runs and Intermediate results in the Results view.  The Taverna provenance architecture is described in the following illustration:
 
 ![Taverna provenance architecture](Figures/taverna-prov-architecture.png)
 
-The provenance trace can be used by the Taverna-PROV plugin to export the workflow run, including the output and intermediate values, and the provenance trace as a PROV-O RDF graph which can be queried using SPARQL and processed with other PROV tools, such as the PROV Toolbox.
+_(Adapted from P Missier, S Soiland-Reyes, S Owen, W Tan, A Nenadic, I Dunlop, C Goble: (2010, January). *Taverna, reloaded.* In Scientific and Statistical Database Management (pp. 471-481). Springer Berlin Heidelberg. DOI [10.1007/978-3-642-13818-8\_33][taverna-reloaded])_
 
-Installation and usage instructions for the Taverna PROV export plugin are at the [taverna-prov project at GitHub][taverna-prov]
+[taverna-reloaded]: http://dx.doi.org/10.1007/978-3-642-13818-8_33 (P Missier, S Soiland-Reyes, S Owen, W Tan, A Nenadic, I Dunlop, C Goble: (2010, January). *Taverna, reloaded.* In Scientific and Statistical Database Management (pp. 471-481). Springer Berlin Heidelberg. DOI 10.1007/978-3-642-13818-8_33)
+
+During execution of a Taverna workflow, the [dispatch stack][dispatch-stack] is responsible for the execution logic of an individual process invocaton, with layers like _parallelise_ and _retry_. By injecting a _provenance layer_ towards the top of the stack, a trace of each execution can be captured and stored in an internal _provenance database_. This includes a copy of the _workflow definition_, start/stop times for the _workflow run_ and for each _process execution_. In addition the input and output _parameters_ for every workflow and process execution is captured as references to Taverna's _internal data store_.
+
+[dispatch-stack]: http://www.taverna.org.uk/api-2.3/net/sf/taverna/t2/workflowmodel/processor/dispatch/DispatchStack.html
+
+The provenance trace can be used by the [Taverna-PROV plugin][taverna-prov] to export the workflow run, including the output and intermediate values, and the provenance trace as a [PROV-O][PROV-O] RDF graph and a directory structure of the values as individual files. The graph can be queried using SPARQL and processed with other PROV tools, such as the [PROV Toolbox][prov-toolbox]. The [Taverna-PROV ontology][taverna-prov-owl] extends the Wf4Ever [wfprov][ref-WFPROV] ontology, which is based on [PROV-O][PROV-O]. Therefore no transformation (beyond OWL reasoning) is required within Wf4Ever to understand the Taverna-PROV traces.
+
+The Taverna provenance support was instrumental in making the [Wf4Ever provenance corpus][prov-corpus], a collection of 198 workflow run provenance traces from running 120 real world scientific workflows (published as [A workflow PROV-corpus based on Taverna and Wings][prov-corpus-paper]). This work was the motivation for forming the [ProvBench initiative][prov-bench], launched at the [BigProv workshop in 2013][bigprov2013]. Including the Wf4Ever provenance corpus, the [first ProvBench accepted 8 provenance trace collections](prov-bench-2013).
+
+[prov-bench]: https://sites.google.com/site/provbench/ (ProvBench: A Provenance Repository for Benchmarking)
+
+[prov-bench-2013]: https://sites.google.com/site/provbench/provbench-at-bigprov-13/acceptedsubmissions
+
+[bigprov2013]: https://sites.google.com/site/bigprov13/ (BIGProv'13: First International Workshop on Managing and Querying Provenance Data at Scale. Held in conjunction with EDBT/ICDT 2013.  2013-03-22, Genova, Italy)
+
+[prov-corpus]: https://github.com/provbench/Wf4Ever-PROV
+
+[prov-corpus-paper]: http://dx.doi.org/10.1145/2457317.2457376 (Belhajjame, Khalid, Jun Zhao, Daniel Garijo, Aleix Garrido, Stian Soiland-Reyes, Pinar Alper, and Oscar Corcho. "A workflow PROV-corpus based on taverna and wings." In Proceedings of the Joint EDBT/ICDT 2013 Workshops, pp. 331-332. ACM, 2013)
+
+Example provenance traces, in addition to installation and usage instructions for the Taverna PROV export plugin are available at the [taverna-prov project at GitHub][taverna-prov].
 
 [taverna-prov]: https://github.com/wf4ever/taverna-prov (Taverna plug-in for PROV support)
+[taverna-prov-owl]: https://raw.github.com/wf4ever/taverna-prov/master/prov-taverna-owl-bindings/src/main/resources/org/purl/wf4ever/provtaverna/taverna-prov.ttl (Taverna-PROV ontology, namespace http://ns.taverna.org.uk/2012/tavernaprov/ )
+[prov-toolbox]: https://github.com/lucmoreau/ProvToolbox/
 
 (@@ awaiting further material - interactions with Wf4Ever components?)
 

@@ -9,3 +9,26 @@ While initially targeted towards workflows, the creators of myExperiment were aw
 The notion of packs have been widely adopted by scientists. At the time of writing, myExperiment had $337$ packs. Just like a workflow, using myExperiment a pack can be annotated and shared. 
  
 In order to support complex forms of sharing, reuse and preservation, we have worked during the last year on incorporating the notion of research objects into the development version of myExperiment \footnote{http://alpha.myexperiment.org/packs/}. In addition to the basic aggregation supported by packs, alpha myExperiment provides the mechanisms for specifying metadata that describes the relationships between the resources within the aggregation. Moreover, the structure and the types of the resources that compose a pack are now inline with those that have been identifying thanks to the research object model. For example, a user is able to specify that a given file within a pack specifies the hypothesis, that another file specifies the workflow run obtained by enacting a given workflow, or that a given file states the conclusions drew by the scientists after analyzing the workflow run.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figures/myexperimentArchitecture.png}
+\end{center}
+\caption{RO-enabled myExperiment.}
+\label{fig:myexperimentarchitecture}
+\end{figure}
+
+Figure \ref{fig:myexperimentarchitecture} illustrates a high-level architecture of Alpha myExpeirment, the development version of myExperiment into which the research objects capabilities were incorporated. As illustrated in the figure, at the level of the Rail\footnote{\url{http://rubyonrails.org}} model, data structures that represent the Research Object and associated resources have been incorporated. To manipulate such data structures, the controller layer has been extended, and to provide non information technology users to create and manage research objects, the view layer has been extended with the necessary HTML Web pages.
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Figures/myexperimentInteractions.png}
+\end{center}
+\caption{A Sequence diagram illustrating how myExperiment can be used to create Research Objects.}
+\label{fig:myexperimentinteractions}
+\end{figure}
+
+To illustrate how myExperiment can be used for managing research objects, Figure \ref{fig:myexperimentinteractions} depicts a sequence UML diagram illustrating a typical sequence of interactions that the user undergoes to create, curate and share a research object. Alice (the user) first browses myExperiment to identify a workflow that is of interest to her investigation. Once she identified a relevant workflow, she downloads the wokflow, modifies it and repurposes it for her investigation. Once she is happy with the workflow, Alice decides to create a Research Object. In doing so, she specifies the hypothesis, uploads the workflow and the workflow runs obtained as a result of enacting her workflow. Alice also specifies the conclusion that she comes to at the end of her investigation. Notice that myExperiment interacts with RODL, which acts as a back-end for myExperiment to store the information about Research Objects.
+
+
