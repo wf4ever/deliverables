@@ -3,50 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: D2.2v2.aux
 The style file: alpha.bst
 Database file #1: refs.bib.bib
-Warning--I didn't find a database entry for "D3.2v2"
-Warning--I didn't find a database entry for "D4.2v2"
-Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "COG11"
-Warning--I didn't find a database entry for "w3c-prov-o"
-You've used 10 entries,
+Warning--empty institution in w3c-prov-o
+You've used 18 entries,
             2543 wiz_defined-function locations,
-            637 strings with 7306 characters,
-and the built_in function-call counts, 5504 in all, are:
-= -- 502
-> -- 420
-< -- 3
-+ -- 157
-- -- 156
-* -- 458
-:= -- 952
-add.period$ -- 33
-call.type$ -- 10
-change.case$ -- 102
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 185
-empty$ -- 323
-format.name$ -- 160
-if$ -- 1100
-int.to.chr$ -- 1
+            671 strings with 8910 characters,
+and the built_in function-call counts, 9558 in all, are:
+= -- 887
+> -- 726
+< -- 6
++ -- 276
+- -- 270
+* -- 811
+:= -- 1669
+add.period$ -- 58
+call.type$ -- 18
+change.case$ -- 180
+chr.to.int$ -- 16
+cite$ -- 19
+duplicate$ -- 298
+empty$ -- 530
+format.name$ -- 275
+if$ -- 1878
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 54
-num.names$ -- 32
-pop$ -- 110
+missing$ -- 15
+newline$ -- 94
+num.names$ -- 54
+pop$ -- 167
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 197
 quote$ -- 0
-skip$ -- 135
+skip$ -- 238
 stack$ -- 0
-substring$ -- 162
-swap$ -- 33
-text.length$ -- 3
+substring$ -- 338
+swap$ -- 50
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
-warning$ -- 0
-while$ -- 40
-width$ -- 11
-write$ -- 139
-(There were 5 warnings)
+type$ -- 144
+warning$ -- 1
+while$ -- 71
+width$ -- 20
+write$ -- 242
+(There was 1 warning)

@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{MSRO{\etalchar{+}}10}
+\begin{thebibliography}{CFS{\etalchar{+}}06b}
 
 \bibitem[ABGK13]{summaryBigData13}
 Pinar Alper, Khalid Belhajjame, Carole Goble, and Pinar Karagoz.
@@ -17,11 +17,28 @@ Khalid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David
   discourse.
 \newblock In {\em Proceedings of Sepublica2012}, pages 1--12, 2012.
 
-\bibitem[CFS{\etalchar{+}}06]{Callahan06-vistrails}
+\bibitem[CFS{\etalchar{+}}06a]{vistrails}
 Steven~P. Callahan, Juliana Freire, Emanuele Santos, Carlos~E. Scheidegger,
   Cl‡udio~T. Silva, and Huy~T. Vo.
 \newblock Vistrails: Visualization meets data management.
 \newblock In {\em In ACM SIGMOD}, pages 745--747. ACM Press, 2006.
+
+\bibitem[CFS{\etalchar{+}}06b]{Callahan06-vistrails}
+Steven~P. Callahan, Juliana Freire, Emanuele Santos, Carlos~E. Scheidegger,
+  Cl‡udio~T. Silva, and Huy~T. Vo.
+\newblock Vistrails: Visualization meets data management.
+\newblock In {\em In ACM SIGMOD}, pages 745--747. ACM Press, 2006.
+
+\bibitem[COC{\etalchar{+}}11]{COG11}
+Paolo Ciccarese, Marco Ocana, Leyla J~Garcia Castro, Sudeshna Das, and Tim
+  Clark.
+\newblock An open annotation ontology for science on web 3.0.
+\newblock {\em J Biomed Semantics}, 2(Suppl 2):S4, May 2011.
+
+\bibitem[G{\etalchar{+}}05]{galaxy}
+B.~Giardine et~al.
+\newblock Galaxy: a platform for interactive large-scale genome analysis.
+\newblock {\em Genome Research}, 15(10):1451--1455, Oct 2005.
 
 \bibitem[GAB{\etalchar{+}}12]{garijo_Alper_2012}
 Daniel Garijo, Pinar Alper, Khalid Belhajjame, Oscar Corcho, Yolanda Gil, and
@@ -30,6 +47,18 @@ Daniel Garijo, Pinar Alper, Khalid Belhajjame, Oscar Corcho, Yolanda Gil, and
 \newblock In {\em 8th IEEE International Conference on eScience 2012}, 8th IEEE
   International Conference on eScience 2012, Chicago, 2012. IEEE Computer
   Society Press, USA.
+
+\bibitem[GC{\etalchar{+}}13a]{D4.2v2}
+Esteban Garci?a-Cuesta et~al.
+\newblock {Design, implementation and deployment of Workflow Integrity and
+  Authenticity Maintenance components ? Phase II}.
+\newblock Deliverable D4.2v2, Wf4Ever Project, 2013.
+
+\bibitem[GC{\etalchar{+}}13b]{D3.2v2}
+Rafael Gonza?lez-Cabero et~al.
+\newblock {Design, implementation and deployment of Workflow Evolution, Sharing
+  and Collaboration components ? Phase II}.
+\newblock Deliverable D3.2v2, Wf4Ever Project, 2013.
 
 \bibitem[GG11]{garijo_gil_2011}
 Daniel Garijo and Yolanda Gil.
@@ -60,6 +89,20 @@ Yolanda Gil, Varun Ratnakar, Jihie Kim, Pedro~A. Gonz{\'a}lez-Calero, Paul~T.
   experiments.
 \newblock {\em IEEE Intelligent Systems}, 26(1):62--72, 2011.
 
+\bibitem[LAB{\etalchar{+}}06]{kepler}
+Bertram Lud{\"a}scher, Ilkay Altintas, Chad Berkley, Dan Higgins, Efrat Jaeger,
+  Matthew Jones, Edward~A. Lee, Jing Tao, and Yang Zhao.
+\newblock Scientific workflow management and the kepler system.
+\newblock {\em Concurrency and Computation: Practice and Experience},
+  18(10):1039--1065, 2006.
+
+\bibitem[LSM{\etalchar{+}}13]{w3c-prov-o}
+Timothy Lebo, Satya Sahoo, Deborah McGuinness, Khalid Belhajjame, James Cheney,
+  David Corsar, Daniel Garijo, Stian Soiland-Reyes, Stephan Zednik, and Jun
+  Zhao.
+\newblock Prov-o: The prov ontology.
+\newblock Technical report, 2013.
+
 \bibitem[MDB{\etalchar{+}}13]{Missier2013a}
 Paolo Missier, Saumen Dey, Khalid Belhajjame, Victor Cuevas, and Bertram
   Ludaescher.
@@ -67,11 +110,20 @@ Paolo Missier, Saumen Dey, Khalid Belhajjame, Victor Cuevas, and Bertram
   structure.
 \newblock In {\em Procs. TAPP'13}, Lombard, IL, 2013.
 
-\bibitem[MSRO{\etalchar{+}}10]{Missier2010b}
-Paolo Missier, Stian Soiland-Reyes, Stuart Owen, Wei Tan, Alex Nenadic, Ian
-  Dunlop, Alan Williams, Tom Oinn, and Carole Goble.
-\newblock Taverna, reloaded.
-\newblock In M~Gertz, T~Hey, and B~Ludaescher, editors, {\em Procs. SSDBM
-  2010}, Heidelberg, Germany, 2010.
+\bibitem[RGS09]{DBLP:journals/fgcs/RoureGS09}
+David~De Roure, Carole~A. Goble, and Robert Stevens.
+\newblock The design and realisation of the my{E}xperiment virtual research
+  environment for social sharing of workflows.
+\newblock {\em Future Generation Comp. Syst.}, 25(5):561--567, 2009.
+
+\bibitem[WHF{\etalchar{+}}13]{taverna}
+Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David
+  Withers, Stuart Owen, Stian Soiland-Reyes, Ian Dunlop, Aleksandra Nenadic,
+  Paul Fisher, Jiten Bhagat, Khalid Belhajjame, Finn Bacall, Alex Hardisty,
+  Abraham~Nieva de~la Hidalga, Maria P.~Balcazar Vargas, Shoaib Sufi, and
+  Carole Goble.
+\newblock The taverna workflow suite: designing and executing workflows of web
+  services on the desktop, web or in the cloud.
+\newblock {\em Nucleic Acids Research}, 2013.
 
 \end{thebibliography}

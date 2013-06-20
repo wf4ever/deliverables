@@ -1,12 +1,13 @@
 \section{Workflow Abstraction using Motifs}
 \label{sec:abstraction}
 %Depending on the context of the deliverable, this first paragraph may be commented. 
-Scientific workflows have been increasingly used in the last decade as an instrument for data intensive science. Workflows serve a dual function: first, as detailed documentation of the scientific method used for an experiment (i. e. the input sources and processing steps taken for the derivation of a certain data item), and second, as re-usable, executable artifacts for data-intensive analysis. 
+%Scientific workflows have been increasingly used in the last decade as an instrument for data intensive science. 
+Workflows serve a dual function: first, as detailed documentation of the scientific method used for an experiment (i. e. the input sources and processing steps taken for the derivation of a certain data item), and second, as re-usable, executable artifacts for data-intensive analysis. 
 Scientific workflows are composed of a variety of data manipulation activities such as Data Movement, Data Transformation, Data Analysis and Data Visualization to serve the goals of the scientific study. The composition is done through the constructs made available by the workflow system used, and is largely shaped by the function undertaken by the workflow and the environment in which the system operates.
 
 A major difficulty in understanding workflows is their complex nature. A workflow may contain several scientifically-significant analysis steps, combined with other Data Preparation or result delivery activities, and in different implementation styles depending on the environment and context in which the workflow is executed. This difficulty in understanding stands in the way of reusing workflows.
 
-As a first step towards addressing this issue \cite{garijo_Alper_2012} describes a catalogue of domain independent conceptual abstractions for workflow steps called scientific Workflow Motifs. The catalogue was built based on an empirical analysis performed over 260 workflow descriptions from Taverna \cite{Missier2010b}, Wings \cite{DBLP:journals/expert/GilRKGGMD11}, Galaxy \cite{Goecks_Nekrutenko_Taylor_2010} and Vistrails \cite{Callahan06-vistrails}. Motifs are provided through i) a characterization of the kinds of data-oriented activities that are carried out within workflows, which are referred to as Data-Operation motifs, and ii) a characterization of the different manners in which those activity motifs are realized/implemented within workflows, referred to as Workflow-Oriented motifs. Figure \ref{fig:tav_wf_motifs} shows an example of a Taverna workflow with its motifs highlighted.
+As a first step towards addressing this issue \cite{garijo_Alper_2012} describes a catalogue of domain independent conceptual abstractions for workflow steps called scientific Workflow Motifs. The catalogue was built based on an empirical analysis performed over 260 workflow descriptions from Taverna \cite{taverna}, Wings \cite{DBLP:journals/expert/GilRKGGMD11}, Galaxy \cite{Goecks_Nekrutenko_Taylor_2010} and Vistrails \cite{Callahan06-vistrails}. Motifs are provided through i) a characterization of the kinds of data-oriented activities that are carried out within workflows, which are referred to as Data-Operation motifs, and ii) a characterization of the different manners in which those activity motifs are realized/implemented within workflows, referred to as Workflow-Oriented motifs. Figure \ref{fig:tav_wf_motifs} shows an example of a Taverna workflow with its motifs highlighted.
 
 \begin{figure*}[ht!]
 \centering
@@ -34,7 +35,7 @@ Workflows may be represented with different models and vocabularies like Wfdesc 
 
 \begin{figure*}[ht!]
 \centering
-\includegraphics[scale=0.3]{Figures/tav-wf-annotated.png}
+\includegraphics[scale=0.2]{Figures/tav-wf-annotated.png}
 \caption{Subset of the annotations of the Taverna workflow shown in Figure \ref{fig:tav_wf_motifs} using the wfdesc model.}
 \label{fig:annot-example}
 \end{figure*} 

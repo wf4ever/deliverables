@@ -1,10 +1,12 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces RO as an ORE aggregation.\relax }}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {2}{\ignorespaces The \textit {wfdesc} ontology.\relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {3}{\ignorespaces The \textit {wfprov} ontology.\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {4}{\ignorespaces The \textit {roevo} ontology extending PROV-O core terms.\relax }}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {5}{\ignorespaces RO Manager sequence diagram illustrating interactions with the user.\relax }}{12}{figure.caption.15}
-\contentsline {figure}{\numberline {6}{\ignorespaces RO-enabled myExperiment.\relax }}{14}{figure.caption.16}
-\contentsline {figure}{\numberline {7}{\ignorespaces A Sequence diagram illustrating how myExperiment can be used to create Research Objects.\relax }}{15}{figure.caption.17}
-\contentsline {figure}{\numberline {8}{\ignorespaces \leavevmode {\color {black}Sample motifs in a Taverna workflow for functional genomics. The workflow transfers data files containing proteomics data to a remote server and augments several parameters for the invocation request. Then the workflow waits for job completion and inquires about the state of the submitted warping job. Once the inquiry call is returned the results are downloaded from the remote server.}\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {9}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{17}{figure.caption.19}
-\contentsline {figure}{\numberline {10}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {1}{\ignorespaces Research Objects: Abstract model.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {2}{\ignorespaces Research Objects: Concrete model.\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {3}{\ignorespaces RO as an ORE aggregation.\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {4}{\ignorespaces The \textit {wfdesc} ontology.\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {5}{\ignorespaces The \textit {wfprov} ontology.\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {6}{\ignorespaces The \textit {roevo} ontology extending PROV-O core terms.\relax }}{11}{figure.caption.16}
+\contentsline {figure}{\numberline {7}{\ignorespaces RO Manager sequence diagram illustrating interactions with the user.\relax }}{13}{figure.caption.17}
+\contentsline {figure}{\numberline {8}{\ignorespaces RO-enabled myExperiment.\relax }}{15}{figure.caption.18}
+\contentsline {figure}{\numberline {9}{\ignorespaces A Sequence diagram illustrating how myExperiment can be used to create Research Objects.\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {10}{\ignorespaces \leavevmode {\color {black}Sample motifs in a Taverna workflow for functional genomics. The workflow transfers data files containing proteomics data to a remote server and augments several parameters for the invocation request. Then the workflow waits for job completion and inquires about the state of the submitted warping job. Once the inquiry call is returned the results are downloaded from the remote server.}\relax }}{17}{figure.caption.20}
+\contentsline {figure}{\numberline {11}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {12}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{18}{figure.caption.22}

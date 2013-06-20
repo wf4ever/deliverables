@@ -37,18 +37,17 @@
 \idyear{2013} %To adjust year for "Document Identifier"
 \title{D\delid\ Design, implementation and deployment of workflow
   lifecycle management components - Phase II}
-\coordinator{XX} %Del Coordinator
+\coordinator{Khalid Belhajjame} %Del Coordinator
 \institution{University of Manchester} %Del Coordinating Inst.
-\authors{XX} %Other authors
+\authors{Daniel Garijo, Graham Klyne} %Other authors
 \abstract{This deliverable describes the second phase of delivery of
   workflow lifecycle management components. It includes a description
   of the Research Object Model, which facilitates interoperation
-  between components; an initial Research Object Storage and Retrieval
-Service; RO Manager command line tool; and a definition of a model for
-workflow abstraction.}
+  between components; the RO Manager command line tool; the Research Object Digital Library; the RO-enabled myExperiment; and a definition of models for
+workflow abstraction and indexation.}
 \version{0.1} %Please fill out version
-\datesubmitted{June 1, 2013} %Submission date
-\datedue{July 31, 2013} %Date due
+\datesubmitted{June 30, 2013} %Submission date
+\datedue{June 30, 2013} %Date due
 \state{Draft} %State
 \distribution{Public} %Distribution (Public, Restricted, Confidential)
 
@@ -81,6 +80,7 @@ workflow abstraction.}
 0.3 & 12-06-2013 & Graham Klyne & Added the RO manager section \\ \hline
 0.4 & 14-06-2013 & Daniel Garijo & Added the workflow abstraction section \\ \hline
 0.5 & 14-06-2013 & Khalid Belhajjame & Added the introduction and a first draft of the myExperiment section \\ \hline
+0.6 & 14-06-2013 & Khalid Belhajjame & Revised all sections and added the summary section \\ \hline
 %&&&\\ \hline
 %&&&\\ \hline
 
@@ -101,15 +101,14 @@ The RO Model provides a framework for describing aggregations of
 content along with annotations of the aggregated resources, a
 vocabulary for describing workflows, and a vocabulary for describing
 provenance. The model underwent few changes in the last year in the light of user comments. 
-We provide here a summary of the new version of the RO model.
+We provide here the RO model.
 We also present the components developed for creating and managing Research Objects: the
-Research Object Storage and Retrieval API (implemented as part of the
-Research Object Digital Library (RODL)) and a command line tool -- the
-RO Manager. These components and services are also discussed in D1.2v3
-(Wf4Ever Sandbox -- Phase II), D1.3v1 (Wf4Ever Architecture -- Phase
-II) and D1.4v1 (Reference Wf4Ever Implementation -- Phase II). 
+RO Manager -- the
+Research Object Digital Library. These components and services are also discussed in D1.2v3
+(Wf4Ever Sandbox -- Phase II), D1.3v2 (Wf4Ever Architecture -- Phase
+II) and D1.4v2 (Reference Wf4Ever Implementation -- Phase II). 
 
-One of the main development in the last year consists in incorporating research objects within the myExperiment environment to allow scientists who already use myExperiment to create, share and reuse research objects. We discuss the efforts that went into this task, and report on an activity that we conducted to convert all existing Taverna T2 workflows into ROs.
+One of the main development in the last year consists in incorporating research objects within the myExperiment environment to allow scientists who already use myExperiment to create, share and reuse research objects. We discuss the efforts that went into this task.
 
 We  present advanced management functions that we developed for abstracting and indexing workflows, with the aim of supporting the discovery and reuse of workflows. We present an ontology that we developed for abstracting workflows in terms of motifs that characterize data manipulation and transformation patterns, which we term motifs. We also report on a solution that we developed for indexing workflows based on the services (processes) that they use.
 

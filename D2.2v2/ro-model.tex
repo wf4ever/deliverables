@@ -1,7 +1,24 @@
 \section{The Research Object Model}
 \label{sec:romodel}
 
-The RO model consists of  a family of ontologies organized into core and extensions, which we will present in this section.
+The design of the Research object model was informed by a systematic analysis of requirements expressed by scientists from the life sciences and astronomy fields. The results of such analysis are summarised in Figure \ref{fig:wm_abstract}, which distinguishes between core and extended requirements. There are three core requirements that have been identified, namely a mechanism for uniquely identifying Research Objects, a means for aggregating resources within a Research Object, and the ability to annotate the Research Object, its constituent resources and their relationships. Based on the core requirements, the extended requirements highlight the need for specifying workflows (experiments), provenance traces of their executions, the evolution of a Research object over time, as well as mechanisms for citing Research Objects, expressing their dependencies, etc.
+
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.4\textwidth]{Figures/wm_abstract.png}
+  \caption{Research Objects: Abstract model.}
+  \label{fig:wm_abstract}
+\end{figure}
+
+We have realized the Research Object abstract model illustrated in Figure \ref{fig:wm_abstract} in the form of a family of ontologies that are illustrated in Figure \ref{fig:wm_concrete}, which we will present in the rest of this section.  It is worth noting that some of the vocabularies, e.g., ORE\footnote{\url{www.openarchives.org/ore}} and OA ~\cite{COG11}, are existing vocabularies that we built on to specify our ontologies.
+
+ \begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.4\textwidth]{Figures/wm_concrete.png}
+  \caption{Research Objects: Concrete model.}
+  \label{fig:wm_concrete}
+\end{figure}
 
 \subsection{RO core ontology} 
 The Core RO Ontology provides the minimum terms that are essential to the specification of research objects. Specifically, it caters for two essential requirements by providing a container structure that can be used by the scientists to bundle the resources and material relevant for their investigation, and by enabling annotations of such a container, its resources, as well as the relationships between resources thereby making the research object interpretable and reusable. 
@@ -86,3 +103,5 @@ Figure~\ref{fig:ro_evo} illustrates the core concepts of this ontology and how i
 \item Both a snapshot of a live Research Object and an archived Research Object can be regarded as a versioned Research Object, i.e. a \texttt{roevo:VersionableResource}, Because it is a sub-class of \texttt{prov:Entity}, we can reuse PROV-O properties to describe the provenance or changes of this entity, such as pointing to the activity leading to any of its changes, the source research object that it was derived from, and the agent involved in its change.
 \item A change is a \texttt{prov:Activity}, which means that it has a start time, an end time, an input entity and a resulting entity. Also a change leading to a new Research Object can constitute a series of changes. Therefore, we have a composite \texttt{roevo:ChangeSpecification} activity, which has a number of unit \texttt{roevo:Change}s. A unit change can be adding, removing or modifying a resource or a research object. But these different changes share the same pattern of taking an input entity and producing an output entity, which can all be nicely covered by properties from PROV-O.
 \end{itemize}
+
+As well as the above vocabularies, the Research Object model makes use of existing vocabularies, in particular, FOF\footnote{\url{http://xmlns.com/foaf/spec/}}, DCTerms\footnote{\url{http://dublincore.org/documents/dcmi-terms/}}, CITO\footnote{\url{http://vocab.ox.ac.uk/cito}}, and SCIOC\footnote{\url{http://sioc-project.org/ontology}} to provide Research Objects designers with the means to expresse aspects such as the people who were involved in the creation of a Research Object, its citation, as well as dependencies that the Research Object may have. For instance, we make use of the term \texttt{dc:requires} to specify that a the execution of a workflow requires other resources, e.g., plugins, credential, or specific execution environment.
