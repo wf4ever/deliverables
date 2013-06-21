@@ -1,12 +1,30 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: D2.2v2.aux
+Case mismatch error between cite keys ro_model and RO_model
+---line 114 of file D2.2v2.aux
+ : \citation{ro_model
+ :                   }
+I'm skipping whatever remains of this command
 The style file: alpha.bst
 Database file #1: refs.bib.bib
+Warning--I didn't find a database entry for "RO-API"
+Warning--I didn't find a database entry for "RO-EVO-API"
+Warning--I didn't find a database entry for "w4fever_d321"
+Warning--I didn't find a database entry for "Notification-API"
+Warning--I didn't find a database entry for "UM-API"
+Warning--I didn't find a database entry for "dLibra"
+Warning--I didn't find a database entry for "Jena"
+Warning--I didn't find a database entry for "dArceo"
+Warning--I didn't find a database entry for "Checklist-API"
+Warning--I didn't find a database entry for "Stability-API"
+Warning--I didn't find a database entry for "Platon"
+Warning--I didn't find a database entry for "myExperiment"
+Warning--I didn't find a database entry for "RO-Manager"
 Warning--empty institution in w3c-prov-o
 You've used 18 entries,
             2543 wiz_defined-function locations,
-            671 strings with 8910 characters,
+            697 strings with 9146 characters,
 and the built_in function-call counts, 9558 in all, are:
 = -- 887
 > -- 726
@@ -45,4 +63,4 @@ warning$ -- 1
 while$ -- 71
 width$ -- 20
 write$ -- 242
-(There was 1 warning)
+(There was 1 error message)
