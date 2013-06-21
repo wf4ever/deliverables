@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Introduction}{7}{section.1}
+\contentsline {section}{\numberline {2}The Research Object Model}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}RO core ontology}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}RO Extension Ontologies}{9}{subsection.2.2}
+\contentsline {paragraph}{Specifying Workflows}{9}{section*.11}
+\contentsline {paragraph}{Describing Experimental Provenance using the \textit {wfprov} Vocabulary}{10}{section*.13}
+\contentsline {paragraph}{Tracking Research Object Evolution using the \textit {roevo} Vocabulary}{11}{section*.15}
+\contentsline {section}{\numberline {3}Research Object Manager}{12}{section.3}
+\contentsline {section}{\numberline {4}Research Object Digital Library}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}The interfaces}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}The implementation}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}RODL clients}{17}{subsection.4.3}
+\contentsline {section}{\numberline {5}Research Object-Enabled myExperiment}{19}{section.5}
+\contentsline {section}{\numberline {6}Workflow Abstraction using Motifs}{20}{section.6}
+\contentsline {subsection}{\numberline {6.1}Representing Motifs}{21}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Representing Workflows and Workflow Steps}{22}{subsection.6.2}
+\contentsline {section}{\numberline {7}Indexing Workflows}{23}{section.7}
+\contentsline {section}{\numberline {8}Summary}{23}{section.8}
+\contentsline {section}{Bibliography}{24}{section.8}
