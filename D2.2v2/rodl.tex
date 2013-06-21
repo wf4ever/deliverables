@@ -33,13 +33,72 @@ The access components are the storage backend - dLibra \cite{dLibra} - and the s
 
 The semantic metadata are additionally parsed and stored in the triplestore backed by Jena TDB \cite{Jena}. Jena TDB is an actively developed RDF store implementation, which provides good support for transactions, querying, cacheing and using named graphs. The use of a triplestore helps in RODL internal data processing and offers a standard query mechanism for RODL clients. It also provides a flexible mechanism for storing metadata about any component of a research object that is identiable via a URI, which apart from workflows and other resources, may include parts of workflows or external resources (e.g. web services, data sources).
 
-The longterm preservation component is built on dArceo \cite{dArceo} - a system for longterm preservation of digital objects developed by PSNC. dArceo stores the objects and monitors their quality, alerting the administrators if necessary. The standard monitoring activities include file format decay alerts and fixity checking but can be enhanced using a plugin mechanism. In case of RODL, dArceo monitors the quality of research objects by calling the Checklist Evaluation and Stability Services \cite{Checklist-API,Stability-API}. If a change in quality is detected, notifications are generated as Atom feeds in compliance with the Notification API mentioned above. This helps detect and prevent workflow decay which occurs when an external resource or service used by the workflow becomes unavailable or is otherwise behaving differently.
+The UML sequence diagrams illustrate the interactions between the controller, the storage backend and the triplestore for the basic operations of creating a research object and aggregating resources to it (\ref{ROCreate,RODelete,ResourceAdd,ResourceUpdate,ResourceDelete}). Creating immutable snapshots of research objects is a more complex process which involves copying the resources, recording their provenance, optional modifications by the user and finally releasing as a published, immutable object. Figure \ref{SnapshotClient} shows how RODL clients can perform these steps via the RO Evolution API. Figures \ref{SnapshotPerform,SnapshotFinalize} present the interaction between internal RODL components when performing the process of creating the snapshot.
+
+The longterm preservation component is built on dArceo \cite{dArceo} - a system for longterm preservation of digital objects developed by PSNC. dArceo stores the objects and monitors their quality, alerting the administrators if necessary. The standard monitoring activities include file format decay alerts and fixity checking but can be enhanced using a plugin mechanism. In case of RODL, dArceo periodically monitors the quality of research objects by calling the Checklist Evaluation and Stability Services \cite{Checklist-API,Stability-API}. If a change in quality is detected, notifications are generated as Atom feeds in compliance with the Notification API mentioned above. This helps detect and prevent workflow decay which occurs when an external resource or service used by the workflow becomes unavailable or is otherwise behaving differently.
 
 dArceo gives the possibility to define migration plans that allow to perform a batch update of resources from one format to another, when necessary. In case of workflows, this may be applied for instance when a flat Taverna t2flow format should be converted to a complex scufl2 format (which, notabene, uses the RO model similarly to research objects). Other case could be a batch update of workflows that depend on a malfunctioning external resource.
 
 Objects in dArceo can be stored on a range of backends, including specialized preservation repositories such as the Platon service \cite{Platon}, storing data in geographically distributed copies and guaranteeing their consistency.
 
 A running instance of the RODL is available for testing at \url{http://sandbox.wf4ever-project.org/rodl/}. At the moment of writing, it holds more than 1300 research objects.
+
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\ROcreate.gif}
+\caption{The sequence diagram for creating a research object in RODL}
+\label{ROCreate}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\ROdelete.gif}
+\caption{The sequence diagram for deleting a research object from RODL}
+\label{RODelete}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\ResourceAdd.gif}
+\caption{The sequence diagram for aggregating a new resource in a research object}
+\label{ResourceAdd}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\ResourceUpdate.gif}
+\caption{The sequence diagram for updating an existing resource in a research object}
+\label{ResourceUpdate}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\ResourceDelete.gif}
+\caption{The sequence diagram for deleting a resource from a research object}
+\label{ResourceDelete}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\SnapshotClient.gif}
+\caption{The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective}
+\label{SnapshotClient}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\SnapshotPerform.gif}
+\caption{The sequence diagram for preparing the snapshot of a research object}
+\label{SnapshotPerform}
+\end{figure}
+
+\begin{figure}[!hb]
+\centering
+\includegraphics[width=\textwidth]{Figures\RODL\SnapshotFinalize.gif}
+\caption{The sequence diagram for finalizing the snapshot and making it immutable}
+\label{SnapshotFinalize}
+\end{figure}
 
 \subsection{RODL clients}
 
