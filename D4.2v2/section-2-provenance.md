@@ -134,7 +134,7 @@ Within the Wf4Ever project, provenance information has been used in a number of 
 
 The [RO Portal][RO_Portal] displays RO evolution traces under the `history` tab of a Research Object page, based on stored ROEVO provenance information.
 
-(@@add screenshot)
+![RO evolution provenance displaved by RO Portal](Figures/roevo-screenshot.png)
 
 [RO_Portal]: http://sandbox.wf4ever-project.org/portal/ (Research Object Digital Library (RODL) portal)
 
