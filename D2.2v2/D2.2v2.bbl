@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{CFS{\etalchar{+}}06b}
+\begin{thebibliography}{GCPGC12}
 
 \bibitem[ABGK13]{summaryBigData13}
 Pinar Alper, Khalid Belhajjame, Carole Goble, and Pinar Karagoz.
@@ -8,7 +8,7 @@ Pinar Alper, Khalid Belhajjame, Carole Goble, and Pinar Karagoz.
 \newblock In {\em Proceedings of the IEEE 2nd International Congress on Big
   Data (BigData 2013)}, Santa Clara, CA, USA, June 2013.
 
-\bibitem[BCG{\etalchar{+}}12]{ro_model}
+\bibitem[BCG{\etalchar{+}}12]{RO_model}
 Khalid Belhajjame, Oscar Corcho, Daniel Garijo, Jun Zhao, Paolo Missier, David
   Newman, Raul Palma, Sean Bechhofer, Esteban Garcia-Cuesta, Jose-Manuel
   Gomez-Perez, Graham Klyne, Kevin Page, Marco Roos, Jose~Enrique Ruiz, Stian
@@ -29,11 +29,33 @@ Steven~P. Callahan, Juliana Freire, Emanuele Santos, Carlos~E. Scheidegger,
 \newblock Vistrails: Visualization meets data management.
 \newblock In {\em In ACM SIGMOD}, pages 745--747. ACM Press, 2006.
 
+\bibitem[Che]{Checklist-API}
+{C}hecklist {E}valuation {API}.
+\newblock
+  \url{http://wf4ever-project.org/wiki/display/docs/RO+checklist+evaluation+API}.
+\newblock [Online; accessed 20-May-2013].
+
 \bibitem[COC{\etalchar{+}}11]{COG11}
 Paolo Ciccarese, Marco Ocana, Leyla J~Garcia Castro, Sudeshna Das, and Tim
   Clark.
 \newblock An open annotation ontology for science on web 3.0.
 \newblock {\em J Biomed Semantics}, 2(Suppl 2):S4, May 2011.
+
+\bibitem[dAr]{dArceo}
+d{A}rceo.
+\newblock \url{http://dlab.psnc.pl/darceo/}.
+\newblock [Online; accessed 20-May-2013].
+
+\bibitem[dLi]{dLibra}
+d{L}ibra.
+\newblock \url{http://dlab.psnc.pl/dlibra/}.
+\newblock [Online; accessed 20-May-2013].
+
+\bibitem[DRHPP13]{w4fever_d132}
+David De~Roure, Piotr Ho\l{}ubowicz, Kevin Page, and Ra{\'u}l Palma.
+\newblock D3.2v1: Design, implementation and deployment of workflow evolution,
+  sharing and collaboration components.
+\newblock Technical report, University of Oxford, March 2013.
 
 \bibitem[G{\etalchar{+}}05]{galaxy}
 B.~Giardine et~al.
@@ -59,6 +81,12 @@ Rafael Gonza?lez-Cabero et~al.
 \newblock {Design, implementation and deployment of Workflow Evolution, Sharing
   and Collaboration components ? Phase II}.
 \newblock Deliverable D3.2v2, Wf4Ever Project, 2013.
+
+\bibitem[GCPGC12]{w4fever_d321}
+Rafael Gonz{\'a}lez-Cabero, Ra{\'u}l Palma, and Esteban Garc{\'i}a~Cuesta.
+\newblock D3.2v1: Design, implementation and deployment of workflow evolution,
+  sharing and collaboration components.
+\newblock Technical report, Universidad Polit{\'e}cnica de Madrid, July 2012.
 
 \bibitem[GG11]{garijo_gil_2011}
 Daniel Garijo and Yolanda Gil.
@@ -89,6 +117,11 @@ Yolanda Gil, Varun Ratnakar, Jihie Kim, Pedro~A. Gonz{\'a}lez-Calero, Paul~T.
   experiments.
 \newblock {\em IEEE Intelligent Systems}, 26(1):62--72, 2011.
 
+\bibitem[Jen13]{Jena}
+{A}pache {J}ena.
+\newblock \url{http://jena.apache.org/}, 2013.
+\newblock [Online; accessed 20-May-2013].
+
 \bibitem[LAB{\etalchar{+}}06]{kepler}
 Bertram Lud{\"a}scher, Ilkay Altintas, Chad Berkley, Dan Higgins, Efrat Jaeger,
   Matthew Jones, Edward~A. Lee, Jing Tao, and Yang Zhao.
@@ -110,11 +143,42 @@ Paolo Missier, Saumen Dey, Khalid Belhajjame, Victor Cuevas, and Bertram
   structure.
 \newblock In {\em Procs. TAPP'13}, Lombard, IL, 2013.
 
+\bibitem[Not]{Notification-API}
+{N}otification {API}.
+\newblock \url{http://wf4ever-project.org/wiki/display/docs/Notification+API}.
+\newblock [Online; accessed 20-May-2013].
+
+\bibitem[Pla13]{Platon}
+{PLATON} - {S}cience {S}ervices {P}latform.
+\newblock Technical report, PIONIER Consortium, 2013.
+\newblock [Online; accessed 20-May-2013].
+
 \bibitem[RGS09]{DBLP:journals/fgcs/RoureGS09}
 David~De Roure, Carole~A. Goble, and Robert Stevens.
 \newblock The design and realisation of the my{E}xperiment virtual research
   environment for social sharing of workflows.
 \newblock {\em Future Generation Comp. Syst.}, 25(5):561--567, 2009.
+
+\bibitem[RO-a]{RO-API}
+{RO} {API}.
+\newblock \url{http://wf4ever-project.org/wiki/display/docs/RO+API+6}.
+\newblock [Online; accessed 20-May-2013].
+
+\bibitem[RO-b]{RO-EVO-API}
+{RO} {E}volution {API}.
+\newblock \url{http://wf4ever-project.org/wiki/display/docs/RO+evolution+API}.
+\newblock [Online; accessed 20-May-2013].
+
+\bibitem[Sta]{Stability-API}
+{S}tability {E}valuation {API}.
+\newblock
+  \url{http://wf4ever-project.org/wiki/display/docs/Stability+Evaluation+API}.
+\newblock [Online; accessed 20-May-2013].
+
+\bibitem[UM-]{UM-API}
+{U}ser {M}anagement {API}.
+\newblock \url{http://wf4ever-project.org/wiki/display/docs/User+Management+2}.
+\newblock [Online; accessed 20-May-2013].
 
 \bibitem[WHF{\etalchar{+}}13]{taverna}
 Katherine Wolstencroft, Robert Haines, Donal Fellows, Alan Williams, David
