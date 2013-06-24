@@ -164,21 +164,32 @@ For this purpose, provenance information was extracted from a Taverna-generated 
 [WF_Conversion]: https://github.com/wf4ever/ro-catalogue/blob/master/v0.1/Kegg-workflow-evaluation/wf_conversion.sh#L142 (Workflow conversion script used as part of KEGG decay detection work)
 
 
-### Workflow abstraction and proveance summarization
+### Workflow execution motifs
 
 (Motifs/Workflow abstraction - differencing using templates vs. provenance)
 
 > This belongs to the apps of provenance section though not sure if that should be added. It has to do with using provenance for detecting executing motifs and patterns. Lets just hold it and decide later how to explain it as part of the Dani's work. (Esteban)
 
+> Finding executed motifs of workflows. (Esteban)
+
 (Jun mentions paper in DropBox - FGCS-motif-extended-paper - )
 
 (Also KCAP 2013)
 
+(check no overlap with WP2 - Jun)
+
+
+### Proveance summarization
+
 > It seems to me like there is not that much work done in provenance applications but definitely this information should be included in the deliverable. The applications that have been identified so far are provenance querying and summarization (Pinar's work), provenance inclusion in the RO (e.g. for completeness evaluation), provenance for the discovery of executed motifs, and provenance visualization.  (Esteban)
 
-(Dropbox paper: bigdata 2013)
+(Dropbox paper: bigdata 2013 - Small Is Beautiful: Summarizing Scientific Workflows Using Semantic Annotations)
 
-(check no overlap with WP2)
+> Provenance summarization is related with using provenance information for summarizing the RO
+
+(I note this work builds upon the motifs work - should they be covered together?)
+
+(check no overlap with WP2 - Jun)
 
 
 ### Ongoing work
