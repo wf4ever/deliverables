@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  21 JUN 2013 17:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 JUN 2013 11:26
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**D2.2v2
+**D2.2v2.tex
 (./D2.2v2.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -555,7 +556,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
  [3]
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 125.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 128.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
 
 [4
@@ -584,12 +585,12 @@ File: t1fi4.fd 2009/05/28 T1/Inconsolata
 File: wf4everLogo.pdf Graphic file (type pdf)
 
 <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 135.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 138.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [6
 
 ] (./intro.tex) (./ro-model.tex
-<Figures/wm_abstract.png, id=214, 357.4956pt x 277.9986pt>
+<Figures/wm_abstract.png, id=212, 357.4956pt x 277.9986pt>
 File: Figures/wm_abstract.png Graphic file (type png)
 
 <use Figures/wm_abstract.png>
@@ -602,7 +603,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 14.
 
-<Figures/wm_concrete.png, id=221, 344.9688pt x 272.217pt>
+<Figures/wm_concrete.png, id=219, 344.9688pt x 272.217pt>
 File: Figures/wm_concrete.png Graphic file (type png)
 
 <use Figures/wm_concrete.png>
@@ -617,7 +618,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
  [7
 
 ]
-<Figures/ro_ontology_1.png, id=235, 546.843pt x 233.1912pt>
+<Figures/ro_ontology_1.png, id=233, 546.843pt x 233.1912pt>
 File: Figures/ro_ontology_1.png Graphic file (type png)
 
 <use Figures/ro_ontology_1.png>
@@ -634,7 +635,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.27998pt on input line 53.
 
-<Figures/wfdesc.png, id=255, 563.706pt x 452.4102pt>
+<Figures/wfdesc.png, id=253, 563.706pt x 452.4102pt>
 File: Figures/wfdesc.png Graphic file (type png)
  <use Figures/wfdesc.png>
 Package pdftex.def Info: Figures/wfdesc.png used on input line 57.
@@ -646,7 +647,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 10.07397pt on input line 74.
 
-[9] <Figures/wfprov.png, id=271, 615.7404pt x 421.575pt>
+[9] <Figures/wfprov.png, id=269, 615.7404pt x 421.575pt>
 File: Figures/wfprov.png Graphic file (type png)
 
 <use Figures/wfprov.png>
@@ -656,7 +657,7 @@ File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
 Package pdftex.def Info: wf4everLogo.pdf used on input line 92.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [10 <./Figures/wfdesc.png> <./Figures/wfprov.png>] <Figures/roevo.png, id=283,
+ [10 <./Figures/wfdesc.png> <./Figures/wfprov.png>] <Figures/roevo.png, id=281,
  707.7642pt x 395.076pt>
 File: Figures/roevo.png Graphic file (type png)
 
@@ -664,7 +665,7 @@ File: Figures/roevo.png Graphic file (type png)
 Package pdftex.def Info: Figures/roevo.png used on input line 95.
 (pdftex.def)             Requested size: 287.4895pt x 160.47511pt.
 ) [11 <./Figures/roevo.png>] (./romanager.tex
-<Figures/RO_Manager_seq.png, id=308, 596.9502pt x 845.0772pt>
+<Figures/RO_Manager_seq.png, id=306, 596.9502pt x 845.0772pt>
 File: Figures/RO_Manager_seq.png Graphic file (type png)
 
 <use Figures/RO_Manager_seq.png>
@@ -682,836 +683,221 @@ File: wf4everLogo.pdf Graphic file (type pdf)
 Package pdftex.def Info: wf4everLogo.pdf used on input line 123.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [12] [13 <./Figures/RO_Manager_seq.png>]) (./rodl.tex
-
-LaTeX Warning: Reference `architecture' on page 14 undefined on input line 6.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        -new
-l.10 ...cs[width=\textwidth]{Figures\RODL-new.png}
-                                                  
-? !pdf
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? ^^L^^L^^L^^L^^L^^L^^L^^L^^L^^L
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? 
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           -new.png' not found\on@line .
-l.10 ...cs[width=\textwidth]{Figures\RODL-new.png}
-                                                  
-? 
-
-LaTeX Warning: File `Figures-new.png' not found on input line 10.
-
-
-! Package pdftex.def Error: File `Figures-new.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...cs[width=\textwidth]{Figures\RODL-new.png}
-                                                  
-? q
-OK, entering \batchmode...
-
-LaTeX Warning: Citation `RO-API' on page 14 undefined on input line 18.
-
-
-LaTeX Warning: Citation `RO-EVO-API' on page 14 undefined on input line 18.
-
-
-LaTeX Warning: Citation `w4fever_d321' on page 14 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Notification-API' on page 14 undefined on input line 2
-4.
-
-
-LaTeX Warning: Citation `UM-API' on page 14 undefined on input line 24.
-
 File: wf4everLogo.pdf Graphic file (type pdf)
- <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 31.
+
+<use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 24.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [14]
+<Figures/RODL-new.png, id=368, 716.4366pt x 396.0396pt>
+File: Figures/RODL-new.png Graphic file (type png)
 
-LaTeX Warning: Citation `dLibra' on page 15 undefined on input line 32.
+<use Figures/RODL-new.png>
+Package pdftex.def Info: Figures/RODL-new.png used on input line 27.
+(pdftex.def)             Requested size: 479.1443pt x 264.87378pt.
+ [15 <./Figures/RODL-new.png>]
+<Figures/RODL/ROcreate.png, id=397, 1009.7725pt x 369.38pt>
+File: Figures/RODL/ROcreate.png Graphic file (type png)
 
+<use Figures/RODL/ROcreate.png>
+Package pdftex.def Info: Figures/RODL/ROcreate.png used on input line 50.
+(pdftex.def)             Requested size: 479.1443pt x 175.27132pt.
 
-LaTeX Warning: Citation `Jena' on page 15 undefined on input line 34.
+<Figures/RODL/ROdelete.png, id=398, 1009.7725pt x 367.3725pt>
+File: Figures/RODL/ROdelete.png Graphic file (type png)
 
+<use Figures/RODL/ROdelete.png>
+Package pdftex.def Info: Figures/RODL/ROdelete.png used on input line 57.
+(pdftex.def)             Requested size: 479.1443pt x 174.31876pt.
 
-Underfull \vbox (badness 2626) has occurred while \output is active []
+<Figures/RODL/ResourceAdd.png, id=399, 1009.7725pt x 409.53pt>
+File: Figures/RODL/ResourceAdd.png Graphic file (type png)
 
- [15]
+<use Figures/RODL/ResourceAdd.png>
+Package pdftex.def Info: Figures/RODL/ResourceAdd.png used on input line 64.
+(pdftex.def)             Requested size: 479.1443pt x 194.32256pt.
 
-LaTeX Warning: Reference `ROCreate,RODelete,ResourceAdd,ResourceUpdate,Resource
-Delete' on page 16 undefined on input line 36.
+<Figures/RODL/ResourceUpdate.png, id=400, 1009.7725pt x 407.5225pt>
+File: Figures/RODL/ResourceUpdate.png Graphic file (type png)
 
+<use Figures/RODL/ResourceUpdate.png>
+Package pdftex.def Info: Figures/RODL/ResourceUpdate.png used on input line 71.
 
-LaTeX Warning: Reference `SnapshotPerform,SnapshotFinalize' on page 16 undefine
-d on input line 36.
+(pdftex.def)             Requested size: 479.1443pt x 193.37pt.
 
+<Figures/RODL/ResourceDelete.png, id=401, 1009.7725pt x 405.515pt>
+File: Figures/RODL/ResourceDelete.png Graphic file (type png)
 
-LaTeX Warning: Citation `dArceo' on page 16 undefined on input line 38.
+<use Figures/RODL/ResourceDelete.png>
+Package pdftex.def Info: Figures/RODL/ResourceDelete.png used on input line 78.
 
+(pdftex.def)             Requested size: 479.1443pt x 192.41742pt.
 
-LaTeX Warning: Citation `Checklist-API' on page 16 undefined on input line 38.
+<Figures/RODL/SnapshotClient.png, id=402, 549.05125pt x 885.3075pt>
+File: Figures/RODL/SnapshotClient.png Graphic file (type png)
 
+<use Figures/RODL/SnapshotClient.png>
+Package pdftex.def Info: Figures/RODL/SnapshotClient.png used on input line 85.
 
-LaTeX Warning: Citation `Stability-API' on page 16 undefined on input line 38.
+(pdftex.def)             Requested size: 479.1443pt x 772.60234pt.
 
 
-LaTeX Warning: Citation `Platon' on page 16 undefined on input line 42.
+LaTeX Warning: Float too large for page by 114.13255pt on input line 88.
 
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \ROcreate 
-l.49 ...dth=\textwidth]{Figures\RODL\ROcreate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<Figures/RODL/SnapshotPerform.png, id=403, 768.8725pt x 505.89pt>
+File: Figures/RODL/SnapshotPerform.png Graphic file (type png)
 
-! Undefined control sequence.
-<argument> Figures\RODL \ROcreate 
-                                  
-l.49 ...dth=\textwidth]{Figures\RODL\ROcreate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<use Figures/RODL/SnapshotPerform.png>
+Package pdftex.def Info: Figures/RODL/SnapshotPerform.png used on input line 92
+.
+(pdftex.def)             Requested size: 479.1443pt x 315.26959pt.
 
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \ROcreate .gif' not found\on@line .
-l.49 ...dth=\textwidth]{Figures\RODL\ROcreate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<Figures/RODL/SnapshotFinalize.png, id=404, 768.8725pt x 305.14pt>
+File: Figures/RODL/SnapshotFinalize.png Graphic file (type png)
 
-! Undefined control sequence.
-<write> ... Warning: File `Figures\RODL \ROcreate 
-                                                  .gif' not found\on@line .
-l.49 ...dth=\textwidth]{Figures\RODL\ROcreate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<use Figures/RODL/SnapshotFinalize.png>
+Package pdftex.def Info: Figures/RODL/SnapshotFinalize.png used on input line 9
+9.
+(pdftex.def)             Requested size: 479.1443pt x 190.1626pt.
 
+<Figures/RODL/dArceoStore.png, id=405, 746.79pt x 224.84pt>
+File: Figures/RODL/dArceoStore.png Graphic file (type png)
 
-LaTeX Warning: File `Figures.gif' not found on input line 49.
+<use Figures/RODL/dArceoStore.png>
+Package pdftex.def Info: Figures/RODL/dArceoStore.png used on input line 106.
+(pdftex.def)             Requested size: 479.1443pt x 144.25734pt.
 
+<Figures/RODL/dArceoQuality.png, id=406, 1178.4025pt x 576.1525pt>
+File: Figures/RODL/dArceoQuality.png Graphic file (type png)
 
-! LaTeX Error: Unknown graphics extension: .gif.
+<use Figures/RODL/dArceoQuality.png>
+Package pdftex.def Info: Figures/RODL/dArceoQuality.png used on input line 113.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 ...dth=\textwidth]{Figures\RODL\ROcreate.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \ROdelete 
-l.56 ...dth=\textwidth]{Figures\RODL\ROdelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \ROdelete 
-                                  
-l.56 ...dth=\textwidth]{Figures\RODL\ROdelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \ROdelete .gif' not found\on@line .
-l.56 ...dth=\textwidth]{Figures\RODL\ROdelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ... Warning: File `Figures\RODL \ROdelete 
-                                                  .gif' not found\on@line .
-l.56 ...dth=\textwidth]{Figures\RODL\ROdelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 56.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...dth=\textwidth]{Figures\RODL\ROdelete.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \ResourceAdd 
-l.63 ...=\textwidth]{Figures\RODL\ResourceAdd.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \ResourceAdd 
-                                     
-l.63 ...=\textwidth]{Figures\RODL\ResourceAdd.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \ResourceAdd .gif' not found\on@l...
-l.63 ...=\textwidth]{Figures\RODL\ResourceAdd.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...rning: File `Figures\RODL \ResourceAdd 
-                                                  .gif' not found\on@line .
-l.63 ...=\textwidth]{Figures\RODL\ResourceAdd.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 63.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...=\textwidth]{Figures\RODL\ResourceAdd.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \ResourceUpdate 
-l.70 ...extwidth]{Figures\RODL\ResourceUpdate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \ResourceUpdate 
-                                        
-l.70 ...extwidth]{Figures\RODL\ResourceUpdate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \ResourceUpdate .gif' not found\o...
-l.70 ...extwidth]{Figures\RODL\ResourceUpdate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...ng: File `Figures\RODL \ResourceUpdate 
-                                                  .gif' not found\on@line .
-l.70 ...extwidth]{Figures\RODL\ResourceUpdate.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 70.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 ...extwidth]{Figures\RODL\ResourceUpdate.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \ResourceDelete 
-l.77 ...extwidth]{Figures\RODL\ResourceDelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \ResourceDelete 
-                                        
-l.77 ...extwidth]{Figures\RODL\ResourceDelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \ResourceDelete .gif' not found\o...
-l.77 ...extwidth]{Figures\RODL\ResourceDelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...ng: File `Figures\RODL \ResourceDelete 
-                                                  .gif' not found\on@line .
-l.77 ...extwidth]{Figures\RODL\ResourceDelete.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 77.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 ...extwidth]{Figures\RODL\ResourceDelete.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \SnapshotClient 
-l.84 ...extwidth]{Figures\RODL\SnapshotClient.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \SnapshotClient 
-                                        
-l.84 ...extwidth]{Figures\RODL\SnapshotClient.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \SnapshotClient .gif' not found\o...
-l.84 ...extwidth]{Figures\RODL\SnapshotClient.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...ng: File `Figures\RODL \SnapshotClient 
-                                                  .gif' not found\on@line .
-l.84 ...extwidth]{Figures\RODL\SnapshotClient.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 84.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...extwidth]{Figures\RODL\SnapshotClient.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \SnapshotPerform 
-l.91 ...xtwidth]{Figures\RODL\SnapshotPerform.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \SnapshotPerform 
-                                         
-l.91 ...xtwidth]{Figures\RODL\SnapshotPerform.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \SnapshotPerform .gif' not found\...
-l.91 ...xtwidth]{Figures\RODL\SnapshotPerform.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...g: File `Figures\RODL \SnapshotPerform 
-                                                  .gif' not found\on@line .
-l.91 ...xtwidth]{Figures\RODL\SnapshotPerform.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 91.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 ...xtwidth]{Figures\RODL\SnapshotPerform.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \SnapshotFinalize 
-l.98 ...twidth]{Figures\RODL\SnapshotFinalize.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \SnapshotFinalize 
-                                          
-l.98 ...twidth]{Figures\RODL\SnapshotFinalize.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \SnapshotFinalize .gif' not found...
-l.98 ...twidth]{Figures\RODL\SnapshotFinalize.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...: File `Figures\RODL \SnapshotFinalize 
-                                                  .gif' not found\on@line .
-l.98 ...twidth]{Figures\RODL\SnapshotFinalize.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 98.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 ...twidth]{Figures\RODL\SnapshotFinalize.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \dArceoStore 
-l.105 ...\textwidth]{Figures\RODL\dArceoStore.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \dArceoStore 
-                                     
-l.105 ...\textwidth]{Figures\RODL\dArceoStore.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \dArceoStore .gif' not found\on@l...
-l.105 ...\textwidth]{Figures\RODL\dArceoStore.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...rning: File `Figures\RODL \dArceoStore 
-                                                  .gif' not found\on@line .
-l.105 ...\textwidth]{Figures\RODL\dArceoStore.gif}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.gif' not found on input line 105.
-
-
-! LaTeX Error: Unknown graphics extension: .gif.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.105 ...\textwidth]{Figures\RODL\dArceoStore.gif}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> Figures\RODL 
-                        \dArceoQuality 
-l.112 ...extwidth]{Figures\RODL\dArceoQuality.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> Figures\RODL \dArceoQuality 
-                                       
-l.112 ...extwidth]{Figures\RODL\dArceoQuality.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RODL 
-                                           \dArceoQuality .png' not found\on...
-l.112 ...extwidth]{Figures\RODL\dArceoQuality.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...ing: File `Figures\RODL \dArceoQuality 
-                                                  .png' not found\on@line .
-l.112 ...extwidth]{Figures\RODL\dArceoQuality.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `Figures.png' not found on input line 112.
-
-
-! Package pdftex.def Error: File `Figures.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...extwidth]{Figures\RODL\dArceoQuality.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+(pdftex.def)             Requested size: 479.1443pt x 234.26357pt.
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 120.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 126.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [16]
+ [16 <./Figures/RODL/ROcreate.png> <./Figures/RODL/ROdelete.png>]
 
-LaTeX Warning: Citation `myExperiment' on page 17 undefined on input line 121.
-
-
-LaTeX Warning: Citation `RO-Manager' on page 17 undefined on input line 121.
-
- [17]
-! Undefined control sequence.
-<argument> Figures\RO 
-                      -Portal-II
-l.125 ...0.98\textwidth]{Figures\RO-Portal-II.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> 
-LaTeX Warning: File `Figures\RO 
-                                         -Portal-II.png' not found\on@line .
-l.125 ...0.98\textwidth]{Figures\RO-Portal-II.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Text page 17 contains only floats.
 
 
-LaTeX Warning: File `Figures-Portal-II.png' not found on input line 125.
+Overfull \vbox (2.24016pt too high) has occurred while \output is active []
 
 
-! Package pdftex.def Error: File `Figures-Portal-II.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...0.98\textwidth]{Figures\RO-Portal-II.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./romyexperiment.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: wf4everLogo.pdf Graphic file (type pdf)
- <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 7.
-(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [18]
-<Figures/myexperimentArchitecture.png, id=391, 537.207pt x 349.305pt>
+[17 <./Figures/RODL/ResourceAdd.png> <./Figures/RODL/ResourceUpdate.png> <./Fig
+ures/RODL/ResourceDelete.png>]) (./romyexperiment.tex
+<Figures/myexperimentArchitecture.png, id=432, 537.207pt x 349.305pt>
 File: Figures/myexperimentArchitecture.png Graphic file (type png)
- <use Figures/myexperimentArchitecture.png>
+
+<use Figures/myexperimentArchitecture.png>
 Package pdftex.def Info: Figures/myexperimentArchitecture.png used on input lin
 e 10.
 (pdftex.def)             Requested size: 335.39954pt x 218.09122pt.
 
-<Figures/myexperimentInteractions.png, id=392, 711.6186pt x 543.9522pt>
+<Figures/myexperimentInteractions.png, id=433, 711.6186pt x 543.9522pt>
 File: Figures/myexperimentInteractions.png Graphic file (type png)
- <use Figures/myexperimentInteractions.png>
+
+<use Figures/myexperimentInteractions.png>
 Package pdftex.def Info: Figures/myexperimentInteractions.png used on input lin
 e 22.
 (pdftex.def)             Requested size: 335.39954pt x 256.37965pt.
- [19 <./Figures/myexperimentArchitecture.png>]) (./workflowabstraction.tex
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 9.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 36.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [20 <./Figures/myexperimentInteractions.png>]
-<Figures/taverna-wf-motifs.png, id=427, 575.14874pt x 466.74374pt>
+ [18])
+(./workflowabstraction.tex
+<Figures/taverna-wf-motifs.png, id=460, 575.14874pt x 466.74374pt>
 File: Figures/taverna-wf-motifs.png Graphic file (type png)
- <use Figures/taverna-wf-motifs.png>
+
+<use Figures/taverna-wf-motifs.png>
 Package pdftex.def Info: Figures/taverna-wf-motifs.png used on input line 14.
 (pdftex.def)             Requested size: 402.60138pt x 326.71838pt.
- [21 <./Figures/taverna-wf-motifs.png>]
-<Figures/ontology.png, id=441, 648.4225pt x 685.56125pt>
+
+<Figures/ontology.png, id=464, 648.4225pt x 685.56125pt>
 File: Figures/ontology.png Graphic file (type png)
- <use Figures/ontology.png>
+
+<use Figures/ontology.png>
 Package pdftex.def Info: Figures/ontology.png used on input line 26.
 (pdftex.def)             Requested size: 389.0565pt x 411.33992pt.
 
-LaTeX Warning: Citation `ro_model' on page 22 undefined on input line 34.
 
+LaTeX Warning: Citation `ro_model' on page 19 undefined on input line 34.
 
-<Figures/tav-wf-annotated.png, id=447, 1288.0622pt x 688.07062pt>
+[19] <Figures/tav-wf-annotated.png, id=484, 1288.0622pt x 688.07062pt>
 File: Figures/tav-wf-annotated.png Graphic file (type png)
- <use Figures/tav-wf-annotated.png>
+
+<use Figures/tav-wf-annotated.png>
 Package pdftex.def Info: Figures/tav-wf-annotated.png used on input line 38.
 (pdftex.def)             Requested size: 257.60786pt x 137.61168pt.
+) (./workflowindexation.tex)
+(./conclusions.tex)
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 44.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 161.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [22 <./Figures/ontology.png (PNG copy)>]) (./workflowindexation.tex) (./conclu
-sions.tex) [23 <./Figures/tav-wf-annotated.png>] (./D2.2v2.bbl
+ [20] [21 <./Figures/RODL/SnapshotClient.png>]
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 99.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 161.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [24
+ [22 <./Figures/RODL/SnapshotPerform.png> <./Figures/RODL/SnapshotFinalize.png>
+] [23 <./Figures/RODL/dArceoStore.png> <./Figures/RODL/dArceoQuality.png> <./Fi
+gures/myexperimentArchitecture.png>]
+File: wf4everLogo.pdf Graphic file (type pdf)
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
- [25]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+<use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 161.
+(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
+ [24 <./Figures/myexperimentInteractions.png> <./Figures/taverna-wf-motifs.png>
+] [25 <./Figures/ontology.png (PNG copy)> <./Figures/tav-wf-annotated.png>] (./
+D2.2v2.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
+[]\T1/phv/m/n/10.95 Checklist Eval-u-a-tion API.  []$\T1/fi4/m/n/10.95 http : /
+ / wf4ever-[]project . org / wiki / display / docs / RO +
+ []
+
+File: wf4everLogo.pdf Graphic file (type pdf)
+<use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 106.
+(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
+ [26
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+[]\T1/phv/m/n/10.95 User Man-age-ment API.  []$\T1/fi4/m/n/10.95 http : / / wf4
+ever-[]project . org / wiki / display / docs / User +
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+ [27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (./D2.2v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `D2.2v2.out' has not changed.
 (rerunfilecheck)             Checksum: CB819EF05D5AF105190E1C1AFAE8129A;1005.
 
+
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 59 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9387 strings out of 493488
- 139063 string characters out of 3141326
- 220863 words of memory out of 3000000
- 12379 multiletter control sequences out of 15000+200000
+ 9432 strings out of 493488
+ 140567 string characters out of 3141326
+ 224214 words of memory out of 3000000
+ 12405 multiletter control sequences out of 15000+200000
  50371 words of font info for 72 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,14n,43p,1390b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,14n,43p,1394b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
 }{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ec.enc}</u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/inconsolata/Inconsolata.pfb
@@ -1523,10 +909,10 @@ ocal/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/te
 xlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/
 2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on D2.2v2.pdf (25 pages, 1557260 bytes).
+Output written on D2.2v2.pdf (27 pages, 1968650 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 523 compressed objects within 6 object streams
+ 136 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
