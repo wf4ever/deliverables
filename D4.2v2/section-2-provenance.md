@@ -141,9 +141,7 @@ The [RO Portal][RO_Portal] displays RO evolution traces under the `history` tab 
 
 ### myExperiment
 
-* ??? the myExperiment platform uses provenance information as part of its presentation of a workflow run.
-
-(@@check with Don how he intends to present workflow runs - sequence diagram?)
+myExperiment will provide a high-level overview of [WFPROV][ref-WFPROV] on each RO resource page. The overview will reveal if there are workflow runs in the research object and it will show at least the text based inputs and outputs for each run.  The user should be provided with a link to inspect the provenance trace with tools that are more suited to showing WFPROV metadata.
 
 
 ### Provenance visualization
