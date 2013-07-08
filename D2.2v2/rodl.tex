@@ -1,4 +1,4 @@
-\section{Research Object Digital Library}
+\subsection{Research Object Digital Library}
 \label{sec:rodl}
 
 %This section presents the components that constitute the RODL, using a UML class diagram, and show how the user can utilize RODL using a UML sequence diagram.
@@ -6,7 +6,7 @@
 The foundational service to preserve workflow-centric research objects is the Research Object Digital Library (RODL), which realizes the Storage and Lifecycle functionalities prescribed by Wf4Ever Architecture \cite{w4fever_d132}. RODL is a software system which collects, manages and preserves aggregations of scientific workflows and related objects and annotations, packed into research objects.
 
 
-\subsection{The interfaces}
+\subsubsection{The interfaces}
 
 The main interface of RODL is a set of REST APIs, among which the two primary ones are the RO API \cite{RO-API} and the RO Evolution API \cite{RO-EVO-API}.
 
@@ -18,7 +18,7 @@ Additionally, RODL provides a SPARQL endpoint that allows performing SPARQL quer
 
 
 
-\subsection{The implementation}
+\subsubsection{The implementation}
 
 One of the main design challenges related to the implementation of RODL was the need to support both live, dynamically changing research objects as well as immutable snapshots that are intended for a longterm preservation. With this in mind, the RODL has a modular structure that comprises the access components, the longterm components and the controller that manages the flow of data (see figure \ref{RODL}). For immutable research objects, they are stored in the longterm preservation repository once they are created. The live research objects, on the other hand, are pushed asynchronously after every change or periodically, depending on the configuration.
 
@@ -115,7 +115,7 @@ A running instance of the RODL is available for testing at \url{http://sandbox.w
 \label{dArceoQuality}
 \end{figure}
 
-\subsection{RODL clients}
+\subsubsection{RODL clients}
 
 The use of a REST API as the primary interface of RODL shows the need for clients that can facilitate the interaction with RODL for the users. To this moment, the following clients support some or all of the RO APIs implemented by RODL.
 

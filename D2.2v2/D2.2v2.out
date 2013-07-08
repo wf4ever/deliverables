@@ -2,15 +2,19 @@
 \BOOKMARK [1][-]{section.2}{The Research Object Model}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{RO core ontology}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{RO Extension Ontologies}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Research Object Manager}{}% 5
-\BOOKMARK [1][-]{section.4}{Research Object Digital Library}{}% 6
-\BOOKMARK [2][-]{subsection.4.1}{The interfaces}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.2}{The implementation}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.3}{RODL clients}{section.4}% 9
-\BOOKMARK [1][-]{section.5}{Research Object-Enabled myExperiment}{}% 10
-\BOOKMARK [1][-]{section.6}{Workflow Abstraction using Motifs}{}% 11
-\BOOKMARK [2][-]{subsection.6.1}{Representing Motifs}{section.6}% 12
-\BOOKMARK [2][-]{subsection.6.2}{Representing Workflows and Workflow Steps}{section.6}% 13
-\BOOKMARK [1][-]{section.7}{Indexing Workflows}{}% 14
-\BOOKMARK [1][-]{section.8}{Summary}{}% 15
-\BOOKMARK [1][-]{section.8}{Bibliography}{}% 16
+\BOOKMARK [1][-]{section.3}{Research Object Management Tools}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Research Object Manager}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Research Object Digital Library}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.2.1}{The interfaces}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.2}{The implementation}{subsection.3.2}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.3}{RODL clients}{subsection.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Research Object-Enabled myExperiment}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Workflow Abstraction using Motifs}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Representing Motifs}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Representing Workflows and Workflow Steps}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Indexing Workflows}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Applications and Implementation}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Searching}{subsection.5.1}% 17
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Next step recommendation}{subsection.5.1}% 18
+\BOOKMARK [1][-]{section.6}{Summary}{}% 19
+\BOOKMARK [1][-]{section.6}{Bibliography}{}% 20
