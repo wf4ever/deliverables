@@ -1,0 +1,45 @@
+# Using http://bramp.github.io/js-sequence-diagrams/
+
+
+User->myExperiment: Download workflow
+myExperiment-->User:
+
+User->Taverna workbench: Open workflow
+User->Taverna workbench: Run workflow
+Taverna workbench ->Run dialogue: <<create>>
+
+User->Run dialogue: Set input parameters
+User -> Run dialogue: Run
+
+Run dialogue->Workflow run: <<create>>
+Run dialogue->Results view: <<create>>
+Workflow run->Provenance layer: <<create>>
+Run dialogue-->>User:
+
+Workflow run->Provenance layer: workflow run started
+Workflow run->Results view: workflow run started
+
+Workflow run->Provenance layer: processor invoked
+Workflow run->Results view: processor invoked
+Provenance layer->Provenance: Record processor invoked
+Provenance layer->Provenance: Record processor in/out
+Workflow run->Provenance: workflow run completed
+Workflow run->Results view: workflow run completed
+
+User -> Results view: Explore results
+Results view->Provenance: Retrieve processor invocations
+Provenance --> Results view:
+Results view --> User: intermediate values
+
+User -> Results view: Save to folder
+Results view -> Folder: Save values
+Results view -> Provenance: Export provenance
+Provenance -> Folder: Save provenance trace
+Results view --> User:
+
+User -> Folder: Create zip
+Folder --> User: zip
+User -> myExperiment: Upload zip as "Workflow Run" 
+myExperiment --> User: aggregated in RO
+
+

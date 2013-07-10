@@ -96,31 +96,15 @@ Example provenance traces, in addition to installation and usage instructions fo
 [taverna-prov-owl]: https://raw.github.com/wf4ever/taverna-prov/master/prov-taverna-owl-bindings/src/main/resources/org/purl/wf4ever/provtaverna/taverna-prov.ttl (Taverna-PROV ontology, namespace http://ns.taverna.org.uk/2012/tavernaprov/ )
 [prov-toolbox]: https://github.com/lucmoreau/ProvToolbox/
 
-(@@ awaiting further material - interactions with Wf4Ever components?)
+Sequence diagram of provenance capturing and export from Taverna Workbench to upload on myExperiment:
+![Taverna-PROV UML sequence diagram](Figures/taverna-provenance-sequence.png)
 
-(@@ Notes from Stian:)
-
-> Roughly the provenance sequence diagram would be something like
->
-> 1) User loads workflow from file/myExperiment  
-> 2) User initiates run  
-> 3) Taverna workbench shows Run dialogue  
-> 4) User fills in input parameters  
-> 5) User clicks Run  
-> 6) Taverna workbench shows Result view with progress diagrams  
-> 6a) Dispatch layer captures provenance for each invocation, storing it in "provenance" database  
-> 7) Taverna workbench indicates workflow run is finished  
-> 8) User explores results and intermediate values  
-> 8a) Intermediate values are fetched from "provenance" and "data" databases  
-> 9) User clicks to Save the provenance  
-> 9a) User selects a folder to save the workflow run to  
-> 10) Taverna creates the folder and populates it with:  
-> 10a) A folder structure of inputs, outputs and intermediate values as individual files - exported from   "data" database
-> 10b) A Taverna-Prov RDF graph (Turtle), which details all the processor and workflow runs. This is   exported from "provenance" database, and relative URI references go to the files above
-> 11) User ZIPs up the folder  
-> 12) User uploads the ZIP to myExperiment as type "Workflow run"  
->
-> We are making the Run Bundle, which saves directly to a RO Bundle ZIP file, so step 11 can be skipped in the future. This would also then include a copy of the workflow definition and the RO Bundle manifest, effectively making a nested research object for that particular workflow run. 
+We are in the process of making the Run Bundle, which saves directly to
+a RO Bundle ZIP file, so that the Save to ZIP step can be skipped in the
+future. This would also then include a copy of the workflow definition
+and the RO Bundle manifest, effectively making a nested research object
+for that particular workflow run which can be uploaded to myExperiment
+directly from within the Taverna Workbench.
 
 
 ## Provenance use-cases
@@ -177,7 +161,7 @@ For this purpose, provenance information was extracted from a Taverna-generated 
 (check no overlap with WP2 - Jun)
 
 
-### Proveance summarization
+### Provenance summarization
 
 > It seems to me like there is not that much work done in provenance applications but definitely this information should be included in the deliverable. The applications that have been identified so far are provenance querying and summarization (Pinar's work), provenance inclusion in the RO (e.g. for completeness evaluation), provenance for the discovery of executed motifs, and provenance visualization.  (Esteban)
 
