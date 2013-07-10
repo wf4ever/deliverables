@@ -14,12 +14,12 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces The sequence diagram for aggregating a new resource in a research object\relax }}{19}{figure.caption.24}
 \contentsline {figure}{\numberline {15}{\ignorespaces The sequence diagram for updating an existing resource in a research object\relax }}{20}{figure.caption.25}
 \contentsline {figure}{\numberline {16}{\ignorespaces The sequence diagram for deleting a resource from a research object\relax }}{20}{figure.caption.26}
-\contentsline {figure}{\numberline {17}{\ignorespaces The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective\relax }}{25}{figure.caption.27}
-\contentsline {figure}{\numberline {18}{\ignorespaces The sequence diagram for preparing the snapshot of a research object\relax }}{26}{figure.caption.28}
-\contentsline {figure}{\numberline {19}{\ignorespaces The sequence diagram for finalizing the snapshot and making it immutable\relax }}{26}{figure.caption.29}
-\contentsline {figure}{\numberline {20}{\ignorespaces The sequence diagram for storing research objects in dArceo\relax }}{27}{figure.caption.30}
-\contentsline {figure}{\numberline {21}{\ignorespaces The sequence diagram for checking the quality of research objects in dArceo\relax }}{27}{figure.caption.31}
-\contentsline {figure}{\numberline {22}{\ignorespaces \leavevmode {\color {black}Sample motifs in a Taverna workflow for functional genomics. The workflow transfers data files containing proteomics data to a remote server and augments several parameters for the invocation request. Then the workflow waits for job completion and inquires about the state of the submitted warping job. Once the inquiry call is returned the results are downloaded from the remote server.}\relax }}{28}{figure.caption.32}
-\contentsline {figure}{\numberline {23}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{29}{figure.caption.33}
-\contentsline {figure}{\numberline {24}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{29}{figure.caption.34}
-\contentsline {figure}{\numberline {25}{\ignorespaces \leavevmode {\color {black}Sorting the "Extract proteins using a gi - output as fasta file" example obtained from ProvBench}\relax }}{30}{figure.caption.35}
+\contentsline {figure}{\numberline {17}{\ignorespaces The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {18}{\ignorespaces The sequence diagram for preparing the snapshot of a research object\relax }}{22}{figure.caption.28}
+\contentsline {figure}{\numberline {19}{\ignorespaces The sequence diagram for finalizing the snapshot and making it immutable\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {20}{\ignorespaces The sequence diagram for storing research objects in dArceo\relax }}{22}{figure.caption.30}
+\contentsline {figure}{\numberline {21}{\ignorespaces The sequence diagram for checking the quality of research objects in dArceo\relax }}{23}{figure.caption.31}
+\contentsline {figure}{\numberline {22}{\ignorespaces \leavevmode {\color {black}Sample motifs in a Taverna workflow for functional genomics. The workflow transfers data files containing proteomics data to a remote server and augments several parameters for the invocation request. Then the workflow waits for job completion and inquires about the state of the submitted warping job. Once the inquiry call is returned the results are downloaded from the remote server.}\relax }}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {23}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{25}{figure.caption.33}
+\contentsline {figure}{\numberline {24}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{25}{figure.caption.34}
+\contentsline {figure}{\numberline {25}{\ignorespaces \leavevmode {\color {black}Sorting the "Extract proteins using a gi - output as fasta file" example obtained from ProvBench}\relax }}{26}{figure.caption.35}

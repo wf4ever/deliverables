@@ -5,16 +5,16 @@
 \BOOKMARK [1][-]{section.3}{Research Object Management Tools}{}% 5
 \BOOKMARK [2][-]{subsection.3.1}{Research Object Manager}{section.3}% 6
 \BOOKMARK [2][-]{subsection.3.2}{Research Object-Enabled myExperiment}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.3}{Research Object Digital Library}{section.3}% 8
-\BOOKMARK [3][-]{subsubsection.3.3.1}{The interfaces}{subsection.3.3}% 9
-\BOOKMARK [3][-]{subsubsection.3.3.2}{The implementation}{subsection.3.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.3.3}{RODL clients}{subsection.3.3}% 11
-\BOOKMARK [1][-]{section.4}{Workflow Abstraction using Motifs}{}% 12
-\BOOKMARK [2][-]{subsection.4.1}{Representing Motifs}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.2}{Representing Workflows and Workflow Steps}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Indexing Workflows}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Applications and Implementation}{section.5}% 16
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Searching}{subsection.5.1}% 17
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Next step recommendation}{subsection.5.1}% 18
-\BOOKMARK [1][-]{section.6}{Summary}{}% 19
-\BOOKMARK [1][-]{section.6}{Bibliography}{}% 20
+\BOOKMARK [1][-]{section.4}{Research Object Digital Library}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{The interfaces}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{The implementation}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{RODL clients}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Workflow Abstraction using Motifs}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Representing Motifs}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Representing Workflows and Workflow Steps}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Indexing Workflows}{}% 15
+\BOOKMARK [2][-]{subsection.6.1}{Applications and Implementation}{section.6}% 16
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Searching}{subsection.6.1}% 17
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Next step recommendation}{subsection.6.1}% 18
+\BOOKMARK [1][-]{section.7}{Summary}{}% 19
+\BOOKMARK [1][-]{section.7}{Bibliography}{}% 20
