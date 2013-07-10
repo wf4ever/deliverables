@@ -1,6 +1,5 @@
 # Using http://bramp.github.io/js-sequence-diagrams/
 
-
 User->myExperiment: Download workflow
 myExperiment-->User:
 
@@ -16,11 +15,11 @@ Run dialogue->Results view: <<create>>
 Workflow run->Provenance layer: <<create>>
 Run dialogue-->>User:
 
-Workflow run->Provenance layer: workflow run started
 Workflow run->Results view: workflow run started
+Workflow run->Provenance: workflow run started
 
-Workflow run->Provenance layer: processor invoked
 Workflow run->Results view: processor invoked
+Workflow run->Provenance layer: processor invoked
 Provenance layer->Provenance: Record processor invoked
 Provenance layer->Provenance: Record processor in/out
 Workflow run->Provenance: workflow run completed
