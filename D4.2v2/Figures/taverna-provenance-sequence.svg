@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="1695"
+   height="1310"
+   id="svg2">
+  <desc
+     id="desc6">Created with Raphaël 2.1.0</desc>
+  <metadata
+     id="metadata438">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <source
+     id="source4"># Using http://bramp.github.io/js-sequence-diagrams/
+
+User-&gt;myExperiment: Download workflow
+myExperiment--&gt;User:
+
+User-&gt;Taverna workbench: Open workflow
+User-&gt;Taverna workbench: Run workflow
+Taverna workbench -&gt;Run dialogue: &lt;&lt;create&gt;&gt;
+
+User-&gt;Run dialogue: Set input parameters
+User -&gt; Run dialogue: Run
+
+Run dialogue-&gt;Workflow run: &lt;&lt;create&gt;&gt;
+Run dialogue-&gt;Results view: &lt;&lt;create&gt;&gt;
+Workflow run-&gt;Provenance layer: &lt;&lt;create&gt;&gt;
+Run dialogue--&gt;&gt;User:
+
+Workflow run-&gt;Results view: workflow run started
+Workflow run-&gt;Provenance: workflow run started
+
+Workflow run-&gt;Results view: processor invoked
+Workflow run-&gt;Provenance layer: processor invoked
+Provenance layer-&gt;Provenance: Record processor invoked
+Provenance layer-&gt;Provenance: Record processor in/out
+Workflow run-&gt;Provenance: workflow run completed
+Workflow run-&gt;Results view: workflow run completed
+
+User -&gt; Results view: Explore results
+Results view-&gt;Provenance: Retrieve processor invocations
+Provenance --&gt; Results view:
+Results view --&gt; User: intermediate values
+
+User -&gt; Results view: Save to folder
+Results view -&gt; Folder: Save values
+Results view -&gt; Provenance: Export provenance
+Provenance -&gt; Folder: Save provenance trace
+Results view --&gt; User:
+
+User -&gt; Folder: Create zip
+Folder --&gt; User: zip
+User -&gt; myExperiment: Upload zip as &quot;Workflow Run&quot; 
+myExperiment --&gt; User: aggregated in RO
+
+</source>
+  <defs
+     id="defs8">
+    <path
+       d="M 5,0 0,2.5 5,5 z"
+       id="raphael-marker-block"
+       style="stroke-linecap:round" />
+    <marker
+       refX="2.5"
+       refY="2.5"
+       markerWidth="5"
+       markerHeight="5"
+       orient="auto"
+       id="raphael-marker-endblock55">
+      <use
+         transform="matrix(-1,0,0,-1,5,5)"
+         id="use12"
+         style="fill:#000000;stroke:none"
+         x="0"
+         y="0"
+         width="5"
+         height="5"
+         xlink:href="#raphael-marker-block" />
+    </marker>
+    <path
+       d="M 6,1 1,3.5 6,6"
+       id="raphael-marker-open"
+       style="stroke-linecap:round" />
+    <marker
+       refX="4"
+       refY="3.5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto"
+       id="raphael-marker-endopen77">
+      <use
+         transform="matrix(-1,0,0,-1,7,7)"
+         id="use16"
+         style="fill:none;stroke:#000000;stroke-width:1"
+         x="0"
+         y="0"
+         width="7"
+         height="7"
+         xlink:href="#raphael-marker-open" />
+    </marker>
+  </defs>
+  <rect
+     width="56"
+     height="39"
+     rx="0"
+     ry="0"
+     x="10"
+     y="20"
+     id="rect18"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="36"
+     height="19"
+     rx="0"
+     ry="0"
+     x="20"
+     y="30"
+     id="rect20"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="38"
+     y="39.5"
+     id="text22"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan24"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">User</tspan>
+  </text>
+  <rect
+     width="56"
+     height="39"
+     rx="0"
+     ry="0"
+     x="10"
+     y="1251"
+     id="rect26"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="36"
+     height="19"
+     rx="0"
+     ry="0"
+     x="20"
+     y="1261"
+     id="rect28"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="38"
+     y="1270.5"
+     id="text30"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan32"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">User</tspan>
+  </text>
+  <path
+     d="m 38,59 0,1192"
+     id="path34"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="246"
+     y="20"
+     id="rect36"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="256"
+     y="30"
+     id="rect38"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="310"
+     y="39.5"
+     id="text40"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan42"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">myExperiment</tspan>
+  </text>
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="246"
+     y="1251"
+     id="rect44"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="256"
+     y="1261"
+     id="rect46"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="310"
+     y="1270.5"
+     id="text48"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan50"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">myExperiment</tspan>
+  </text>
+  <path
+     d="m 310,59 0,1192"
+     id="path52"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="173"
+     height="39"
+     rx="0"
+     ry="0"
+     x="394"
+     y="20"
+     id="rect54"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="153"
+     height="19"
+     rx="0"
+     ry="0"
+     x="404"
+     y="30"
+     id="rect56"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="480.5"
+     y="39.5"
+     id="text58"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan60"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Taverna workbench</tspan>
+  </text>
+  <rect
+     width="173"
+     height="39"
+     rx="0"
+     ry="0"
+     x="394"
+     y="1251"
+     id="rect62"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="153"
+     height="19"
+     rx="0"
+     ry="0"
+     x="404"
+     y="1261"
+     id="rect64"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="480.5"
+     y="1270.5"
+     id="text66"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan68"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Taverna workbench</tspan>
+  </text>
+  <path
+     d="m 480.5,59 0,1192"
+     id="path70"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="587"
+     y="20"
+     id="rect72"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="597"
+     y="30"
+     id="rect74"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="651"
+     y="39.5"
+     id="text76"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan78"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Run dialogue</tspan>
+  </text>
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="587"
+     y="1251"
+     id="rect80"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="597"
+     y="1261"
+     id="rect82"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="651"
+     y="1270.5"
+     id="text84"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan86"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Run dialogue</tspan>
+  </text>
+  <path
+     d="m 651,59 0,1192"
+     id="path88"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="735"
+     y="20"
+     id="rect90"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="745"
+     y="30"
+     id="rect92"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="799"
+     y="39.5"
+     id="text94"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan96"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Workflow run</tspan>
+  </text>
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="735"
+     y="1251"
+     id="rect98"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="745"
+     y="1261"
+     id="rect100"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="799"
+     y="1270.5"
+     id="text102"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan104"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Workflow run</tspan>
+  </text>
+  <path
+     d="m 799,59 0,1192"
+     id="path106"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="953"
+     y="20"
+     id="rect108"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="963"
+     y="30"
+     id="rect110"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1017"
+     y="39.5"
+     id="text112"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan114"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Results view</tspan>
+  </text>
+  <rect
+     width="128"
+     height="39"
+     rx="0"
+     ry="0"
+     x="953"
+     y="1251"
+     id="rect116"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="963"
+     y="1261"
+     id="rect118"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1017"
+     y="1270.5"
+     id="text120"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan122"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Results view</tspan>
+  </text>
+  <path
+     d="m 1017,59 0,1192"
+     id="path124"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="164"
+     height="39"
+     rx="0"
+     ry="0"
+     x="1101"
+     y="20"
+     id="rect126"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="144"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1111"
+     y="30"
+     id="rect128"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1183"
+     y="39.5"
+     id="text130"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan132"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Provenance layer</tspan>
+  </text>
+  <rect
+     width="164"
+     height="39"
+     rx="0"
+     ry="0"
+     x="1101"
+     y="1251"
+     id="rect134"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="144"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1111"
+     y="1261"
+     id="rect136"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1183"
+     y="1270.5"
+     id="text138"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan140"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Provenance layer</tspan>
+  </text>
+  <path
+     d="m 1183,59 0,1192"
+     id="path142"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="110"
+     height="39"
+     rx="0"
+     ry="0"
+     x="1364"
+     y="20"
+     id="rect144"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1374"
+     y="30"
+     id="rect146"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1419"
+     y="39.5"
+     id="text148"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan150"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Provenance</tspan>
+  </text>
+  <rect
+     width="110"
+     height="39"
+     rx="0"
+     ry="0"
+     x="1364"
+     y="1251"
+     id="rect152"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1374"
+     y="1261"
+     id="rect154"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1419"
+     y="1270.5"
+     id="text156"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan158"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Provenance</tspan>
+  </text>
+  <path
+     d="m 1419,59 0,1192"
+     id="path160"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="74"
+     height="39"
+     rx="0"
+     ry="0"
+     x="1591"
+     y="20"
+     id="rect162"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="54"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1601"
+     y="30"
+     id="rect164"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1628"
+     y="39.5"
+     id="text166"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan168"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Folder</tspan>
+  </text>
+  <rect
+     width="74"
+     height="39"
+     rx="0"
+     ry="0"
+     x="1591"
+     y="1251"
+     id="rect170"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="54"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1601"
+     y="1261"
+     id="rect172"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1628"
+     y="1270.5"
+     id="text174"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan176"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Folder</tspan>
+  </text>
+  <path
+     d="m 1628,59 0,1192"
+     id="path178"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <rect
+     width="153"
+     height="19"
+     rx="0"
+     ry="0"
+     x="97.5"
+     y="74.5"
+     id="rect180"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="174"
+     y="84"
+     id="text182"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan184"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Download workflow</tspan>
+  </text>
+  <path
+     d="m 38,98 c 0,0 229.99847,0 267.00262,0"
+     id="path186"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="0"
+     height="0"
+     rx="0"
+     ry="0"
+     x="0"
+     y="0"
+     id="rect188"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="174"
+     y="123"
+     id="text190"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="123"
+       id="tspan192"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara" />
+  </text>
+  <path
+     d="m 310,118 c 0,0 -229.998472,0 -267.002621,0"
+     id="path194"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="117"
+     height="19"
+     rx="0"
+     ry="0"
+     x="200.75"
+     y="133.5"
+     id="rect196"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="259.25"
+     y="143"
+     id="text198"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan200"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Open workflow</tspan>
+  </text>
+  <path
+     d="m 38,157 c 0,0 388.71348,0 437.49247,0"
+     id="path202"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="108"
+     height="19"
+     rx="0"
+     ry="0"
+     x="205.25"
+     y="172.5"
+     id="rect204"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="259.25"
+     y="182"
+     id="text206"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan208"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Run workflow</tspan>
+  </text>
+  <path
+     d="m 38,196 c 0,0 388.71348,0 437.49247,0"
+     id="path210"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="520.75"
+     y="211.5"
+     id="rect212"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="565.75"
+     y="221"
+     id="text214"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan216"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">&lt;&lt;create&gt;&gt;</tspan>
+  </text>
+  <path
+     d="m 480.5,235 c 0,0 137.36422,0 165.50108,0"
+     id="path218"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="180"
+     height="19"
+     rx="0"
+     ry="0"
+     x="254.5"
+     y="250.5"
+     id="rect220"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="344.5"
+     y="260"
+     id="text222"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan224"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Set input parameters</tspan>
+  </text>
+  <path
+     d="m 38,274 c 0,0 549.62714,0 607.99819,0"
+     id="path226"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="27"
+     height="19"
+     rx="0"
+     ry="0"
+     x="331"
+     y="289.5"
+     id="rect228"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="344.5"
+     y="299"
+     id="text230"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan232"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Run</tspan>
+  </text>
+  <path
+     d="m 38,313 c 0,0 549.62714,0 607.99819,0"
+     id="path234"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="680"
+     y="328.5"
+     id="rect236"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="725"
+     y="338"
+     id="text238"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan240"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">&lt;&lt;create&gt;&gt;</tspan>
+  </text>
+  <path
+     d="m 651,352 c 0,0 117.1382,0 142.99097,0"
+     id="path242"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="789"
+     y="367.5"
+     id="rect244"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="834"
+     y="377"
+     id="text246"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan248"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">&lt;&lt;create&gt;&gt;</tspan>
+  </text>
+  <path
+     d="m 651,391 c 0,0 317.17197,0 360.9999,0"
+     id="path250"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="946"
+     y="406.5"
+     id="rect252"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="991"
+     y="416"
+     id="text254"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan256"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">&lt;&lt;create&gt;&gt;</tspan>
+  </text>
+  <path
+     d="m 799,430 c 0,0 333.9935,0 379.0044,0"
+     id="path258"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="0"
+     height="0"
+     rx="0"
+     ry="0"
+     x="0"
+     y="0"
+     id="rect260"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="344.5"
+     y="455"
+     id="text262"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="455"
+       id="tspan264"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara" />
+  </text>
+  <path
+     d="m 651,450 c 0,0 -572.824089,0 -611.003038,0"
+     id="path266"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endopen77)" />
+  <rect
+     width="180"
+     height="19"
+     rx="0"
+     ry="0"
+     x="818"
+     y="465.5"
+     id="rect268"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="908"
+     y="475"
+     id="text270"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan272"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">workflow run started</tspan>
+  </text>
+  <path
+     d="m 799,489 c 0,0 180.44251,0 212.9979,0"
+     id="path274"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="180"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1019"
+     y="504.5"
+     id="rect276"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1109"
+     y="514"
+     id="text278"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan280"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">workflow run started</tspan>
+  </text>
+  <path
+     d="m 799,528 c 0,0 556.3335,0 615.0093,0"
+     id="path282"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="153"
+     height="19"
+     rx="0"
+     ry="0"
+     x="831.5"
+     y="543.5"
+     id="rect284"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="908"
+     y="553"
+     id="text286"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan288"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">processor invoked</tspan>
+  </text>
+  <path
+     d="m 799,567 c 0,0 180.44251,0 212.9979,0"
+     id="path290"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="153"
+     height="19"
+     rx="0"
+     ry="0"
+     x="914.5"
+     y="582.5"
+     id="rect292"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="991"
+     y="592"
+     id="text294"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan296"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">processor invoked</tspan>
+  </text>
+  <path
+     d="m 799,606 c 0,0 333.9935,0 379.0044,0"
+     id="path298"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="216"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1193"
+     y="621.5"
+     id="rect300"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1301"
+     y="631"
+     id="text302"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan304"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Record processor invoked</tspan>
+  </text>
+  <path
+     d="m 1183,645 c 0,0 196.9172,0 231.0027,0"
+     id="path306"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="207"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1197.5"
+     y="660.5"
+     id="rect308"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1301"
+     y="670"
+     id="text310"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan312"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Record processor in/out</tspan>
+  </text>
+  <path
+     d="m 1183,684 c 0,0 196.9172,0 231.0027,0"
+     id="path314"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="198"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1010"
+     y="699.5"
+     id="rect316"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1109"
+     y="709"
+     id="text318"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan320"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">workflow run completed</tspan>
+  </text>
+  <path
+     d="m 799,723 c 0,0 556.3335,0 615.0093,0"
+     id="path322"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="198"
+     height="19"
+     rx="0"
+     ry="0"
+     x="809"
+     y="738.5"
+     id="rect324"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="908"
+     y="748"
+     id="text326"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan328"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">workflow run completed</tspan>
+  </text>
+  <path
+     d="m 799,762 c 0,0 180.44251,0 212.9979,0"
+     id="path330"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="135"
+     height="19"
+     rx="0"
+     ry="0"
+     x="460"
+     y="777.5"
+     id="rect332"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="527.5"
+     y="787"
+     id="text334"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan336"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Explore results</tspan>
+  </text>
+  <path
+     d="m 38,801 c 0,0 898.7346,0 973.9948,0"
+     id="path338"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="270"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1083"
+     y="816.5"
+     id="rect340"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1218"
+     y="826"
+     id="text342"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan344"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Retrieve processor invocations</tspan>
+  </text>
+  <path
+     d="m 1017,840 c 0,0 350.7487,0 396.99,0"
+     id="path346"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="0"
+     height="0"
+     rx="0"
+     ry="0"
+     x="0"
+     y="0"
+     id="rect348"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1218"
+     y="865"
+     id="text350"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="865"
+       id="tspan352"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara" />
+  </text>
+  <path
+     d="m 1419,860 c 0,0 -350.7487,0 -396.99,0"
+     id="path354"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="171"
+     height="19"
+     rx="0"
+     ry="0"
+     x="442"
+     y="875.5"
+     id="rect356"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="527.5"
+     y="885"
+     id="text358"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan360"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">intermediate values</tspan>
+  </text>
+  <path
+     d="m 1017,899 c 0,0 -898.7346,0 -973.994848,0"
+     id="path362"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="126"
+     height="19"
+     rx="0"
+     ry="0"
+     x="464.5"
+     y="914.5"
+     id="rect364"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="527.5"
+     y="924"
+     id="text366"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan368"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Save to folder</tspan>
+  </text>
+  <path
+     d="m 38,938 c 0,0 898.7346,0 973.9948,0"
+     id="path370"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="99"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1273"
+     y="953.5"
+     id="rect372"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1322.5"
+     y="963"
+     id="text374"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan376"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Save values</tspan>
+  </text>
+  <path
+     d="m 1017,977 c 0,0 547.6927,0 605.992,0"
+     id="path378"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="153"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1141.5"
+     y="992.5"
+     id="rect380"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1218"
+     y="1002"
+     id="text382"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan384"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Export provenance</tspan>
+  </text>
+  <path
+     d="m 1017,1016 c 0,0 350.7487,0 396.99,0"
+     id="path386"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="189"
+     height="19"
+     rx="0"
+     ry="0"
+     x="1429"
+     y="1031.5"
+     id="rect388"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="1523.5"
+     y="1041"
+     id="text390"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan392"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Save provenance trace</tspan>
+  </text>
+  <path
+     d="m 1419,1055 c 0,0 172.2511,0 204.0015,0"
+     id="path394"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="0"
+     height="0"
+     rx="0"
+     ry="0"
+     x="0"
+     y="0"
+     id="rect396"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="527.5"
+     y="1080"
+     id="text398"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="1080"
+       id="tspan400"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara" />
+  </text>
+  <path
+     d="m 1017,1075 c 0,0 -898.7346,0 -973.994848,0"
+     id="path402"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="90"
+     height="19"
+     rx="0"
+     ry="0"
+     x="788"
+     y="1090.5"
+     id="rect404"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="833"
+     y="1100"
+     id="text406"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan408"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Create zip</tspan>
+  </text>
+  <path
+     d="m 38,1114 c 0,0 1487.6685,0 1585.0062,0"
+     id="path410"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="27"
+     height="19"
+     rx="0"
+     ry="0"
+     x="819.5"
+     y="1129.5"
+     id="rect412"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="833"
+     y="1139"
+     id="text414"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan416"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">zip</tspan>
+  </text>
+  <path
+     d="m 1628,1153 c 0,0 -1487.66851,0 -1585.006198,0"
+     id="path418"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="252"
+     height="19"
+     rx="0"
+     ry="0"
+     x="48"
+     y="1168.5"
+     id="rect420"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="174"
+     y="1178"
+     id="text422"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan424"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">Upload zip as &quot;Workflow Run&quot;</tspan>
+  </text>
+  <path
+     d="m 38,1192 c 0,0 229.99847,0 267.00262,0"
+     id="path426"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none;marker-end:url(#raphael-marker-endblock55)" />
+  <rect
+     width="144"
+     height="19"
+     rx="0"
+     ry="0"
+     x="102"
+     y="1207.5"
+     id="rect428"
+     style="fill:#ffffff;stroke:none" />
+  <text
+     x="174"
+     y="1217"
+     id="text430"
+     style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:normal;text-anchor:middle;fill:#000000;stroke:none;font-family:Candara;-inkscape-font-specification:Candara">
+    <tspan
+       dy="5.5"
+       id="tspan432"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Candara;-inkscape-font-specification:Candara">aggregated in RO</tspan>
+  </text>
+  <path
+     d="m 310,1231 c 0,0 -229.998472,0 -267.002621,0"
+     id="path434"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:6, 2;marker-end:url(#raphael-marker-endblock55)" />
+</svg>

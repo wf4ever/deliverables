@@ -1,4 +1,4 @@
-\subsection{Research Object Digital Library}
+\section{Research Object Digital Library}
 \label{sec:rodl}
 
 %This section presents the components that constitute the RODL, using a UML class diagram, and show how the user can utilize RODL using a UML sequence diagram.
@@ -6,7 +6,7 @@
 The foundational service to preserve workflow-centric research objects is the Research Object Digital Library (RODL), which realizes the Storage and Lifecycle functionalities prescribed by Wf4Ever Architecture \cite{w4fever_d132}. RODL is a software system which collects, manages and preserves aggregations of scientific workflows and related objects and annotations, packed into research objects.
 
 
-\subsubsection{The interfaces}
+\subsection{The interfaces}
 
 The main interface of RODL is a set of REST APIs, among which the two primary ones are the RO API \cite{RO-API} and the RO Evolution API \cite{RO-EVO-API}.
 
@@ -18,7 +18,7 @@ Additionally, RODL provides a SPARQL endpoint that allows performing SPARQL quer
 
 
 
-\subsubsection{The implementation}
+\subsection{The implementation}
 
 One of the main design challenges related to the implementation of RODL was the need to support both live, dynamically changing research objects as well as immutable snapshots that are intended for a longterm preservation. With this in mind, the RODL has a modular structure that comprises the access components, the longterm components and the controller that manages the flow of data (see figure \ref{RODL}). For immutable research objects, they are stored in the longterm preservation repository once they are created. The live research objects, on the other hand, are pushed asynchronously after every change or periodically, depending on the configuration.
 
@@ -47,75 +47,75 @@ A running instance of the RODL is available for testing at \url{http://sandbox.w
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/ROcreate.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/ROcreate.png}
 \caption{The sequence diagram for creating a research object in RODL}
 \label{ROCreate}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/ROdelete.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/ROdelete.png}
 \caption{The sequence diagram for deleting a research object from RODL}
 \label{RODelete}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/ResourceAdd.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/ResourceAdd.png}
 \caption{The sequence diagram for aggregating a new resource in a research object}
 \label{ResourceAdd}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/ResourceUpdate.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/ResourceUpdate.png}
 \caption{The sequence diagram for updating an existing resource in a research object}
 \label{ResourceUpdate}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/ResourceDelete.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/ResourceDelete.png}
 \caption{The sequence diagram for deleting a resource from a research object}
 \label{ResourceDelete}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/SnapshotClient.png}
+\includegraphics[width=0.5\textwidth]{Figures/RODL/SnapshotClient.png}
 \caption{The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective}
 \label{SnapshotClient}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/SnapshotPerform.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/SnapshotPerform.png}
 \caption{The sequence diagram for preparing the snapshot of a research object}
 \label{SnapshotPerform}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/SnapshotFinalize.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/SnapshotFinalize.png}
 \caption{The sequence diagram for finalizing the snapshot and making it immutable}
 \label{SnapshotFinalize}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/dArceoStore.png}
+\includegraphics[width=0.7\textwidth]{Figures/RODL/dArceoStore.png}
 \caption{The sequence diagram for storing research objects in dArceo}
 \label{dArceoStore}
 \end{figure}
 
 \begin{figure}[!hb]
 \centering
-\includegraphics[width=\textwidth]{Figures/RODL/dArceoQuality.png}
+\includegraphics[width=0.9\textwidth]{Figures/RODL/dArceoQuality.png}
 \caption{The sequence diagram for checking the quality of research objects in dArceo}
 \label{dArceoQuality}
 \end{figure}
 
-\subsubsection{RODL clients}
+\subsection{RODL clients}
 
 The use of a REST API as the primary interface of RODL shows the need for clients that can facilitate the interaction with RODL for the users. To this moment, the following clients support some or all of the RO APIs implemented by RODL.
 

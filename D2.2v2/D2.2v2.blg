@@ -1,51 +1,68 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: D2.2v2.aux
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: D2.2v2.aux
 Case mismatch error between cite keys ro_model and RO_model
 ---line 103 of file D2.2v2.aux
  : \citation{ro_model
  :                   }
 I'm skipping whatever remains of this command
-Case mismatch error between cite keys ro_model and RO_model
----line 112 of file D2.2v2.aux
- : \citation{ro_model
- :                   }
-I'm skipping whatever remains of this command
 The style file: alpha.bst
-I couldn't open database file refs.bib.bib
----line 142 of file D2.2v2.aux
- : \bibdata{refs.bib
- :                  }
-I'm skipping whatever remains of this command
-I found no database files---while reading file D2.2v2.aux
-Warning--I didn't find a database entry for "D3.2v2"
-Warning--I didn't find a database entry for "D4.2v2"
-Warning--I didn't find a database entry for "DBLP:journals/fgcs/RoureGS09"
-Warning--I didn't find a database entry for "COG11"
-Warning--I didn't find a database entry for "w3c-prov-o"
-Warning--I didn't find a database entry for "galaxy"
-Warning--I didn't find a database entry for "taverna"
-Warning--I didn't find a database entry for "kepler"
-Warning--I didn't find a database entry for "vistrails"
-Warning--I didn't find a database entry for "w4fever_d132"
-Warning--I didn't find a database entry for "RO-API"
-Warning--I didn't find a database entry for "RO-EVO-API"
-Warning--I didn't find a database entry for "RO_model"
-Warning--I didn't find a database entry for "w4fever_d321"
-Warning--I didn't find a database entry for "Notification-API"
-Warning--I didn't find a database entry for "UM-API"
-Warning--I didn't find a database entry for "dLibra"
-Warning--I didn't find a database entry for "Jena"
-Warning--I didn't find a database entry for "dArceo"
-Warning--I didn't find a database entry for "Checklist-API"
-Warning--I didn't find a database entry for "Stability-API"
-Warning--I didn't find a database entry for "Platon"
-Warning--I didn't find a database entry for "garijo_Alper_2012"
-Warning--I didn't find a database entry for "DBLP:journals/expert/GilRKGGMD11"
-Warning--I didn't find a database entry for "Goecks_Nekrutenko_Taylor_2010"
-Warning--I didn't find a database entry for "Callahan06-vistrails"
-Warning--I didn't find a database entry for "garijo_gil_2011"
-Warning--I didn't find a database entry for "garijo-gil-lisc12"
-Warning--I didn't find a database entry for "Missier2013a"
-Warning--I didn't find a database entry for "summaryBigData13"
-Warning--I didn't find a database entry for "Matono03anindexing"
-Warning--I didn't find a database entry for "khalid_13"
-(There were 4 error messages)
+Database file #1: refs.bib.bib
+Repeated entry---line 330 of file refs.bib.bib
+ : @misc{ro_model
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in RO-API
+Warning--to sort, need author or key in RO-EVO-API
+Warning--to sort, need author or key in Notification-API
+Warning--to sort, need author or key in UM-API
+Warning--to sort, need author or key in dLibra
+Warning--to sort, need author or key in Jena
+Warning--to sort, need author or key in dArceo
+Warning--to sort, need author or key in Checklist-API
+Warning--to sort, need author or key in Stability-API
+Warning--to sort, need author or key in Platon
+Warning--empty institution in w3c-prov-o
+Warning--empty author in Platon
+You've used 32 entries,
+            2543 wiz_defined-function locations,
+            732 strings with 10632 characters,
+and the built_in function-call counts, 13632 in all, are:
+= -- 1304
+> -- 868
+< -- 7
++ -- 328
+- -- 320
+* -- 1060
+:= -- 2242
+add.period$ -- 101
+call.type$ -- 32
+change.case$ -- 257
+chr.to.int$ -- 29
+cite$ -- 54
+duplicate$ -- 464
+empty$ -- 904
+format.name$ -- 328
+if$ -- 2770
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 17
+newline$ -- 164
+num.names$ -- 66
+pop$ -- 307
+preamble$ -- 1
+purify$ -- 285
+quote$ -- 0
+skip$ -- 367
+stack$ -- 0
+substring$ -- 479
+swap$ -- 72
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 256
+warning$ -- 12
+while$ -- 86
+width$ -- 34
+write$ -- 407
+(There were 2 error messages)
