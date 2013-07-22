@@ -1,68 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: D2.2v2.aux
-Case mismatch error between cite keys ro_model and RO_model
----line 103 of file D2.2v2.aux
- : \citation{ro_model
- :                   }
-I'm skipping whatever remains of this command
 The style file: alpha.bst
 Database file #1: refs.bib.bib
-Repeated entry---line 330 of file refs.bib.bib
- : @misc{ro_model
- :               ,
-I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in RO-API
-Warning--to sort, need author or key in RO-EVO-API
-Warning--to sort, need author or key in Notification-API
-Warning--to sort, need author or key in UM-API
-Warning--to sort, need author or key in dLibra
-Warning--to sort, need author or key in Jena
-Warning--to sort, need author or key in dArceo
-Warning--to sort, need author or key in Checklist-API
-Warning--to sort, need author or key in Stability-API
-Warning--to sort, need author or key in Platon
-Warning--empty institution in w3c-prov-o
-Warning--empty author in Platon
-You've used 32 entries,
+You've used 21 entries,
             2543 wiz_defined-function locations,
-            732 strings with 10632 characters,
-and the built_in function-call counts, 13632 in all, are:
-= -- 1304
-> -- 868
-< -- 7
-+ -- 328
-- -- 320
-* -- 1060
-:= -- 2242
-add.period$ -- 101
-call.type$ -- 32
-change.case$ -- 257
-chr.to.int$ -- 29
-cite$ -- 54
-duplicate$ -- 464
-empty$ -- 904
-format.name$ -- 328
-if$ -- 2770
-int.to.chr$ -- 4
+            692 strings with 8922 characters,
+and the built_in function-call counts, 10597 in all, are:
+= -- 1009
+> -- 741
+< -- 8
++ -- 279
+- -- 273
+* -- 854
+:= -- 1827
+add.period$ -- 69
+call.type$ -- 21
+change.case$ -- 187
+chr.to.int$ -- 19
+cite$ -- 21
+duplicate$ -- 358
+empty$ -- 629
+format.name$ -- 282
+if$ -- 2119
+int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 17
-newline$ -- 164
-num.names$ -- 66
-pop$ -- 307
+newline$ -- 109
+num.names$ -- 65
+pop$ -- 175
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 206
 quote$ -- 0
-skip$ -- 367
+skip$ -- 289
 stack$ -- 0
-substring$ -- 479
-swap$ -- 72
-text.length$ -- 7
-text.prefix$ -- 0
+substring$ -- 404
+swap$ -- 66
+text.length$ -- 8
+text.prefix$ -- 1
 top$ -- 0
-type$ -- 256
-warning$ -- 12
-while$ -- 86
-width$ -- 34
-write$ -- 407
-(There were 2 error messages)
+type$ -- 168
+warning$ -- 0
+while$ -- 83
+width$ -- 23
+write$ -- 283

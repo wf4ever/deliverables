@@ -1,23 +1,23 @@
 \contentsline {section}{\numberline {1}Introduction}{7}{section.1}
 \contentsline {section}{\numberline {2}The Research Object Model}{7}{section.2}
-\contentsline {subsection}{\numberline {2.1}RO core ontology}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Research Object Core Ontology}{8}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}RO Extension Ontologies}{9}{subsection.2.2}
 \contentsline {paragraph}{Specifying Workflows}{9}{section*.11}
-\contentsline {paragraph}{Describing Experimental Provenance using the \textit {wfprov} Vocabulary}{10}{section*.13}
-\contentsline {paragraph}{Tracking Research Object Evolution using the \textit {roevo} Vocabulary}{11}{section*.15}
+\contentsline {paragraph}{Describing Experimental Provenance using the \textit {wfprov} Ontology}{10}{section*.13}
+\contentsline {paragraph}{Tracking Research Object Evolution using the \textit {roevo} Ontology}{11}{section*.15}
 \contentsline {section}{\numberline {3}Research Object Management Tools}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Research Object Manager}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Research Object Manager}{13}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Research Object-Enabled myExperiment}{15}{subsection.3.2}
 \contentsline {section}{\numberline {4}Research Object Digital Library}{17}{section.4}
 \contentsline {subsection}{\numberline {4.1}The interfaces}{17}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}The implementation}{17}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}RODL clients}{19}{subsection.4.3}
 \contentsline {section}{\numberline {5}Workflow Abstraction using Motifs}{20}{section.5}
-\contentsline {subsection}{\numberline {5.1}Representing Motifs}{21}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Representing Workflows and Workflow Steps}{22}{subsection.5.2}
-\contentsline {section}{\numberline {6}Indexing Workflows}{23}{section.6}
-\contentsline {subsection}{\numberline {6.1}Applications and Implementation}{24}{subsection.6.1}
+\contentsline {subsection}{\numberline {5.1}Representing Motifs}{23}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Representing Workflows and Workflow Steps}{23}{subsection.5.2}
+\contentsline {section}{\numberline {6}Indexing Workflows}{24}{section.6}
+\contentsline {subsection}{\numberline {6.1}Applications and Implementation}{26}{subsection.6.1}
 \contentsline {subsubsection}{\numberline {6.1.1}Searching}{26}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Next step recommendation}{26}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2}Next step recommendation}{27}{subsubsection.6.1.2}
 \contentsline {section}{\numberline {7}Summary}{27}{section.7}
 \contentsline {section}{Bibliography}{28}{section.7}

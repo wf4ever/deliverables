@@ -3,7 +3,7 @@
 
 %% This section presents the RO manager architecture, and presents the functionalities it provides using  a UML sequence diagram, if that is plausible. 
 
-The Research Object Manager (RO Manager) is a command line tool for creating, displaying and manipulating Research Objects. The RO Manager is complementary to RODL (see Sectio \ref{sec:rodl}), in that it is primarily designed to support a user working with ROs in the host computer's local file system, with the intention being that the RODL and RO Manager can exchange ROs between them, using of the shared RO model and vocabularies.  The RO Manager code base also includes the checklist evaluation functionality, described in D4.2 \cite{D4.2v2}, which can be invoked using a command line or REST web interface.
+The Research Object Manager (RO Manager) is a command line tool for creating, displaying and manipulating Research Objects. The RO Manager is complementary to RODL (see Section \ref{sec:rodl}), in that it is primarily designed to support a user working with ROs in the host computer's local file system, with the intention being that the RODL and RO Manager can exchange ROs between them, using of the shared RO model and vocabularies.  The RO Manager code base also includes the checklist evaluation functionality, described in D4.2 \cite{D4.2v2}, which can be invoked using a command line or REST web interface.
 
 Experience has shown that a simple command-line tool can provide developers and users with early access to functionality, and provide an opportunity to gather additional user feedback and requirements.  RO Manager has also been used in conjunction with built-in operating system functionality for scripting prototype tool chains for more complex operations involving Research Objects.
 
@@ -19,7 +19,7 @@ The RO Manager allows users and developers to:
 \item Obtain a raw dump of Research Object metadata.
 \end{itemize}
 
-To illustrate how the user can interact with the RO manager to manipulate research objects. Figure \ref{fig:romanagersequencediagram} shows interactions for three typical RO Manager operations, \texttt{ro create}, \texttt{ro add} and
+To illustrate how the user can interact with the RO manager to manipulate Research Objects. Figure \ref{fig:romanagersequencediagram} shows interactions for three typical RO Manager operations, \texttt{ro create}, \texttt{ro add} and
 \texttt{ro annotate}, which exemplify typical local RO management operations.
 
 \begin{figure}
@@ -31,7 +31,7 @@ To illustrate how the user can interact with the RO manager to manipulate resear
 \end{figure}
 
 
-The four interacting elements presented are the user-issued command (\texttt{/user}), the RO Manager program (\texttt{/RO\_Manager}'), an internal RO metadata object (\texttt{/ro\_metadata}') that manages the RO aggregation and annotation metadata, and the local file system (\texttt{/file\_system}) where ROs are persistently stored and managed.
+The four interacting elements presented are the user-issued command (\texttt{/user}), the RO Manager program (\texttt{/RO\_Manager}), an internal RO metadata object (\texttt{/ro\_metadata}) that manages the RO aggregation and annotation metadata, and the local file system (\texttt{/file\_system}) where ROs are persistently stored and managed.
 
 From this, it can be seen that:
 
@@ -39,9 +39,9 @@ From this, it can be seen that:
 
 \item The \texttt{ro create} command initializes an RO structure by interacting directly with the file system.
 
-\item The \texttt{ro add} command uses the RO URI to initialize an \texttt{ro$\backslash$\_metadata} object, and calls its \texttt{addAggregatedResources()} method to incorporate one or more files into the RO aggregation. The \texttt{ro$\backslash$\_metadata} object updates the RO metadata structures in the file system through a series or read and write operations.
+\item The \texttt{ro add} command uses the RO URI to initialize an \texttt{ro$\_$metadata} object, and calls its \texttt{addAggregatedResources()} method to incorporate one or more files into the RO aggregation. The \texttt{ro$\_$metadata} object updates the RO metadata structures in the file system through a series or read and write operations.
 
-\item The \texttt{ro annotate}' command similarly uses the RO URI to initialize an \texttt{ro$\backslash$\_metadata} object, and reads the existing annotations from disk. New annotations may be supplied as an attribute/value or attribute/link pair in which a case a new annotation graph is created in the file system. Otherwise the new annotation may already exist as a graph. In either case, the local copy of the RO manifest is updated to record the new annotation. The annotation may be applied to multiple resources in the RO. Eventually, the updated manifest is written to the file system by the \texttt{ro$\backslash$\_metadata} object.
+\item The \texttt{ro annotate}' command similarly uses the RO URI to initialize an \texttt{ro$\_$metadata} object, and reads the existing annotations from disk. New annotations may be supplied as an attribute/value or attribute/link pair in which a case a new annotation graph is created in the file system. Otherwise the new annotation may already exist as a graph. In either case, the local copy of the RO manifest is updated to record the new annotation. The annotation may be applied to multiple resources in the RO. Eventually, the updated manifest is written to the file system by the \texttt{ro$\_$metadata} object.
 \end{itemize}
 
 %\textbf{Source code organization:}
