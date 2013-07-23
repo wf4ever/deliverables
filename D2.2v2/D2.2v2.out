@@ -13,7 +13,9 @@
 \BOOKMARK [2][-]{subsection.5.1}{Workflow Abstraction using Motifs}{section.5}% 13
 \BOOKMARK [3][-]{subsubsection.5.1.1}{Representing Motifs}{subsection.5.1}% 14
 \BOOKMARK [3][-]{subsubsection.5.1.2}{Representing Workflows and Workflow Steps}{subsection.5.1}% 15
-\BOOKMARK [2][-]{subsection.5.2}{Indexing Workflows}{section.5}% 16
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Applications and Implementation}{subsection.5.2}% 17
-\BOOKMARK [1][-]{section.6}{Summary}{}% 18
-\BOOKMARK [1][-]{section.6}{Bibliography}{}% 19
+\BOOKMARK [1][-]{section.6}{Indexing Workflows}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{Applications and Implementation}{section.6}% 17
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Searching}{subsection.6.1}% 18
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Next step recommendation}{subsection.6.1}% 19
+\BOOKMARK [1][-]{section.7}{Summary}{}% 20
+\BOOKMARK [1][-]{section.7}{Bibliography}{}% 21

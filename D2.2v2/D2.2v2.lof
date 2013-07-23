@@ -22,3 +22,4 @@
 \contentsline {figure}{\numberline {22}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{24}{figure.caption.32}
 \contentsline {figure}{\numberline {23}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{25}{figure.caption.33}
 \contentsline {figure}{\numberline {24}{\ignorespaces \leavevmode {\color {black}Sorting the "Extract proteins using a gi - output as fasta file" example obtained from ProvBench}\relax }}{26}{figure.caption.34}
+\contentsline {figure}{\numberline {25}{\ignorespaces \leavevmode {\color {black}Sequence diagram for workflows indexing, searching, and recommending next step processes. }\relax }}{27}{figure.caption.35}
