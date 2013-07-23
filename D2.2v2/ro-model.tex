@@ -1,29 +1,23 @@
 \section{The Research Object Model}
 \label{sec:romodel}
 
-The design of the Research Object model was informed by a systematic analysis of requirements expressed by scientists from the life sciences and astronomy fields\footnote{\url{http://www.wf4ever-project.org/wiki/display/docs/User+Requirements}}. In the last year, the Research Object model didn't undergo any major changes, which is a good sign as it means that the model is mature enough to capture the requirements of the user. Figure \ref{fig:wm_abstract} gives an overview of the abstract model of the Research Object model, distinguishing between core and extended requirements. There are three core requirements that have been identified, namely a mechanism for uniquely identifying Research Objects, a means for aggregating resources within a Research Object, and the ability to annotate the Research Object, its constituent resources and their relationships. Based on the core requirements, the extended requirements highlight the need for specifying workflows (experiments), provenance traces of their executions, the evolution of a Research object over time, as well as mechanisms for citing Research Objects, expressing their dependencies.
+The design of the Research Object model was informed by a systematic analysis of requirements expressed by scientists from the life sciences and astronomy fields\footnote{\url{http://www.wf4ever-project.org/wiki/display/docs/User+Requirements}}. In the last year, the Research Object model didn't undergo any major changes, which is a good sign as it means that the model is mature enough to capture the requirements of the user. Figure \ref{fig:wm_abstract} gives an overview of the abstract model of the Research Object model, distinguishing between core and extended requirements.There are three core requirements that have been identified, namely a mechanism for uniquely identifying Research Objects, a means for aggregating resources within a Research Object, and the ability to annotate the Research Object, its constituent resources and their relationships. Based on the core requirements, the extended requirements highlight the need for specifying workflows (experiments), provenance traces of their executions, the evolution of a Research object over time, as well as mechanisms for expressing their dependencies. 
 
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.4\textwidth]{Figures/wm_abstract.png}
-  \caption{Research Objects: Abstract model.}
+  \includegraphics[width=.8\textwidth]{Figures/ro-model.png}
+  \caption{The Abstract Model of Research Objects, and the Ontologies that Realize it}
   \label{fig:wm_abstract}
 \end{figure}
 
-We have realized the Research Object abstract model illustrated in Figure \ref{fig:wm_abstract} in the form of a family of ontologies that are illustrated in Figure \ref{fig:wm_concrete}, which we will present in the rest of this section.  It is worth noting that some of the vocabularies, e.g., ORE\footnote{\url{www.openarchives.org/ore}} and OA ~\cite{COG11}, are existing vocabularies that were built on to specify our ontologies.
+As illustrated in Figure \ref{fig:wm_abstract}, We have realized the Research Object abstract model using  a family of ontologies, which we will present in the rest of this section. Notice that we do not define ontologies for specifying dependencies, investigations, components and studies, since there exist ontologies that implements these aspects, e.g., the Dublin Core ontology\footnote{\url{http://dublincore.org}} provide the means for specifying dependencies, and the ISA model\footnote{\url{http://www.isa-tools.org}} provides concepts for specifying investigations and studies.
 
- \begin{figure}[ht]
-  \centering
-  \includegraphics[width=0.4\textwidth]{Figures/wm_concrete.png}
-  \caption{Research Objects: Concrete model.}
-  \label{fig:wm_concrete}
-\end{figure}
 
 \subsection{Research Object Core Ontology} 
-The Core Research Object Ontology (RO) provides the minimum terms that are essential to the specification of Research Objects. Specifically, it caters for two main requirements\footnote{\url{http://www.wf4ever-project.org/wiki/display/docs/User+Requirements}} by providing a container structure that can be used by the scientists to bundle the resources and material relevant for their investigation, and by enabling annotations of such a container, its resources, as well as the relationships between resources thereby making the Research Object interpretable and reusable. 
+The Core Research Object Ontology (Core RO) provides the minimum terms that are essential to the specification of Research Objects. Specifically, it caters for two main requirements\footnote{\url{http://www.wf4ever-project.org/wiki/display/docs/User+Requirements}} by providing a container structure that can be used by the scientists to bundle the resources and material relevant for their investigation, and by enabling annotations of such a container, its resources, as well as the relationships between resources thereby making the Research Object interpretable and reusable. 
 
-To cater for the specification of aggregation structures, we built the Research Object Core Ontology upon the popular ORE vocabulary. ORE defines standards for the description and exchange of aggregations of Web resources. 
+To cater for the specification of aggregation structures, we built the Research Object Core Ontology upon the popular ORE vocabulary\footnote{\url{www.openarchives.org/ore}}. ORE defines standards for the description and exchange of aggregations of Web resources. 
 Figure \ref{fig:ro_ontology} illustrates the main terms that constitute the Research Object Core Ontology, which we describe in what follows.
 
 

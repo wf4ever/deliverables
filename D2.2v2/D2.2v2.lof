@@ -1,25 +1,24 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Research Objects: Abstract model.\relax }}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {2}{\ignorespaces Research Objects: Concrete model.\relax }}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {3}{\ignorespaces RO as an ORE aggregation.\relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {4}{\ignorespaces The \textit {wfdesc} ontology.\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {5}{\ignorespaces The \textit {wfprov} ontology.\relax }}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {6}{\ignorespaces The \textit {roevo} ontology extending PROV-O core terms.\relax }}{11}{figure.caption.16}
-\contentsline {figure}{\numberline {7}{\ignorespaces Research Object management tools.\relax }}{12}{figure.caption.17}
-\contentsline {figure}{\numberline {8}{\ignorespaces RO Manager sequence diagram illustrating interactions with the user.\relax }}{14}{figure.caption.18}
-\contentsline {figure}{\numberline {9}{\ignorespaces RO-enabled myExperiment (except RODL, the modules in the above figure belong to the myExperiment infrastructure).\relax }}{15}{figure.caption.19}
-\contentsline {figure}{\numberline {10}{\ignorespaces A Sequence diagram illustrating how myExperiment can be used to create Research Objects.\relax }}{16}{figure.caption.20}
-\contentsline {figure}{\numberline {11}{\ignorespaces Research Objects Digital Library internal component diagram\relax }}{18}{figure.caption.21}
-\contentsline {figure}{\numberline {12}{\ignorespaces The sequence diagram for creating a Research Object in RODL\relax }}{19}{figure.caption.22}
-\contentsline {figure}{\numberline {13}{\ignorespaces The sequence diagram for deleting a Research Object from RODL\relax }}{19}{figure.caption.23}
-\contentsline {figure}{\numberline {14}{\ignorespaces The sequence diagram for aggregating a new resource in a Research Object\relax }}{20}{figure.caption.24}
-\contentsline {figure}{\numberline {15}{\ignorespaces The sequence diagram for updating an existing resource in a Research Object\relax }}{20}{figure.caption.25}
-\contentsline {figure}{\numberline {16}{\ignorespaces The sequence diagram for deleting a resource from a Research Object\relax }}{20}{figure.caption.26}
-\contentsline {figure}{\numberline {17}{\ignorespaces The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective\relax }}{21}{figure.caption.27}
-\contentsline {figure}{\numberline {18}{\ignorespaces The sequence diagram for preparing the snapshot of a Research Object\relax }}{22}{figure.caption.28}
-\contentsline {figure}{\numberline {19}{\ignorespaces The sequence diagram for finalizing the snapshot and making it immutable\relax }}{22}{figure.caption.29}
-\contentsline {figure}{\numberline {20}{\ignorespaces The sequence diagram for storing Research Objects in dArceo\relax }}{22}{figure.caption.30}
-\contentsline {figure}{\numberline {21}{\ignorespaces The sequence diagram for checking the quality of Research Objects in dArceo\relax }}{23}{figure.caption.31}
-\contentsline {figure}{\numberline {22}{\ignorespaces \leavevmode {\color {black}Sample motifs in a Taverna workflow for functional genomics.}\relax }}{24}{figure.caption.32}
-\contentsline {figure}{\numberline {23}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{25}{figure.caption.33}
-\contentsline {figure}{\numberline {24}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{25}{figure.caption.34}
-\contentsline {figure}{\numberline {25}{\ignorespaces \leavevmode {\color {black}Sorting the "Extract proteins using a gi - output as fasta file" example obtained from ProvBench}\relax }}{26}{figure.caption.35}
+\contentsline {figure}{\numberline {1}{\ignorespaces The Abstract Model of Research Objects, and the Ontologies that Realize it\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {2}{\ignorespaces RO as an ORE aggregation.\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {3}{\ignorespaces The \textit {wfdesc} ontology.\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {4}{\ignorespaces The \textit {wfprov} ontology.\relax }}{10}{figure.caption.13}
+\contentsline {figure}{\numberline {5}{\ignorespaces The \textit {roevo} ontology extending PROV-O core terms.\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {6}{\ignorespaces Research Object management tools.\relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {7}{\ignorespaces RO Manager sequence diagram illustrating interactions with the user.\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {8}{\ignorespaces RO-enabled myExperiment (except RODL, the modules in the above figure belong to the myExperiment infrastructure).\relax }}{15}{figure.caption.18}
+\contentsline {figure}{\numberline {9}{\ignorespaces A Sequence diagram illustrating how myExperiment can be used to create Research Objects.\relax }}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {10}{\ignorespaces Research Objects Digital Library internal component diagram\relax }}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {11}{\ignorespaces The sequence diagram for creating a Research Object in RODL\relax }}{19}{figure.caption.21}
+\contentsline {figure}{\numberline {12}{\ignorespaces The sequence diagram for deleting a Research Object from RODL\relax }}{19}{figure.caption.22}
+\contentsline {figure}{\numberline {13}{\ignorespaces The sequence diagram for aggregating a new resource in a Research Object\relax }}{20}{figure.caption.23}
+\contentsline {figure}{\numberline {14}{\ignorespaces The sequence diagram for updating an existing resource in a Research Object\relax }}{20}{figure.caption.24}
+\contentsline {figure}{\numberline {15}{\ignorespaces The sequence diagram for deleting a resource from a Research Object\relax }}{20}{figure.caption.25}
+\contentsline {figure}{\numberline {16}{\ignorespaces The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective\relax }}{21}{figure.caption.26}
+\contentsline {figure}{\numberline {17}{\ignorespaces The sequence diagram for preparing the snapshot of a Research Object\relax }}{22}{figure.caption.27}
+\contentsline {figure}{\numberline {18}{\ignorespaces The sequence diagram for finalizing the snapshot and making it immutable\relax }}{22}{figure.caption.28}
+\contentsline {figure}{\numberline {19}{\ignorespaces The sequence diagram for storing Research Objects in dArceo\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {20}{\ignorespaces The sequence diagram for checking the quality of Research Objects in dArceo\relax }}{23}{figure.caption.30}
+\contentsline {figure}{\numberline {21}{\ignorespaces \leavevmode {\color {black}Sample motifs in a Taverna workflow for functional genomics.}\relax }}{23}{figure.caption.31}
+\contentsline {figure}{\numberline {22}{\ignorespaces \leavevmode {\color {black}Diagram showing an overview of the class taxonomy of the motif OWL ontology.}\relax }}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {23}{\ignorespaces Subset of the annotations of the Taverna workflow shown in Figure \ref {fig:tav_wf_motifs} using the wfdesc model.\relax }}{25}{figure.caption.33}
+\contentsline {figure}{\numberline {24}{\ignorespaces \leavevmode {\color {black}Sorting the "Extract proteins using a gi - output as fasta file" example obtained from ProvBench}\relax }}{26}{figure.caption.34}

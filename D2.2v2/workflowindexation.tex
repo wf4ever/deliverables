@@ -1,4 +1,4 @@
-\section{Indexing Workflows}
+\subsection{Indexing Workflows}
 \label{sec:indexation}
 
 This section shows how workflows have been indexed using a generalized trie structure\footnote{Trie comes from the word re{\bf Trie}val indicating the process of information accessing but it is also called suffix tree.} and a serialization process. 
@@ -16,13 +16,12 @@ The figure~\ref{fig:sorting-workflow} shows how the "Extract proteins using a gi
 \label{fig:sorting-workflow}
 \end{figure*}
 
-\subsection{Applications and Implementation}
+\subsubsection{Applications and Implementation}
 In order to provide scientists with searching and design capabilities we have implemented two different web services which makes use of the above introduced indexing structure for accessing to workflows and recommend next steps given the previous ones. It is worth highlighting that the implemented indexing structure could be also used for other purposes as the discovery of frequent patterns by using the collected statistical information and mining the semantic trie structure which would take full advantage of the intrinsic sequential ordering of the trie structure. 
 
 The implementation of both services (searching and next step recommendation) has been done applying the guidelines of the Wf4Ever project. Both services are REST and can be called by an HTTP GET method which upon on ACCEPT headers may return XML or JSON formats. Also for implementation purposes we have encapsulated the trie indexing structured in order to provided the above presented services.
  
-\subsubsection{Searching}
-
+\paragraph{Searching}
 This service\footnote{\url{http://sandbox.wf4ever-project.org/wfabstraction/rest/search}} searches for those workflows which contain a specific sequence of processes providing on real time a list including all of them. The service accepts an array of processes' names as input parameter process[] (e.g. process?=p1\&p2\&p3). Therefore the general call would be of the form\footnote{\url{http://sandbox.wf4ever-project.org/wfabstraction/rest/search{?process[]}}}:\\
 
 The output is an XML or JSON structure with the following attributes: 
@@ -32,7 +31,7 @@ The output is an XML or JSON structure with the following attributes:
 \item \textbf{URIs}: are the URIs of the workflows where the sequence appears. 
 \end{itemize}
 
-\subsubsection{Next step recommendation}
+\paragraph{step recommendation}
 The proposed trie structure captures the provenance of workflows execution associated to scientific experiments allowing
 their indexation based on the temporal information that they contain. The trie structure is also updated to gather
 the needed statistics for mining the execution of workflows and provide the recommended next process based on how frequent 

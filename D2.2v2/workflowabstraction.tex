@@ -1,4 +1,4 @@
-\section{Workflow Abstraction using Motifs}
+\subsection{Workflow Abstraction using Motifs}
 \label{sec:abstraction}
 %Depending on the context of the deliverable, this first paragraph may be commented. 
 %Scientific workflows have been increasingly used in the last decade as an instrument for data intensive science. 
@@ -18,7 +18,7 @@ As a first step towards addressing this issue \cite{garijo_Alper_2012} describes
 
 This section describes the Workflow Motifs ontology\footnote{http://purl.org/net/wf-motifs}, an OWL 2 encoding ot the aforementioned motif catalogue. The goal of this ontology is to provide the means to annotate workflows and their steps with the motifs of the vocabulary, without setting any restriction on how the workflows are defined themselves.
 
-\subsection{Representing Motifs}
+\subsubsection{Representing Motifs}
 Figure \ref{fig:ontology} shows an overview of the class taxonomy of the ontology. The class {\tt  Motif} represents the different classes of motifs identified in the catalog. This class is categorized into two specialized sub-classes {\tt  DataOperationMotif} and {\tt  WorkflowMotif}, which are sub-classed following the taxonomy represented in \cite{garijo_Alper_2012}.
 
 \begin{figure*}[t!]
@@ -30,7 +30,7 @@ Figure \ref{fig:ontology} shows an overview of the class taxonomy of the ontolog
 
 The ontology provides three properties to link motifs to workflow specifications and their fragments. The {\tt  hasMotif} property associates workflows and their operations with their motifs. The properties {\tt  hasDataOperationMotif} and {\tt  hasWorkflowMotif} allow annotating workflows and their steps with more specificity. These properties have no domain specified, as different workflow models may use different vocabularies for describing workflows and their parts. 
 
-\subsection{Representing Workflows and Workflow Steps}
+\subsubsection{Representing Workflows and Workflow Steps}
 Workflows may be represented with different models and vocabularies like OPMW \cite{garijo_gil_2011}, P-Plan  \cite{garijo-gil-lisc12} or D-PROV \cite{Missier2013a}. While providing an abstract and consistent representation of the workflow is not a pre-requisite to the usage of the Motif ontology, we consider it a best-practice to use a model that is independent from any specific workflow language or technology. An example of annotation using the wfdesc model is given in Figure \ref{fig:annot-example} by showing the annotations of part of the Taverna workflow shown in Figure \ref{fig:tav_wf_motifs}. 
 
 \begin{figure*}[ht!]

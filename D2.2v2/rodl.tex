@@ -9,9 +9,9 @@ The foundational service to preserve workflow-centric Research Objects is the Re
 
 The main system level interface of RODL is a set of REST APIs, among which the two primary ones are the RO API\footnote{\url{http://wf4ever-project.org/wiki/display/docs/RO+API+6}} and the RO Evolution API\footnote{\url{http://wf4ever-project.org/wiki/display/docs/RO+evolution+API}}.
 
-The RO API, also called the RO Storage and Retrieval API, defines the formats and links used to create and maintain Research Objects in the digital library. It is aligned with the RO model that is used to define Research Objects, and so it recognizes concepts such as aggregations, annotations and folders. The RO model ontology (see Section \ref{sec:romodel}) is used to specify relations between different resources. Given that the semantic metadata is an important component of a Research Object, the RODL supports content negotiation for the metadata resources, including formats such as RDF/XML, Turtle and TriG.
+The RO API, also called the RO Storage and Retrieval API, defines the formats and links used to create and maintain Research Objects in the digital library. It is aligned with the Research Object model that is used to define Research Objects, and so it recognizes concepts such as aggregations, annotations and folders. The Research Object model ontology (see Section \ref{sec:romodel}) is used to specify relations between different resources. Given that the semantic metadata is an important component of a Research Object, the RODL supports content negotiation for the metadata resources, including formats such as RDF/XML, Turtle and TriG.
 
-The RO Evolution API defines the formats and links used to change the lifecycle stage of a Research Object, most importantly to create an immutable snapshot or archive from a mutable live Research Object, as well as to retrieve the evolution provenance of a Research Object. The API follows the RO evolution model (see Section \ref{sec:romodel}), which is most visible in the evolution metadata that are generated for each state transition.
+The RO Evolution API defines the formats and links used to change the lifecycle stage of a Research Object, most importantly to create an immutable snapshot or archive from a mutable live Research Object, as well as to retrieve the evolution provenance of a Research Object. The API follows the Research Object evolution model (see Section \ref{sec:romodel}), which is most visible in the evolution metadata that are generated for each state transition.
 
 Additionally, RODL provides a SPARQL endpoint that allows performing SPARQL queries over HTTP to the metadata of all stored Research Objects. It also implements the Notification API\footnote{\url{http://wf4ever-project.org/wiki/display/docs/Notification+API}}, which defines links used to retrieve Atom feeds with notifications of events about any Research Object. For searching the contents of Research Objects a Solr REST API and the OpenSearch APIs are provided. Finally, RODL implements a custom User Management API\footnote{url{http://wf4ever-project.org/wiki/display/docs/User+Management+2}} for registering users and generating OAuth 2 access tokens, providing the option of extending it with an access control layer in the future.
 
@@ -37,77 +37,77 @@ The UML sequence diagrams illustrate the interactions between the controller, th
 
 The longterm preservation component is built on dArceo\footnote{\url{http://dlab.psnc.pl/darceo/}} - a system for longterm preservation of digital objects developed by PSNC. dArceo stores the objects and monitors their quality, alerting the administrators if necessary (see Figure \ref{dArceoStore}). The standard monitoring activities include file format decay alerts and fixity checking but can be enhanced using a plugin mechanism. In case of RODL, dArceo periodically monitors the quality of Research Objects by calling the Checklist Evaluation and Stability Services\footnote{\url{http://wf4ever-project.org/wiki/display/docs/RO+checklist+evaluation+API},\url{http://wf4ever-project.org/wiki/display/docs/Stability+Evaluation+API}}  (see Figure \ref{dArceoQuality}). If a change in quality is detected, notifications are generated as Atom feeds in compliance with the Notification API mentioned above. This helps detect and prevent workflow decay which occurs when an external resource or service used by the workflow becomes unavailable or is otherwise behaving differently.
 
-dArceo gives the possibility to define migration plans that allow to perform a batch update of resources from one format to another, when necessary. In case of workflows, this may be applied for instance when a flat Taverna t2flow format should be converted to a complex scufl2 format (which, N.B. uses the RO model similarly to Research Objects). Other case could be a batch update of workflows that depend on a malfunctioning external resource.
+dArceo gives the possibility to define migration plans that allow to perform a batch update of resources from one format to another, when necessary. In case of workflows, this may be applied for instance when a flat Taverna t2flow format should be converted to a complex scufl2 format (which, N.B. uses the Research Object model similarly to Research Objects). Other case could be a batch update of workflows that depend on a malfunctioning external resource.
 
 Objects in dArceo can be stored on a range of backends, including specialized preservation repositories such as the Platon service\footnote{\url{http://www.platon.pionier.net.pl/}}, storing data in geographically distributed copies and guaranteeing their consistency.
 
 A running instance of the RODL is available for testing\footnote{\url{http://sandbox.wf4ever-project.org/rodl/}}. At the moment of writing, it holds more than 1300 Research Objects.
 
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/ROcreate.png}
 \caption{The sequence diagram for creating a Research Object in RODL}
 \label{ROCreate}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/ROdelete.png}
 \caption{The sequence diagram for deleting a Research Object from RODL}
 \label{RODelete}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/ResourceAdd.png}
 \caption{The sequence diagram for aggregating a new resource in a Research Object}
 \label{ResourceAdd}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/ResourceUpdate.png}
 \caption{The sequence diagram for updating an existing resource in a Research Object}
 \label{ResourceUpdate}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/ResourceDelete.png}
 \caption{The sequence diagram for deleting a resource from a Research Object}
 \label{ResourceDelete}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.5\textwidth]{Figures/RODL/SnapshotClient.png}
 \caption{The sequence diagram for creating a snapshot or release from the RO Evolution API client perspective}
 \label{SnapshotClient}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/SnapshotPerform.png}
 \caption{The sequence diagram for preparing the snapshot of a Research Object}
 \label{SnapshotPerform}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/SnapshotFinalize.png}
 \caption{The sequence diagram for finalizing the snapshot and making it immutable}
 \label{SnapshotFinalize}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.7\textwidth]{Figures/RODL/dArceoStore.png}
 \caption{The sequence diagram for storing Research Objects in dArceo}
 \label{dArceoStore}
 \end{figure}
 
-\begin{figure}[!hb]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=0.9\textwidth]{Figures/RODL/dArceoQuality.png}
 \caption{The sequence diagram for checking the quality of Research Objects in dArceo}

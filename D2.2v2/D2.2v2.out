@@ -9,12 +9,11 @@
 \BOOKMARK [2][-]{subsection.4.1}{The interfaces}{section.4}% 9
 \BOOKMARK [2][-]{subsection.4.2}{The implementation}{section.4}% 10
 \BOOKMARK [2][-]{subsection.4.3}{RODL clients}{section.4}% 11
-\BOOKMARK [1][-]{section.5}{Workflow Abstraction using Motifs}{}% 12
-\BOOKMARK [2][-]{subsection.5.1}{Representing Motifs}{section.5}% 13
-\BOOKMARK [2][-]{subsection.5.2}{Representing Workflows and Workflow Steps}{section.5}% 14
-\BOOKMARK [1][-]{section.6}{Indexing Workflows}{}% 15
-\BOOKMARK [2][-]{subsection.6.1}{Applications and Implementation}{section.6}% 16
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Searching}{subsection.6.1}% 17
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Next step recommendation}{subsection.6.1}% 18
-\BOOKMARK [1][-]{section.7}{Summary}{}% 19
-\BOOKMARK [1][-]{section.7}{Bibliography}{}% 20
+\BOOKMARK [1][-]{section.5}{Abstracting and Indexing Workflows}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Workflow Abstraction using Motifs}{section.5}% 13
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Representing Motifs}{subsection.5.1}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Representing Workflows and Workflow Steps}{subsection.5.1}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Indexing Workflows}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Applications and Implementation}{subsection.5.2}% 17
+\BOOKMARK [1][-]{section.6}{Summary}{}% 18
+\BOOKMARK [1][-]{section.6}{Bibliography}{}% 19
