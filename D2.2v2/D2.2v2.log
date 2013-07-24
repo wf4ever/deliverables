@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  23 JUL 2013 15:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 JUL 2013 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,8 +834,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [19 <./Figures/RODL/ROcreate.png> <./Figures/RODL/ROdelete.png>])
 (./abs-indx-wfs.tex) (./workflowabstraction.tex
+Underfull \vbox (badness 4940) has occurred while \output is active []
+
 File: wf4everLogo.pdf Graphic file (type pdf)
- <use wf4everLogo.pdf>
+
+<use wf4everLogo.pdf>
 Package pdftex.def Info: wf4everLogo.pdf used on input line 7.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [20 <./Figures/RODL/ResourceAdd.png> <./Figures/RODL/ResourceUpdate.png> <./Fi
@@ -966,7 +969,7 @@ cal/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/tex
 live/2012/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on D2.2v2.pdf (30 pages, 2529325 bytes).
+Output written on D2.2v2.pdf (30 pages, 2529040 bytes).
 PDF statistics:
  710 PDF objects out of 1000 (max. 8388607)
  607 compressed objects within 7 object streams
