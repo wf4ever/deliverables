@@ -10,15 +10,15 @@
 \contentsline {subsection}{\numberline {3.2}Research Object-Enabled myExperiment}{15}{subsection.3.2}
 \contentsline {section}{\numberline {4}Research Object Digital Library}{17}{section.4}
 \contentsline {subsection}{\numberline {4.1}The interfaces}{17}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}The implementation}{17}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}RODL clients}{19}{subsection.4.3}
-\contentsline {section}{\numberline {5}Abstracting and Indexing Workflows}{20}{section.5}
+\contentsline {subsection}{\numberline {4.2}The implementation}{18}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}RODL clients}{21}{subsection.4.3}
+\contentsline {section}{\numberline {5}Abstracting and Indexing Workflows}{21}{section.5}
 \contentsline {subsection}{\numberline {5.1}Workflow Abstraction using Motifs}{21}{subsection.5.1}
-\contentsline {subsubsection}{\numberline {5.1.1}Representing Motifs}{24}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Representing Workflows and Workflow Steps}{24}{subsubsection.5.1.2}
-\contentsline {section}{\numberline {6}Indexing Workflows}{25}{section.6}
-\contentsline {subsection}{\numberline {6.1}Applications and Implementation}{26}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Searching}{26}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Next step recommendation}{27}{subsubsection.6.1.2}
-\contentsline {section}{\numberline {7}Summary}{28}{section.7}
-\contentsline {section}{Bibliography}{29}{section.7}
+\contentsline {subsubsection}{\numberline {5.1.1}Representing Motifs}{22}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Representing Workflows and Workflow Steps}{23}{subsubsection.5.1.2}
+\contentsline {section}{\numberline {6}Indexing Workflows}{24}{section.6}
+\contentsline {subsection}{\numberline {6.1}Applications and Implementation}{25}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Searching}{25}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Next step recommendation}{26}{subsubsection.6.1.2}
+\contentsline {section}{\numberline {7}Summary}{27}{section.7}
+\contentsline {section}{Bibliography}{28}{section.7}

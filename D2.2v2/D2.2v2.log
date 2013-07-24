@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 JUL 2013 10:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 JUL 2013 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,7 +596,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 4.
 
-<Figures/ro-model.png, id=237, 798.985pt x 497.86pt>
+<Figures/ro-model.png, id=229, 798.985pt x 497.86pt>
 File: Figures/ro-model.png Graphic file (type png)
 
 <use Figures/ro-model.png>
@@ -611,7 +611,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
  [7
 
 ]
-<Figures/ro_ontology_1.png, id=262, 546.843pt x 233.1912pt>
+<Figures/ro_ontology_1.png, id=254, 546.843pt x 233.1912pt>
 File: Figures/ro_ontology_1.png Graphic file (type png)
 
 <use Figures/ro_ontology_1.png>
@@ -627,7 +627,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.27998pt on input line 47.
 
-<Figures/wfdesc.png, id=284, 563.706pt x 452.4102pt>
+<Figures/wfdesc.png, id=276, 563.706pt x 452.4102pt>
 File: Figures/wfdesc.png Graphic file (type png)
  <use Figures/wfdesc.png>
 Package pdftex.def Info: Figures/wfdesc.png used on input line 51.
@@ -639,7 +639,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 10.07397pt on input line 68.
 
-[9] <Figures/wfprov.png, id=303, 615.7404pt x 421.575pt>
+[9] <Figures/wfprov.png, id=294, 615.7404pt x 421.575pt>
 File: Figures/wfprov.png Graphic file (type png)
 
 <use Figures/wfprov.png>
@@ -649,7 +649,7 @@ File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
 Package pdftex.def Info: wf4everLogo.pdf used on input line 86.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [10 <./Figures/wfdesc.png> <./Figures/wfprov.png>] <Figures/roevo.png, id=315,
+ [10 <./Figures/wfdesc.png> <./Figures/wfprov.png>] <Figures/roevo.png, id=307,
  707.7642pt x 395.076pt>
 File: Figures/roevo.png Graphic file (type png)
 
@@ -657,7 +657,7 @@ File: Figures/roevo.png Graphic file (type png)
 Package pdftex.def Info: Figures/roevo.png used on input line 89.
 (pdftex.def)             Requested size: 287.4895pt x 160.47511pt.
 ) [11 <./Figures/roevo.png>] (./romt.tex
-<Figures/ROManagementTools-exploitation.png, id=336, 782.925pt x 542.025pt>
+<Figures/ROManagementTools-exploitation.png, id=328, 782.925pt x 542.025pt>
 File: Figures/ROManagementTools-exploitation.png Graphic file (type png)
 
 <use Figures/ROManagementTools-exploitation.png>
@@ -673,7 +673,7 @@ File: wf4everLogo.pdf Graphic file (type pdf)
 Package pdftex.def Info: wf4everLogo.pdf used on input line 7.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [12 <./Figures/ROManagementTools-exploitation.png>]
-<Figures/RO_Manager_seq.png, id=351, 596.9502pt x 845.0772pt>
+<Figures/RO_Manager_seq.png, id=343, 596.9502pt x 845.0772pt>
 File: Figures/RO_Manager_seq.png Graphic file (type png)
 
 <use Figures/RO_Manager_seq.png>
@@ -693,7 +693,7 @@ Package pdftex.def Info: wf4everLogo.pdf used on input line 127.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [14 <./Figures/RO_Manager_seq.png>])
 (./romyexperiment.tex
-<Figures/myexperimentArchitecture.png, id=391, 537.207pt x 349.305pt>
+<Figures/myexperimentArchitecture.png, id=383, 537.207pt x 349.305pt>
 File: Figures/myexperimentArchitecture.png Graphic file (type png)
 
 <use Figures/myexperimentArchitecture.png>
@@ -701,7 +701,7 @@ Package pdftex.def Info: Figures/myexperimentArchitecture.png used on input lin
 e 10.
 (pdftex.def)             Requested size: 335.39954pt x 218.09122pt.
 
-<Figures/myexperimentInteractions.png, id=392, 709.6914pt x 542.025pt>
+<Figures/myexperimentInteractions.png, id=384, 709.6914pt x 542.025pt>
 File: Figures/myexperimentInteractions.png Graphic file (type png)
 
 <use Figures/myexperimentInteractions.png>
@@ -714,14 +714,63 @@ File: wf4everLogo.pdf Graphic file (type pdf)
 Package pdftex.def Info: wf4everLogo.pdf used on input line 36.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
  [16 <./Figures/myexperimentInteractions.png>])
-(./rodl.tex <Figures/RODL-new.png, id=438, 716.4366pt x 396.0396pt>
+(./rodl.tex <Figures/RODL-new.png, id=420, 716.4366pt x 396.0396pt>
 File: Figures/RODL-new.png Graphic file (type png)
 
 <use Figures/RODL-new.png>
-Package pdftex.def Info: Figures/RODL-new.png used on input line 26.
+Package pdftex.def Info: Figures/RODL-new.png used on input line 10.
 (pdftex.def)             Requested size: 479.1443pt x 264.87378pt.
- [17]
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+ [17 <./Figures/RODL-new.png>]
+<Figures/RODL/ROcreate.png, id=439, 1009.7725pt x 369.38pt>
+File: Figures/RODL/ROcreate.png Graphic file (type png)
+
+<use Figures/RODL/ROcreate.png>
+Package pdftex.def Info: Figures/RODL/ROcreate.png used on input line 28.
+(pdftex.def)             Requested size: 335.39954pt x 122.69049pt.
+
+<Figures/RODL/ResourceAdd.png, id=440, 1009.7725pt x 409.53pt>
+File: Figures/RODL/ResourceAdd.png Graphic file (type png)
+
+<use Figures/RODL/ResourceAdd.png>
+Package pdftex.def Info: Figures/RODL/ResourceAdd.png used on input line 35.
+(pdftex.def)             Requested size: 335.39954pt x 136.02641pt.
+File: wf4everLogo.pdf Graphic file (type pdf)
+ <use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 46.
+(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
+ [18 <./Figures/RODL/ROcreate.png> <./Figures/RODL/ResourceAdd.png>]
+<Figures/RODL/SnapshotClient.png, id=455, 549.05125pt x 885.3075pt>
+File: Figures/RODL/SnapshotClient.png Graphic file (type png)
+
+<use Figures/RODL/SnapshotClient.png>
+Package pdftex.def Info: Figures/RODL/SnapshotClient.png used on input line 52.
+
+(pdftex.def)             Requested size: 239.57214pt x 386.29442pt.
+ [19 <./Figures/RODL/SnapshotClient.png>]
+<Figures/RODL/SnapshotPerform.png, id=470, 768.8725pt x 505.89pt>
+File: Figures/RODL/SnapshotPerform.png Graphic file (type png)
+
+<use Figures/RODL/SnapshotPerform.png>
+Package pdftex.def Info: Figures/RODL/SnapshotPerform.png used on input line 62
+.
+(pdftex.def)             Requested size: 335.39954pt x 220.68562pt.
+
+<Figures/RODL/SnapshotFinalize.png, id=471, 768.8725pt x 305.14pt>
+File: Figures/RODL/SnapshotFinalize.png Graphic file (type png)
+
+<use Figures/RODL/SnapshotFinalize.png>
+Package pdftex.def Info: Figures/RODL/SnapshotFinalize.png used on input line 6
+9.
+(pdftex.def)             Requested size: 335.39954pt x 133.11195pt.
+
+<Figures/RODL/dArceoStore.png, id=472, 746.79pt x 224.84pt>
+File: Figures/RODL/dArceoStore.png Graphic file (type png)
+
+<use Figures/RODL/dArceoStore.png>
+Package pdftex.def Info: Figures/RODL/dArceoStore.png used on input line 76.
+(pdftex.def)             Requested size: 335.39954pt x 100.97807pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 [][][][]$\T1/fi4/m/n/9 http : / / wf4ever-[]project . org / wiki / display / do
 cs / RO + checklist + evaluation + API$[]\T1/phv/m/n/9 ,[]$\T1/fi4/m/n/9 http :
  / / wf4ever-[]project . org /
@@ -729,139 +778,19 @@ cs / RO + checklist + evaluation + API$[]\T1/phv/m/n/9 ,[]$\T1/fi4/m/n/9 http :
 
 File: wf4everLogo.pdf Graphic file (type pdf)
 <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 39.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 82.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [18 <./Figures/RODL-new.png>]
-<Figures/RODL/ROcreate.png, id=481, 1009.7725pt x 369.38pt>
-File: Figures/RODL/ROcreate.png Graphic file (type png)
-
-<use Figures/RODL/ROcreate.png>
-Package pdftex.def Info: Figures/RODL/ROcreate.png used on input line 49.
-(pdftex.def)             Requested size: 335.39954pt x 122.69049pt.
-
-<Figures/RODL/ROdelete.png, id=482, 1009.7725pt x 367.3725pt>
-File: Figures/RODL/ROdelete.png Graphic file (type png)
-
-<use Figures/RODL/ROdelete.png>
-Package pdftex.def Info: Figures/RODL/ROdelete.png used on input line 56.
-(pdftex.def)             Requested size: 335.39954pt x 122.02368pt.
-
-<Figures/RODL/ResourceAdd.png, id=483, 1009.7725pt x 409.53pt>
-File: Figures/RODL/ResourceAdd.png Graphic file (type png)
-
-<use Figures/RODL/ResourceAdd.png>
-Package pdftex.def Info: Figures/RODL/ResourceAdd.png used on input line 63.
-(pdftex.def)             Requested size: 335.39954pt x 136.02641pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/ResourceUpdate.png, id=484, 1009.7725pt x 407.5225pt>
-File: Figures/RODL/ResourceUpdate.png Graphic file (type png)
-
-<use Figures/RODL/ResourceUpdate.png>
-Package pdftex.def Info: Figures/RODL/ResourceUpdate.png used on input line 70.
-
-(pdftex.def)             Requested size: 335.39954pt x 135.35962pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/ResourceDelete.png, id=485, 1009.7725pt x 405.515pt>
-File: Figures/RODL/ResourceDelete.png Graphic file (type png)
-
-<use Figures/RODL/ResourceDelete.png>
-Package pdftex.def Info: Figures/RODL/ResourceDelete.png used on input line 77.
-
-(pdftex.def)             Requested size: 335.39954pt x 134.69281pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/SnapshotClient.png, id=486, 549.05125pt x 885.3075pt>
-File: Figures/RODL/SnapshotClient.png Graphic file (type png)
-
-<use Figures/RODL/SnapshotClient.png>
-Package pdftex.def Info: Figures/RODL/SnapshotClient.png used on input line 84.
-
-(pdftex.def)             Requested size: 239.57214pt x 386.29442pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/SnapshotPerform.png, id=487, 768.8725pt x 505.89pt>
-File: Figures/RODL/SnapshotPerform.png Graphic file (type png)
-
-<use Figures/RODL/SnapshotPerform.png>
-Package pdftex.def Info: Figures/RODL/SnapshotPerform.png used on input line 91
-.
-(pdftex.def)             Requested size: 335.39954pt x 220.68562pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/SnapshotFinalize.png, id=488, 768.8725pt x 305.14pt>
-File: Figures/RODL/SnapshotFinalize.png Graphic file (type png)
-
-<use Figures/RODL/SnapshotFinalize.png>
-Package pdftex.def Info: Figures/RODL/SnapshotFinalize.png used on input line 9
-8.
-(pdftex.def)             Requested size: 335.39954pt x 133.11195pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/dArceoStore.png, id=489, 746.79pt x 224.84pt>
-File: Figures/RODL/dArceoStore.png Graphic file (type png)
-
-<use Figures/RODL/dArceoStore.png>
-Package pdftex.def Info: Figures/RODL/dArceoStore.png used on input line 105.
-(pdftex.def)             Requested size: 335.39954pt x 100.97807pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RODL/dArceoQuality.png, id=490, 1178.4025pt x 576.1525pt>
-File: Figures/RODL/dArceoQuality.png Graphic file (type png)
-
-<use Figures/RODL/dArceoQuality.png>
-Package pdftex.def Info: Figures/RODL/dArceoQuality.png used on input line 112.
-
-(pdftex.def)             Requested size: 431.22694pt x 210.83458pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19 <./Figures/RODL/ROcreate.png> <./Figures/RODL/ROdelete.png>])
-(./abs-indx-wfs.tex) (./workflowabstraction.tex
-Underfull \vbox (badness 4940) has occurred while \output is active []
-
-File: wf4everLogo.pdf Graphic file (type pdf)
-
-<use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 7.
-(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [20 <./Figures/RODL/ResourceAdd.png> <./Figures/RODL/ResourceUpdate.png> <./Fi
-gures/RODL/ResourceDelete.png>]
-Underfull \vbox (badness 3168) has occurred while \output is active []
-
- [21 <./Figures/RODL/SnapshotClient.png>]
-<Figures/taverna-wf-motifs.png, id=535, 575.14874pt x 466.74374pt>
+ [20 <./Figures/RODL/SnapshotPerform.png> <./Figures/RODL/SnapshotFinalize.png>
+ <./Figures/RODL/dArceoStore.png>]) (./abs-indx-wfs.tex)
+(./workflowabstraction.tex [21]
+<Figures/taverna-wf-motifs.png, id=514, 575.14874pt x 466.74374pt>
 File: Figures/taverna-wf-motifs.png Graphic file (type png)
 
 <use Figures/taverna-wf-motifs.png>
 Package pdftex.def Info: Figures/taverna-wf-motifs.png used on input line 14.
 (pdftex.def)             Requested size: 402.60138pt x 326.71838pt.
-File: wf4everLogo.pdf Graphic file (type pdf)
- <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 20.
-(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [22 <./Figures/RODL/SnapshotPerform.png> <./Figures/RODL/SnapshotFinalize.png>
- <./Figures/RODL/dArceoStore.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./Figures/RODL/dArceoQuality.png> <./Figures/taverna-wf-motifs.png>]
-<Figures/ontology.png, id=554, 648.4225pt x 685.56125pt>
+<Figures/ontology.png, id=518, 648.4225pt x 685.56125pt>
 File: Figures/ontology.png Graphic file (type png)
 
 <use Figures/ontology.png>
@@ -869,16 +798,17 @@ Package pdftex.def Info: Figures/ontology.png used on input line 26.
 (pdftex.def)             Requested size: 389.0565pt x 411.33992pt.
 File: wf4everLogo.pdf Graphic file (type pdf)
  <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 35.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 32.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [24 <./Figures/ontology.png (PNG copy)>] <Figures/tav-wf-annotated.png, id=568
-, 1288.0622pt x 688.07062pt>
+ [22 <./Figures/taverna-wf-motifs.png>] <Figures/tav-wf-annotated.png, id=535, 
+1288.0622pt x 688.07062pt>
 File: Figures/tav-wf-annotated.png Graphic file (type png)
 
 <use Figures/tav-wf-annotated.png>
 Package pdftex.def Info: Figures/tav-wf-annotated.png used on input line 38.
 (pdftex.def)             Requested size: 257.60786pt x 137.61168pt.
-) (./workflowindexation.tex
+ [23 <./Figures/ontology.png (PNG copy)>])
+(./workflowindexation.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -893,15 +823,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[25 <./Figures/tav-wf-annotated.png>]
-<Figures/sorting-workflow.png, id=590, 578.6418pt x 347.3778pt>
+<Figures/sorting-workflow.png, id=553, 578.6418pt x 347.3778pt>
 File: Figures/sorting-workflow.png Graphic file (type png)
 
 <use Figures/sorting-workflow.png>
 Package pdftex.def Info: Figures/sorting-workflow.png used on input line 13.
 (pdftex.def)             Requested size: 405.0465pt x 243.1628pt.
-
-<Figures/sequence-indexing.png, id=592, 632.3625pt x 538.01pt>
+File: wf4everLogo.pdf Graphic file (type pdf)
+ <use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 16.
+(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
+ [24 <./Figures/tav-wf-annotated.png>] <Figures/sequence-indexing.png, id=568, 
+632.3625pt x 538.01pt>
 File: Figures/sequence-indexing.png Graphic file (type png)
 
 <use Figures/sequence-indexing.png>
@@ -912,33 +845,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-File: wf4everLogo.pdf Graphic file (type pdf)
-<use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 36.
-(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [26 <./Figures/sorting-workflow.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
-[27 <./Figures/sequence-indexing.png>]) (./conclusions.tex)
+[25 <./Figures/sorting-workflow.png>]) (./conclusions.tex
 File: wf4everLogo.pdf Graphic file (type pdf)
 
 <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 172.
+Package pdftex.def Info: wf4everLogo.pdf used on input line 5.
 (pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [28] (./D2.2v2.bbl [29
+ [26 <./Figures/sequence-indexing.png>]) [27]
+(./D2.2v2.bbl
+File: wf4everLogo.pdf Graphic file (type pdf)
+ <use wf4everLogo.pdf>
+Package pdftex.def Info: wf4everLogo.pdf used on input line 108.
+(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
+ [28
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-File: wf4everLogo.pdf Graphic file (type pdf)
- <use wf4everLogo.pdf>
-Package pdftex.def Info: wf4everLogo.pdf used on input line 181.
-(pdftex.def)             Requested size: 55.76758pt x 23.01543pt.
- [30]
+ [29]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
-
-(./D2.2v2.aux)
+ (./D2.2v2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `D2.2v2.out' has not changed.
@@ -950,13 +880,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
 ### semi simple group (level 1) entered at line 59 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9476 strings out of 493488
- 141454 string characters out of 3141326
- 222233 words of memory out of 3000000
- 12417 multiletter control sequences out of 15000+200000
+ 9447 strings out of 493488
+ 140713 string characters out of 3141326
+ 221815 words of memory out of 3000000
+ 12397 multiletter control sequences out of 15000+200000
  53709 words of font info for 76 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 36i,14n,43p,1392b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,14n,43p,1392b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc
 }{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/inconsolata/fi4-ec.enc}</u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/inconsolata/Inconsolata.pfb
@@ -969,10 +899,10 @@ cal/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/tex
 live/2012/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on D2.2v2.pdf (30 pages, 2529040 bytes).
+Output written on D2.2v2.pdf (29 pages, 2427669 bytes).
 PDF statistics:
- 710 PDF objects out of 1000 (max. 8388607)
- 607 compressed objects within 7 object streams
- 158 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 683 PDF objects out of 1000 (max. 8388607)
+ 590 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
