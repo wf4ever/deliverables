@@ -1,0 +1,118 @@
+%Wf4ever Main Document File
+\documentclass[a4paper, twoside, 11pt]{article}
+
+\usepackage[scaled=0.92]{helvet}
+\usepackage{fancyhdr}
+\usepackage{courier}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{subfigure}
+\normalfont % in case the EC fonts aren't available
+\usepackage[T1]{fontenc}
+\parskip=2pt\parindent 0pt
+
+
+\usepackage{url}
+\usepackage{listings}
+\usepackage{inconsolata}
+\usepackage{hyperref}
+\usepackage{wf4ever}
+\usepackage{xspace}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{verbatim}
+
+\usepackage{color}
+%figure with pdf latex
+\usepackage[pdftex]{graphicx}
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+
+% Macros
+
+% Identifying documents
+
+\id{4.3}
+\idyear{2013} %To adjust year for "Document Identifier"
+\title{Integrity and Authenticity software evaluation}
+\coordinator{Graham Klyne} %Del Coordinator
+\institution{University of Oxford} %Del Coordinating Inst.
+\authors{Graham Klyne, Esteban Garc\'{i}a-Cuesta, and Jos\'{e} Manuel G\'{o}mez-P\'{e}rez} %Other authors
+\abstract{This deliverable evaluates the main WP4 software outputs: the checklist and stability services.}
+\version{0.1} %Please fill out version
+\datesubmitted{November 29, 2013} %Submission date
+\datedue{November 30, 2013} %Date due
+\state{Draft} %State
+\distribution{Public} %Distribution (Public, Restricted, Confidential)
+
+\copyrighty{2013}
+
+\begin{document}
+\maketitle
+
+\section*{Work package participants} The following partners have taken an active part in the work leading to the elaboration of this document, even if they might not have directly contributed to the writing of this document or its parts: %Enter Work Package Participants:
+\begin{itemize}
+\item iSOCO
+\item OXF
+\item PSNC
+\item UNIMAN
+\item UPM
+\end{itemize}
+
+\section*{Change Log}
+%Fill in table
+\begin{centering}
+
+\begin{tabular}{|c|c|p{4.92cm}|p{6.5cm}|}
+
+\hline \textbf{Version} & \textbf{Date} & \textbf{Amended by} & \textbf{Changes} \\ \hline
+0.1 & 2013-10-08 & Graham Klyne & Initial outline and drafty of checklist service evaluation \\ \hline
+
+%&&&\\ \hline
+%&&&\\ \hline
+
+\end{tabular}
+
+\end{centering}
+\clearpage
+
+\section*{Executive Summary}
+%Please enter Executive Summary
+This deliverable describes the evaluation of the primary software developments for the Wf4Ever reference architecture supporting the Integrity and Authenticity package goals.  The checklist service provides a point-in-time of the conformance of a Research Object with some checklist of requirements.  The stability service analyzes the continuing health of a Research Object over time in the face of changes applied to the RO itself, and changes in the external environment within which it is situated.
+
+This deliverable should be read in tandem with D4.2v2 (Design,
+implementation and deployment of Workflow Integrity and Authenticity
+Maintenance components -- Phase II) in order to provide a complete
+picture of the state of the Wf4Ever Phase II components.
+
+\clearpage
+
+\tableofcontents
+\clearpage
+%\listoftables %Add comment to suppress list of tables
+%\listoffigures %Add comment to suppress list of figures
+
+\clearpage
+\sloppy
+
+%Your work starts here
+
+% \input{intro}
+
+\input{D4.3-body}
+
+% \input{conclusions}
+
+
+\appendix
+\clearpage
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{alpha}
+\bibliography{refs.bib}
+%------------------------------------------------------------------------------------------------------
+%Keep following label in order for Latex to get the total number of pages right
+%---
+\label{lastpage}
+%---
+\end{document}

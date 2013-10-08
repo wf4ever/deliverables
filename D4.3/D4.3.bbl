@@ -1,0 +1,137 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DRHPP13}
+
+\bibitem[ABGK13]{summaryBigData13}
+P.~Alper, K.~Belhajjame, C.~Goble, and P.~Karagoz.
+\newblock Small is beautiful: Summarizing scientific workflows using semantic
+  annotations.
+\newblock In {\em Proceedings of the IEEE 2nd International Congress on Big
+  Data (BigData 2013)}, Santa Clara, CA, USA, June 2013.
+
+\bibitem[BZG{\etalchar{+}}13]{khalid_13}
+K.~Belhajjame, J.~Zhao, D.~Garijo, A.~Garrido, S.~Soiland-Reyes, Alper P., and
+  Corcho. O.
+\newblock Workflow prov-corpues based on taverna and wings.
+\newblock In {\em EDBT/ICDT'13}. ACM Press, 2013.
+
+\bibitem[CFS{\etalchar{+}}06a]{vistrails}
+S.~P. Callahan, J.~Freire, E.~Santos, C.~E. Scheidegger, C.~T. Silva, and .~T.
+  Vo.
+\newblock Vistrails: Visualization meets data management.
+\newblock In {\em In ACM SIGMOD}, pages 745--747. ACM Press, 2006.
+
+\bibitem[CFS{\etalchar{+}}06b]{Callahan06-vistrails}
+S.~P. Callahan, J.~Freire, E.~Santos, C.~E. Scheidegger, C.~T. Silva, and H.~T.
+  Vo.
+\newblock Vistrails: Visualization meets data management.
+\newblock In {\em In ACM SIGMOD}, pages 745--747. ACM Press, 2006.
+
+\bibitem[COC{\etalchar{+}}11]{COG11}
+P.~Ciccarese, M.~Ocana, L.~J~Garcia Castro, S.~Das, and T.~Clark.
+\newblock An open annotation ontology for science on web 3.0.
+\newblock {\em J Biomed Semantics}, 2(Suppl 2):S4, May 2011.
+
+\bibitem[DRHPP13]{w4fever_d132}
+David De~Roure, Piotr Ho\l{}ubowicz, Kevin Page, and Ra{\'u}l Palma.
+\newblock D1.3v2: Wf4ever architecture - phase ii.
+\newblock Technical report, University of Oxford, March 2013.
+
+\bibitem[G{\etalchar{+}}05]{galaxy}
+B.~G. et~al.
+\newblock Galaxy: a platform for interactive large-scale genome analysis.
+\newblock {\em Genome Research}, 15(10):1451--1455, Oct 2005.
+
+\bibitem[GAB{\etalchar{+}}12]{garijo_Alper_2012}
+D.~Garijo, P.~Alper, K.~Belhajjame, O.~Corcho, Y.~Gil, and C.~Goble.
+\newblock Common motifs in scientific workflows: An empirical analysis.
+\newblock In {\em 8th IEEE International Conference on eScience 2012}, 8th IEEE
+  International Conference on eScience 2012, Chicago, 2012. IEEE Computer
+  Society Press, USA.
+
+\bibitem[GC{\etalchar{+}}13a]{D4.2v2}
+E.~Garcia-Cuesta et~al.
+\newblock {Design, implementation and deployment of Workflow Integrity and
+  Authenticity Maintenance components - Phase II}.
+\newblock Deliverable D4.2v2, Wf4Ever Project, 2013.
+
+\bibitem[GC{\etalchar{+}}13b]{D3.2v2}
+R.~Gonzalez-Cabero et~al.
+\newblock {Design, implementation and deployment of Workflow Evolution, Sharing
+  and Collaboration components - Phase II}.
+\newblock Deliverable D3.2v2, Wf4Ever Project, 2013.
+
+\bibitem[GG11]{garijo_gil_2011}
+D.~Garijo and Y.~Gil.
+\newblock A new approach for publishing workflows: Abstractions, standards, and
+  linked data.
+\newblock In {\em Proceedings of the 6th workshop on Workflows in support of
+  large-scale science}, Proceedings of the 6th workshop on Workflows in support
+  of large-scale science, pages 47--56, Seattle, 2011. ACM.
+
+\bibitem[GG12]{garijo-gil-lisc12}
+D.~Garijo and Y.~Gil.
+\newblock {Augmenting PROV with Plans in P-PLAN: Scientific Processes as Linked
+  Data}.
+\newblock In {\em Second International Workshop on Linked Science: Tackling Big
+  Data (LISC), held in conjunction with the International Semantic Web
+  Conference (ISWC)}, Boston, MA, 2012.
+
+\bibitem[GNT10]{Goecks_Nekrutenko_Taylor_2010}
+J.~Goecks, A.~Nekrutenko, and J.~Taylor.
+\newblock Galaxy: a comprehensive approach for supporting accessible,
+  reproducible, and transparent computational research in the life sciences.
+\newblock {\em Genome Biology}, 11(8):R86, 2010.
+
+\bibitem[GRK{\etalchar{+}}11]{DBLP:journals/expert/GilRKGGMD11}
+Y.~Gil, V.~Ratnakar, J.~Kim, et~al.
+\newblock Wings: Intelligent workflow-based design of computational
+  experiments.
+\newblock {\em IEEE Intelligent Systems}, 26(1):62--72, 2011.
+
+\bibitem[LAB{\etalchar{+}}06]{kepler}
+Bertram L., Ilkay A., Chad B., Dan Higgins, Efrat Jaeger, Matthew Jones,
+  Edward~A. Lee, Jing Tao, and Yang Zhao.
+\newblock Scientific workflow management and the kepler system.
+\newblock {\em Concurrency and Computation: Practice and Experience},
+  18(10):1039--1065, 2006.
+
+\bibitem[LSM{\etalchar{+}}13]{w3c-prov-o}
+T.~Lebo, S.~Sahoo, D.~McGuinness, K.~Belhajjame, J.~Cheney, D.~Corsar,
+  D.~Garijo, S.~Soiland-Reyes, S.~Zednik, and J.~Zhao.
+\newblock Prov-o: The prov ontology.
+\newblock Technical report, {W3C}, 2013.
+
+\bibitem[MAYU03]{Matono03anindexing}
+Akiyoshi Matono, Toshiyuki Amagasa, Masatoshi Yoshikawa, and Shunsuke Uemura.
+\newblock {An Indexing Scheme for RDF and RDF Schema based on Suffix Arrays}.
+\newblock In {\em Proceedings of SWDB 2003}, pages 151--168, 2003.
+
+\bibitem[MDB{\etalchar{+}}13]{Missier2013a}
+P.~Missier, S.~Dey, K.~Belhajjame, V.~Cuevas, and B.~Ludaescher.
+\newblock {D-PROV}: extending the {PROV} provenance model with workflow
+  structure.
+\newblock In {\em Procs. TAPP'13}, Lombard, IL, 2013.
+
+\bibitem[RGS09]{DBLP:journals/fgcs/RoureGS09}
+D.~De Roure, C.~A. Goble, and R.~Stevens.
+\newblock The design and realisation of the my{E}xperiment virtual research
+  environment for social sharing of workflows.
+\newblock {\em Future Generation Comp. Syst.}, 25(5):561--567, 2009.
+
+\bibitem[Shi07]{TDG+07}
+Matthew Shields.
+\newblock Control- versus data-driven workflows.
+\newblock In IanJ. Taylor, Ewa Deelman, DennisB. Gannon, and Matthew Shields,
+  editors, {\em Workflows for e-Science}, pages 167--173. Springer London,
+  2007.
+
+\bibitem[WHF{\etalchar{+}}13]{taverna}
+K.~Wolstencroft, R.~Haines, D.~Fellows, A.~Williams, D.~Withers, S.~Owen,
+  S.~Soiland-Reyes, I.~Dunlop, A.~Nenadic, P.~Fisher, J.~Bhagat, K.~Belhajjame,
+  F.~Bacall, A.~Hardisty, A.~Nieva de~la Hidalga, M.~P.~Balcazar Vargas,
+  S.~Sufi, and C.~Goble.
+\newblock The taverna workflow suite: designing and executing workflows of web
+  services on the desktop, web or in the cloud.
+\newblock {\em Nucleic Acids Research}, 2013.
+
+\end{thebibliography}

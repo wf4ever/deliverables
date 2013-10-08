@@ -1,0 +1,160 @@
+% wf4ever Style
+\catcode`\@=11\relax
+% Dimension Of Text:
+\setlength{\textheight}{24.45cm}    %    Height of text (including footnotes and
+\setlength{\textwidth}{16.84cm}    %    Width of text line.
+\setlength{\topmargin}{-1,6cm}     %    Nominal distance from top of page to top
+\setlength{\footskip}{2.0cm}          %    Distance from baseline of box containing
+% Define Textsize
+\def\@normalsize{\@setsize\normalsize{11pt}\xpt\@xpt}
+\def\small{\@setsize\small{9pt}\ixpt\@ixpt}
+%\def\10pt{\@setsize\10pt{10pt}\ixpt\@ixpt}
+\def\footnotesize{\@setsize\footnotesize{9pt}\ixpt\@ixpt}
+\def\scriptsize{\@setsize\scriptsize{8pt}\viipt\@viipt}
+\def\tiny{\@setsize\tiny{8pt}\vipt\@vipt}
+\def\large{\@setsize\large{14pt}\xiipt\@xiipt}
+\def\Large{\@setsize\Large{16pt}\xivpt\@xivpt}
+\def\LARGE{\@setsize\LARGE{20pt}\xviipt\@xviipt}
+\def\huge{\@setsize\huge{23pt}\xxpt\@xxpt}
+\def\Huge{\@setsize\Huge{28pt}\xxvpt\@xxvpt}
+
+\renewcommand{\rmdefault}{phv}
+
+%Define Margins
+\setlength{\oddsidemargin}{-0.54cm}
+\setlength{\evensidemargin}{-0.54cm}
+\marginparwidth 0pt
+
+\catcode`\@=12\relax
+% Define variables and setters
+\newcommand\delid{x.x.x}
+\newcommand\id[1]{\renewcommand{\delid}{#1}}
+
+\newcommand\delidy{x.x.x}
+\newcommand\idyear[1]{\renewcommand{\delidy}{#1}}
+
+\newcommand\copyrightyear{x.x.x}
+\newcommand\copyrighty[1]{\renewcommand{\copyrightyear}{#1}}
+
+\newcommand{\delcoord}{Luke Skywalker} %Del Coordinator
+\newcommand\coordinator[1]{\renewcommand{\delcoord}{#1}}
+
+\newcommand\delcoordinst{Galaxy, Inc. (GINC)} %Del Coordinating Inst.
+\newcommand\institution[1]{\renewcommand{\delcoordinst}{#1}}
+
+\newcommand{\otherauthors}{Princess Leia (GINC); Captain Nemo (SEA)} %Other authors
+\newcommand\authors[1]{\renewcommand{\otherauthors}{#1}}
+
+\newcommand{\delabstract}{Here should come your abstract}
+\renewcommand\abstract[1]{\renewcommand{\delabstract}{#1}}
+
+\newcommand{\docid}{Wf4Ever/\delidy/D\delid/} %Document Identifier
+
+\newcommand{\delversion}{v1.x} %Please fill out version
+\newcommand\version[1]{\renewcommand{\delversion}{#1}}
+\newcommand{\deldatedue}{December 1, 2010} %Date due
+\newcommand\datedue[1]{\renewcommand{\deldatedue}{#1}}
+\newcommand{\deldatesub}{December 1, 2010} %Submission date
+\newcommand\datesubmitted[1]{\renewcommand{\deldatesub}{#1}}
+\newcommand{\delstate}{Final} %State
+\newcommand\state[1]{\renewcommand{\delstate}{#1}}
+\newcommand{\deldistribution}{Public} %Distribution (Public, Restricted, Confidential)
+\newcommand\distribution[1]{\renewcommand{\deldistribution}{#1}}
+
+
+% Define headers
+
+\makeatletter
+
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[RE]{Wf4Ever STREP FP7-ICT-2007-6 270192}
+\fancyhead[LE, RO]{Page \thepage~of \pageref{lastpage}}
+\fancyhead[LO]{\@title}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[RO]{\raisebox{.49cm}{\copyrightyear~\copyright ~Copyright lies with the respective authors and their institutions.}}
+\fancyfoot[LE]{\includegraphics[width=1.96cm]{wf4everLogo}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\fancypagestyle{plain}{%
+\fancyhead{} % clear all header fields
+\fancyhead[RE]{Wf4Ever STREP FP7-ICT-2007-6 270192}
+\fancyhead[LE, RO]{Page \thepage~of \pageref{lastpage}}
+\fancyhead[LO]{\@title}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[RO]{\raisebox{.49cm}{\copyrightyear~\copyright ~Copyright lies with the respective authors and their institutions.}}
+\fancyfoot[LE]{\includegraphics[width=1.96cm]{wf4everLogo}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt} }
+
+ \makeatother
+
+\newtheorem{definition}{Definition}
+
+
+
+% Define Maketitle
+\makeatletter
+\def\maketitle{\par
+ \begingroup
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0.0pt}
+\fancyfoot[RO]{\raisebox{.49cm}{\copyrightyear~\copyright ~Copyright lies with the respective authors and their institutions.}}
+
+\includegraphics[width=\textwidth]{wf4everLogo2}
+\vspace{0.5cm}
+
+\textbf{Wf4Ever: Advanced Workflow Preservation Technologies for Enhanced Science}
+
+\vspace{0.4cm}
+\textbf{STREP FP7-ICT-2007-6 270192}
+
+\vspace{0.4cm}
+\textbf{Objective: ICT-2009.4.1b --- ``Advanced preservation scenarios''}
+\vspace{1.5cm}
+\begin{center}
+\setlength{\unitlength}{1cm}\line(1,0){16.84}
+
+\vspace{0.3cm}
+{\huge \@title}
+
+\line(1,0){16.84}
+
+\end{center}
+\vspace{1cm}
+\hspace{2cm}
+\begin{minipage}[b]{13cm}
+\textbf{Deliverable Co-ordinator: \hspace{0,5cm} \delcoord}
+\vspace{0,3cm}
+
+\textbf{Deliverable Co-ordinating Institution: \hspace{0,5cm} \delcoordinst}
+\vspace{0,3cm}
+
+\textbf{Other Authors: \hspace{0,2cm} \otherauthors}
+\end{minipage}
+\vspace{1,0cm}
+
+\begin{quote}\delabstract
+\end{quote}
+\vspace{1,5cm}
+\begin{center}
+\begin{tabular}[b]{|p{3,44cm}|l|p{3,44cm}|l|}
+\hline
+Document Identifier: & \docid\delversion & Date due: & \deldatedue\\ \hline
+Class Deliverable: & Wf4Ever FP7-ICT-2007-6 270192 & Submission date: & \deldatesub \\ \hline
+Project start date & December 1, 2010 & Version:& \delversion \\ \hline
+Project duration: & 3 years & State: & \delstate \\ \hline
+&&Distribution:& \deldistribution \\ \hline
+\end{tabular}
+\end{center}
+\newpage
+
+
+% partners.tex The file should be here
+\input{partners}
+
+}
+\makeatother
+
+% end of wf4ever.sty
