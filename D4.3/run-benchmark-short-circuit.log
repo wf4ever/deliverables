@@ -1,0 +1,42 @@
+Benchmark ROs created:
+ benchmark_1_10 benchmark_10_10 benchmark_100_10 benchmark_1000_10 benchmark_1_1000 benchmark_10_1000
+BMLIST_10:   1 10 100 1000
+BMLIST_1000: 1 10
+8.4M	./benchmark_1000_10/.ro
+3.9M	./benchmark_1000_10/subject
+ 12M	./benchmark_1000_10
+864K	./benchmark_100_10/.ro
+400K	./benchmark_100_10/subject
+1.2M	./benchmark_100_10
+ 88K	./benchmark_10_10/.ro
+ 40K	./benchmark_10_10/subject
+128K	./benchmark_10_10
+4.0M	./benchmark_10_1000/.ro
+ 40K	./benchmark_10_1000/subject
+4.1M	./benchmark_10_1000
+ 12K	./benchmark_1_10/.ro
+4.0K	./benchmark_1_10/subject
+ 16K	./benchmark_1_10
+416K	./benchmark_1_1000/.ro
+4.0K	./benchmark_1_1000/subject
+420K	./benchmark_1_1000
+ 18M	.
+Starting evaluation of benchmark_1_10: Mon  7 Oct 2013 15:53:44 BST
+             completed benchmark_1_10: Mon  7 Oct 2013 15:53:45 BST
+      elapsed time for benchmark_1_10: 1s
+Starting evaluation of benchmark_10_10: Mon  7 Oct 2013 15:53:45 BST
+             completed benchmark_10_10: Mon  7 Oct 2013 15:53:45 BST
+      elapsed time for benchmark_10_10: 0s
+Starting evaluation of benchmark_100_10: Mon  7 Oct 2013 15:53:45 BST
+             completed benchmark_100_10: Mon  7 Oct 2013 15:53:50 BST
+      elapsed time for benchmark_100_10: 5s
+Starting evaluation of benchmark_1000_10: Mon  7 Oct 2013 15:53:50 BST
+             completed benchmark_1000_10: Mon  7 Oct 2013 15:58:56 BST
+      elapsed time for benchmark_1000_10: 306s
+Starting evaluation of benchmark_1_1000: Mon  7 Oct 2013 15:58:56 BST
+             completed benchmark_1_1000: Mon  7 Oct 2013 15:58:57 BST
+      elapsed time for benchmark_1_1000: 1s
+Starting evaluation of benchmark_10_1000: Mon  7 Oct 2013 15:58:57 BST
+             completed benchmark_10_1000: Mon  7 Oct 2013 15:59:13 BST
+      elapsed time for benchmark_10_1000: 16s
+All benchmarks run
