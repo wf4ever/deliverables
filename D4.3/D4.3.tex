@@ -9,8 +9,10 @@
 %\usepackage{subfigure}
 \normalfont % in case the EC fonts aren't available
 \usepackage[T1]{fontenc}
-\parskip=2pt\parindent 0pt
 
+%\parskip=6pt\parindent 0pt
+%\setlength{\parskip}{6pt plus 1pt minus 1pt}
+\usepackage{parskip}
 
 \usepackage{url}
 \usepackage{listings}
@@ -24,10 +26,25 @@
 \usepackage{verbatim}
 
 \usepackage{color}
+
+\newcommand{\TODO}[1]{\colorbox{yellow}{@@TODO: #1}}
+
 %figure with pdf latex
 \usepackage[pdftex]{graphicx}
 \usepackage{epstopdf}
 \DeclareGraphicsExtensions{.jpg,.pdf,.png}
+
+% See: http://tex.stackexchange.com/questions/8351/what-do-makeatletter-and-makeatother-do
+\makeatletter
+\def\ScaleIfNeeded{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+\setkeys{Gin}{width=\ScaleIfNeeded}
 
 % Macros
 
@@ -35,7 +52,7 @@
 
 \id{4.3}
 \idyear{2013} %To adjust year for "Document Identifier"
-\title{Integrity and Authenticity software evaluation}
+\title{D4.3: Integrity and Authenticity software evaluation}
 \coordinator{Graham Klyne} %Del Coordinator
 \institution{University of Oxford} %Del Coordinating Inst.
 \authors{Graham Klyne, Esteban Garc\'{i}a-Cuesta, and Jos\'{e} Manuel G\'{o}mez-P\'{e}rez} %Other authors
@@ -67,7 +84,8 @@
 \begin{tabular}{|c|c|p{4.92cm}|p{6.5cm}|}
 
 \hline \textbf{Version} & \textbf{Date} & \textbf{Amended by} & \textbf{Changes} \\ \hline
-0.1 & 2013-10-08 & Graham Klyne & Initial outline and drafty of checklist service evaluation \\ \hline
+0.1 & 2013-10-08 & Graham Klyne & Initial outline and draft of checklist service evaluation \\ \hline
+0.2 & 2013-10-09 & Graham Klyne & Implemented Markdown conversion to PDF via LaTeX, using LateX templates from D2.2v2.  Using BibTeX references.  Fixed some typos and improved prose. \\ \hline
 
 %&&&\\ \hline
 %&&&\\ \hline
@@ -108,7 +126,7 @@ picture of the state of the Wf4Ever Phase II components.
 \appendix
 \clearpage
 \addcontentsline{toc}{section}{Bibliography}
-\bibliographystyle{alpha}
+\bibliographystyle{plain}
 \bibliography{refs.bib}
 %------------------------------------------------------------------------------------------------------
 %Keep following label in order for Latex to get the total number of pages right
